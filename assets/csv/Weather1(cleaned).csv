@@ -1,0 +1,780 @@
+,Name,Date time,Maximum Temperature,Minimum Temperature,Temperature,Heat Index,Precipitation,Wind Speed,Wind Direction,Wind Gust,Visibility,Cloud Cover,Relative Humidity,Conditions
+0,"Johor Bahru, Johor, Malaysia",1/3/2018,31.8,24.1,26.6,37.0,0.0,10.7,75.17,19.7,5.8,74.9,85.45,Partially cloudy
+1,"Johor Bahru, Johor, Malaysia",01/15/2018,27.9,23.0,25.2,30.6,2.0,9.0,332.83,20.8,6.2,81.6,82.03,"Rain, Overcast"
+2,"Johor Bahru, Johor, Malaysia",01/22/2018,32.4,25.1,28.3,37.4,0.0,9.5,163.88,25.3,6.2,84.3,76.48,Overcast
+3,"Johor Bahru, Johor, Malaysia",2/4/2018,30.1,25.1,26.9,33.9,0.0,19.3,22.46,33.3,6.2,77.8,77.07,Overcast
+4,"Johor Bahru, Johor, Malaysia",2/5/2018,30.3,24.9,27.1,33.0,0.0,19.8,19.29,24.2,6.2,81.1,73.33,Overcast
+5,"Johor Bahru, Johor, Malaysia",2/12/2018,32.0,24.7,27.6,33.7,0.0,19.8,19.67,32.2,6.2,74.1,65.79,Partially cloudy
+6,"Johor Bahru, Johor, Malaysia",02/14/2018,31.3,24.7,27.2,34.7,0.0,17.7,16.25,23.0,6.1,88.0,74.35,Overcast
+7,"Johor Bahru, Johor, Malaysia",02/28/2018,33.9,25.7,28.3,38.4,0.0,11.5,50.79,23.0,6.1,84.3,75.14,Overcast
+8,"Johor Bahru, Johor, Malaysia",3/10/2018,30.0,25.8,27.6,34.2,55.2,20.1,23.71,39.1,5.9,76.7,79.56,"Rain, Overcast"
+9,"Johor Bahru, Johor, Malaysia",03/18/2018,32.4,25.7,28.7,36.8,0.0,16.6,37.96,23.0,6.2,88.9,72.52,Overcast
+10,"Johor Bahru, Johor, Malaysia",4/6/2018,33.6,25.7,28.6,38.2,0.0,10.1,47.88,20.8,6.1,65.1,74.15,Partially cloudy
+11,"Johor Bahru, Johor, Malaysia",04/17/2018,33.4,25.7,28.3,38.9,0.0,11.3,146.42,25.3,6.0,82.6,78.8,Overcast
+12,"Johor Bahru, Johor, Malaysia",04/20/2018,32.3,25.3,27.9,37.8,5.0,10.6,99.88,24.2,5.9,79.6,81.0,"Rain, Overcast"
+13,"Johor Bahru, Johor, Malaysia",04/26/2018,33.3,25.9,28.8,39.7,10.0,13.0,67.96,30.0,6.0,80.5,79.84,"Rain, Overcast"
+14,"Johor Bahru, Johor, Malaysia",04/27/2018,31.4,24.0,26.8,37.5,4.0,9.7,97.54,23.0,5.5,78.5,86.55,"Rain, Overcast"
+15,"Johor Bahru, Johor, Malaysia",5/2/2018,34.4,25.0,28.1,40.8,0.0,8.6,102.46,23.0,5.3,81.9,80.97,Overcast
+16,"Johor Bahru, Johor, Malaysia",5/3/2018,33.0,25.5,28.0,39.4,0.0,11.1,101.42,21.9,5.6,85.4,80.77,Overcast
+17,"Johor Bahru, Johor, Malaysia",05/18/2018,33.5,25.0,28.0,40.0,3.0,15.8,149.79,36.9,5.7,85.1,82.36,"Rain, Overcast"
+18,"Johor Bahru, Johor, Malaysia",05/23/2018,31.2,24.8,27.8,36.7,33.0,11.7,139.42,19.7,5.6,85.3,81.65,"Rain, Overcast"
+19,"Johor Bahru, Johor, Malaysia",6/8/2018,33.0,24.7,29.6,37.5,0.0,15.1,197.21,34.4,5.6,85.1,70.8,Overcast
+20,"Johor Bahru, Johor, Malaysia",06/13/2018,31.7,25.4,28.5,38.1,0.0,14.3,127.88,16.1,5.9,83.9,78.5,Overcast
+21,"Johor Bahru, Johor, Malaysia",06/19/2018,30.6,23.9,27.8,35.6,0.6,12.9,192.75,26.4,6.0,84.8,77.47,"Rain, Overcast"
+22,"Johor Bahru, Johor, Malaysia",07/19/2018,31.4,24.4,28.5,38.4,8.0,10.4,140.88,16.1,5.7,81.0,80.07,"Rain, Overcast"
+23,"Johor Bahru, Johor, Malaysia",8/8/2018,30.3,23.1,27.0,35.2,17.0,12.9,179.08,33.3,6.0,88.6,79.08,"Rain, Overcast"
+24,"Johor Bahru, Johor, Malaysia",08/20/2018,32.3,27.6,29.3,37.8,0.0,12.2,130.21,19.7,6.0,83.6,69.51,Overcast
+25,"Johor Bahru, Johor, Malaysia",08/28/2018,32.0,25.9,28.5,37.1,0.0,8.9,145.83,27.7,5.8,78.4,75.73,Overcast
+26,"Johor Bahru, Johor, Malaysia",9/4/2018,27.3,22.4,25.8,30.0,20.0,8.5,168.79,19.7,5.7,81.1,86.5,"Rain, Overcast"
+27,"Johor Bahru, Johor, Malaysia",09/23/2018,33.0,24.3,28.5,37.3,0.0,10.0,126.46,21.9,5.7,74.1,73.94,Partially cloudy
+28,"Johor Bahru, Johor, Malaysia",10/16/2018,32.1,25.0,27.6,36.5,10.2,11.6,150.21,30.0,5.8,85.9,81.09,"Rain, Overcast"
+29,"Johor Bahru, Johor, Malaysia",10/19/2018,32.5,24.3,28.1,37.3,0.0,8.2,234.13,25.3,6.0,85.2,76.92,Overcast
+30,"Johor Bahru, Johor, Malaysia",10/23/2018,32.4,23.8,27.4,38.3,0.0,8.3,142.71,23.0,6.0,84.7,82.09,Overcast
+31,"Johor Bahru, Johor, Malaysia",10/28/2018,31.4,25.8,27.2,38.0,2.1,11.5,91.13,26.4,5.5,83.2,86.17,"Rain, Overcast"
+32,"Johor Bahru, Johor, Malaysia",11/3/2018,30.4,25.4,27.1,36.1,0.6,8.5,219.33,26.4,5.5,77.7,86.09,"Rain, Overcast"
+33,"Johor Bahru, Johor, Malaysia",11/4/2018,32.3,25.1,27.8,40.0,5.0,8.1,145.63,21.9,5.9,84.0,84.96,"Rain, Overcast"
+34,"Johor Bahru, Johor, Malaysia",11/8/2018,33.6,24.9,27.7,40.1,0.1,11.6,199.63,20.8,5.9,80.5,81.5,"Rain, Overcast"
+35,"Johor Bahru, Johor, Malaysia",11/15/2018,30.1,24.4,26.5,35.9,10.0,13.2,156.33,38.0,5.9,58.2,88.03,"Rain, Partially cloudy"
+36,"Johor Bahru, Johor, Malaysia",11/17/2018,31.0,22.8,27.3,36.2,8.0,17.7,112.58,36.6,5.9,81.7,84.22,"Rain, Overcast"
+37,"Johor Bahru, Johor, Malaysia",11/19/2018,31.4,24.4,26.7,36.1,0.0,8.2,169.0,20.8,5.8,85.7,86.08,Overcast
+38,"Johor Bahru, Johor, Malaysia",11/21/2018,30.3,23.4,26.6,35.8,109.5,13.4,223.08,28.9,5.8,71.1,85.81,"Rain, Partially cloudy"
+39,"Johor Bahru, Johor, Malaysia",11/26/2018,32.2,24.1,28.0,38.2,8.0,10.5,126.5,21.9,6.0,85.4,81.44,"Rain, Overcast"
+40,"Johor Bahru, Johor, Malaysia",11/27/2018,28.9,24.9,27.1,34.1,2.0,11.9,134.83,20.8,6.1,82.6,84.25,"Rain, Overcast"
+41,"Johor Bahru, Johor, Malaysia",11/29/2018,30.8,25.4,27.7,37.5,0.0,9.5,119.17,31.1,6.1,80.3,84.87,Overcast
+42,"Johor Bahru, Johor, Malaysia",12/1/2018,30.4,25.3,27.0,36.6,17.0,14.4,152.17,30.0,5.9,83.8,87.93,"Rain, Overcast"
+43,"Johor Bahru, Johor, Malaysia",12/5/2018,31.4,25.6,27.4,38.0,0.1,9.0,119.58,18.3,6.0,80.8,87.24,"Rain, Overcast"
+44,"Johor Bahru, Johor, Malaysia",12/9/2018,31.8,25.6,28.3,38.2,4.0,11.7,79.25,16.1,6.2,83.5,82.73,"Rain, Overcast"
+45,"Johor Bahru, Johor, Malaysia",1/1/2019,33.3,25.4,28.5,37.9,122.0,12.2,294.75,26.4,6.1,51.8,75.19,"Rain, Partially cloudy"
+46,"Johor Bahru, Johor, Malaysia",1/2/2019,32.3,25.4,28.9,37.6,0.0,10.7,300.13,28.9,6.2,46.5,72.32,Partially cloudy
+47,"Johor Bahru, Johor, Malaysia",1/3/2019,31.8,26.4,29.3,38.4,4.0,12.9,278.33,28.9,6.2,53.5,74.86,"Rain, Partially cloudy"
+48,"Johor Bahru, Johor, Malaysia",2/10/2019,33.1,26.1,28.6,39.2,0.0,15.1,34.88,20.8,6.2,53.8,76.24,Partially cloudy
+49,"Johor Bahru, Johor, Malaysia",3/9/2019,33.4,26.0,29.2,39.4,0.0,12.7,64.71,20.8,6.1,49.7,73.62,Partially cloudy
+50,"Johor Bahru, Johor, Malaysia",3/11/2019,32.5,22.8,27.4,39.0,0.0,12.1,100.58,34.4,5.7,45.2,82.26,Partially cloudy
+51,"Johor Bahru, Johor, Malaysia",03/28/2019,33.1,23.7,28.0,40.6,0.0,10.8,82.67,32.2,5.9,53.3,81.23,Partially cloudy
+52,"Johor Bahru, Johor, Malaysia",03/30/2019,31.9,25.8,28.0,39.3,10.2,10.0,135.0,21.9,6.0,42.8,81.7,"Rain, Partially cloudy"
+53,"Johor Bahru, Johor, Malaysia",4/3/2019,30.3,23.3,26.9,35.2,9.3,9.0,84.04,26.4,6.0,49.8,83.39,"Rain, Partially cloudy"
+54,"Johor Bahru, Johor, Malaysia",4/12/2019,33.0,25.3,28.5,39.1,3.0,9.2,169.13,19.7,5.9,50.2,79.63,"Rain, Partially cloudy"
+55,"Johor Bahru, Johor, Malaysia",04/15/2019,34.4,26.0,29.4,43.0,0.0,11.5,73.88,21.9,6.1,54.4,75.76,Partially cloudy
+56,"Johor Bahru, Johor, Malaysia",04/19/2019,34.6,26.1,29.2,42.1,0.0,9.7,64.79,25.3,5.9,49.2,78.03,Partially cloudy
+57,"Johor Bahru, Johor, Malaysia",04/29/2019,33.9,25.4,29.3,43.2,0.0,9.7,65.21,20.8,5.9,53.4,80.89,Partially cloudy
+58,"Johor Bahru, Johor, Malaysia",5/3/2019,33.1,27.1,29.1,41.7,18.0,8.0,77.75,30.0,5.5,51.2,83.13,"Rain, Partially cloudy"
+59,"Johor Bahru, Johor, Malaysia",5/6/2019,33.7,27.0,30.1,39.6,0.0,9.8,262.96,23.0,6.2,49.5,71.54,Partially cloudy
+60,"Johor Bahru, Johor, Malaysia",5/8/2019,30.1,24.1,27.4,36.5,23.8,7.9,189.04,19.7,5.8,49.6,86.48,"Rain, Partially cloudy"
+61,"Johor Bahru, Johor, Malaysia",05/15/2019,33.3,26.3,29.1,41.5,0.0,10.8,118.54,24.4,5.7,53.0,83.05,Partially cloudy
+62,"Johor Bahru, Johor, Malaysia",05/17/2019,31.3,25.2,28.2,37.3,16.0,9.7,238.13,28.9,6.0,51.8,80.82,"Rain, Partially cloudy"
+63,"Johor Bahru, Johor, Malaysia",05/19/2019,29.8,25.7,28.0,34.7,6.0,8.4,172.88,16.1,6.1,56.5,81.08,"Rain, Partially cloudy"
+64,"Johor Bahru, Johor, Malaysia",05/30/2019,31.9,25.9,28.1,39.2,0.0,11.1,141.5,20.8,5.9,52.3,84.04,Partially cloudy
+65,"Johor Bahru, Johor, Malaysia",6/11/2019,32.9,26.8,29.3,39.8,0.0,11.3,138.46,32.2,5.9,55.5,79.16,Partially cloudy
+66,"Johor Bahru, Johor, Malaysia",06/22/2019,30.7,24.0,26.7,37.6,33.5,10.9,211.33,25.3,5.7,42.3,86.3,"Rain, Partially cloudy"
+67,"Johor Bahru, Johor, Malaysia",7/3/2019,30.9,26.7,28.6,39.1,0.0,13.0,146.04,26.4,6.0,52.6,79.71,Partially cloudy
+68,"Johor Bahru, Johor, Malaysia",7/5/2019,32.7,27.1,29.5,39.8,0.0,11.4,124.88,25.3,6.0,49.9,76.35,Partially cloudy
+69,"Johor Bahru, Johor, Malaysia",07/15/2019,28.7,24.1,27.2,33.5,5.0,12.5,179.13,26.4,6.0,53.4,81.68,"Rain, Partially cloudy"
+70,"Johor Bahru, Johor, Malaysia",07/23/2019,30.0,25.3,27.2,35.4,1.0,10.3,118.83,23.0,5.9,51.9,82.56,"Rain, Partially cloudy"
+71,"Johor Bahru, Johor, Malaysia",07/28/2019,33.0,26.1,29.1,39.4,0.0,13.2,132.71,21.9,6.1,57.2,76.47,Partially cloudy
+72,"Johor Bahru, Johor, Malaysia",08/26/2019,33.0,24.6,28.0,39.2,0.0,10.3,119.79,23.1,5.2,48.4,78.72,Partially cloudy
+73,"Johor Bahru, Johor, Malaysia",08/27/2019,30.6,25.4,27.4,36.0,33.0,10.8,142.88,19.2,5.4,52.7,81.12,"Rain, Partially cloudy"
+74,"Johor Bahru, Johor, Malaysia",9/7/2019,33.1,26.7,29.5,38.4,0.0,10.5,143.38,19.7,6.0,57.7,71.3,Partially cloudy
+75,"Johor Bahru, Johor, Malaysia",09/25/2019,29.9,24.4,26.8,35.5,32.5,8.6,103.96,23.0,4.9,55.0,85.76,"Rain, Partially cloudy"
+76,"Johor Bahru, Johor, Malaysia",10/1/2019,31.0,25.3,27.4,36.1,22.0,10.3,147.58,19.7,5.4,45.9,81.48,"Rain, Partially cloudy"
+77,"Johor Bahru, Johor, Malaysia",10/12/2019,32.0,26.1,28.1,38.1,0.0,7.9,71.46,19.7,5.8,50.0,79.07,Partially cloudy
+78,"Johor Bahru, Johor, Malaysia",10/14/2019,34.3,26.1,28.9,38.9,0.0,8.7,85.38,21.9,6.0,51.5,74.66,Partially cloudy
+79,"Johor Bahru, Johor, Malaysia",10/22/2019,28.0,25.0,26.6,31.9,37.0,9.2,213.13,20.8,5.4,54.7,88.09,"Rain, Partially cloudy"
+80,"Johor Bahru, Johor, Malaysia",11/1/2019,32.1,24.6,28.0,36.9,0.0,10.6,218.04,42.5,6.0,52.2,75.54,Partially cloudy
+81,"Johor Bahru, Johor, Malaysia",11/8/2019,31.1,23.9,27.7,33.9,0.0,11.7,215.42,20.8,5.7,47.9,75.73,Partially cloudy
+82,"Johor Bahru, Johor, Malaysia",11/10/2019,34.1,25.1,29.2,39.7,0.0,10.9,211.75,23.0,6.1,51.2,68.73,Partially cloudy
+83,"Johor Bahru, Johor, Malaysia",12/2/2019,31.4,24.1,26.7,37.4,8.0,8.7,200.33,21.9,5.7,53.9,86.33,"Rain, Partially cloudy"
+84,"Johor Bahru, Johor, Malaysia",12/4/2019,31.8,26.1,28.3,36.2,0.0,18.6,23.83,24.2,6.2,51.1,73.18,Partially cloudy
+85,"Johor Bahru, Johor, Malaysia",12/7/2019,30.0,26.1,28.0,33.7,0.0,19.2,27.5,30.0,6.2,51.5,73.24,Partially cloudy
+86,"Johor Bahru, Johor, Malaysia",1/10/2020,31.3,25.3,27.4,36.3,0.0,10.7,169.54,19.7,6.2,55.3,81.66,Partially cloudy
+87,"Johor Bahru, Johor, Malaysia",01/28/2020,32.6,25.7,28.6,40.0,0.0,10.0,53.17,18.3,6.1,55.9,78.82,Partially cloudy
+88,"Johor Bahru, Johor, Malaysia",01/29/2020,29.8,24.3,26.6,36.3,38.0,11.8,138.5,24.2,5.3,54.6,89.29,"Rain, Partially cloudy"
+89,"Johor Bahru, Johor, Malaysia",2/5/2020,32.6,24.7,27.9,36.6,0.0,14.3,30.54,21.9,6.2,42.8,73.41,Partially cloudy
+90,"Johor Bahru, Johor, Malaysia",2/9/2020,29.3,24.1,26.7,33.6,9.8,9.9,234.25,18.3,5.9,56.4,83.38,"Rain, Partially cloudy"
+91,"Johor Bahru, Johor, Malaysia",02/14/2020,32.9,25.1,28.4,38.8,0.0,12.8,40.13,21.9,6.2,60.2,78.49,Partially cloudy
+92,"Johor Bahru, Johor, Malaysia",02/22/2020,31.0,25.9,28.0,36.1,0.0,19.5,31.79,28.9,6.2,57.6,77.73,Partially cloudy
+93,"Johor Bahru, Johor, Malaysia",02/24/2020,29.9,25.3,27.1,35.2,5.2,16.9,31.17,28.9,6.0,54.3,83.31,"Rain, Partially cloudy"
+94,"Johor Bahru, Johor, Malaysia",02/29/2020,32.4,25.1,28.3,36.7,0.0,15.3,31.79,26.4,6.2,48.1,74.08,Partially cloudy
+95,"Johor Bahru, Johor, Malaysia",03/26/2020,33.4,26.0,29.2,39.8,0.0,13.4,41.58,19.7,6.2,56.2,75.76,Partially cloudy
+96,"Johor Bahru, Johor, Malaysia",4/5/2020,33.6,26.4,28.8,42.0,0.0,12.5,65.79,21.9,6.0,50.4,79.0,Partially cloudy
+97,"Johor Bahru, Johor, Malaysia",04/20/2020,34.4,26.9,30.3,40.9,0.0,10.9,60.58,18.3,6.2,54.5,72.67,Partially cloudy
+98,"Johor Bahru, Johor, Malaysia",04/22/2020,34.4,27.1,29.6,40.2,0.0,9.2,85.25,20.8,6.2,47.4,77.73,Partially cloudy
+99,"Johor Bahru, Johor, Malaysia",5/6/2020,31.1,24.4,28.3,39.3,4.1,10.4,175.04,24.2,6.1,54.3,83.76,"Rain, Partially cloudy"
+100,"Johor Bahru, Johor, Malaysia",5/11/2020,32.3,26.4,29.1,42.0,24.0,8.9,115.0,21.9,5.9,54.1,82.82,"Rain, Partially cloudy"
+101,"Johor Bahru, Johor, Malaysia",05/13/2020,30.1,25.7,28.1,35.6,8.2,9.5,136.13,21.9,6.0,56.1,80.53,"Rain, Partially cloudy"
+102,"Johor Bahru, Johor, Malaysia",05/15/2020,33.6,27.0,29.8,41.0,0.0,10.5,135.13,31.1,6.1,50.4,76.11,Partially cloudy
+103,"Johor Bahru, Johor, Malaysia",05/21/2020,33.7,26.3,29.0,42.9,0.0,9.2,164.63,23.0,6.1,51.7,80.26,Partially cloudy
+104,"Johor Bahru, Johor, Malaysia",05/26/2020,33.0,26.4,29.3,40.1,1.4,10.3,133.42,18.3,6.1,55.8,78.86,"Rain, Partially cloudy"
+105,"Johor Bahru, Johor, Malaysia",05/27/2020,30.9,25.7,28.0,38.7,114.0,6.5,123.21,21.9,6.1,56.0,85.92,"Rain, Partially cloudy"
+106,"Johor Bahru, Johor, Malaysia",05/31/2020,32.7,26.3,28.5,39.8,0.0,10.8,113.71,25.3,6.0,45.8,80.21,Partially cloudy
+107,"Johor Bahru, Johor, Malaysia",6/2/2020,33.0,25.0,28.4,39.1,40.0,7.2,81.96,20.8,6.1,50.4,79.71,"Rain, Partially cloudy"
+108,"Johor Bahru, Johor, Malaysia",6/3/2020,31.9,26.3,28.8,39.4,2.0,9.7,105.75,20.8,6.2,53.5,79.03,"Rain, Partially cloudy"
+109,"Johor Bahru, Johor, Malaysia",6/4/2020,32.1,25.7,28.6,38.2,4.0,11.4,177.13,27.7,5.8,49.5,78.94,"Rain, Partially cloudy"
+110,"Johor Bahru, Johor, Malaysia",6/5/2020,30.4,25.3,28.0,36.6,3.0,11.3,227.75,25.3,6.1,53.1,81.39,"Rain, Partially cloudy"
+111,"Johor Bahru, Johor, Malaysia",6/7/2020,32.9,26.4,29.3,40.2,0.5,10.4,132.33,18.3,5.8,54.6,77.77,"Rain, Partially cloudy"
+112,"Johor Bahru, Johor, Malaysia",6/8/2020,32.7,27.3,29.0,40.4,18.0,6.9,72.04,30.0,6.0,52.1,80.23,"Rain, Partially cloudy"
+113,"Johor Bahru, Johor, Malaysia",6/9/2020,32.7,26.3,29.6,39.8,0.0,10.7,108.83,20.8,6.2,51.5,77.6,Partially cloudy
+114,"Johor Bahru, Johor, Malaysia",6/10/2020,32.6,25.9,29.2,40.4,0.0,12.5,122.58,28.9,6.0,51.9,78.97,Partially cloudy
+115,"Johor Bahru, Johor, Malaysia",6/11/2020,33.4,25.1,28.5,41.5,0.0,6.8,77.92,28.9,6.1,54.0,81.15,Partially cloudy
+116,"Johor Bahru, Johor, Malaysia",6/12/2020,31.0,26.3,28.4,37.9,9.0,10.1,147.79,20.8,5.9,51.9,83.98,"Rain, Partially cloudy"
+117,"Johor Bahru, Johor, Malaysia",06/13/2020,27.1,25.0,25.9,31.4,15.3,9.4,192.67,27.7,5.8,50.8,90.75,"Rain, Partially cloudy"
+118,"Johor Bahru, Johor, Malaysia",06/14/2020,32.0,25.0,27.7,39.4,0.0,9.0,177.42,24.2,6.1,52.7,84.38,Partially cloudy
+119,"Johor Bahru, Johor, Malaysia",06/15/2020,32.7,27.1,29.4,40.6,0.0,9.5,143.88,30.0,6.1,50.0,78.86,Partially cloudy
+120,"Johor Bahru, Johor, Malaysia",06/16/2020,30.9,27.0,28.3,36.8,7.0,8.2,71.96,28.9,6.0,52.4,82.65,"Rain, Partially cloudy"
+121,"Johor Bahru, Johor, Malaysia",06/17/2020,28.6,25.6,26.8,33.5,5.0,7.7,209.04,20.8,5.6,47.5,87.87,"Rain, Partially cloudy"
+122,"Johor Bahru, Johor, Malaysia",06/18/2020,30.0,25.6,27.4,35.7,10.0,5.0,168.08,21.9,5.8,53.4,84.24,"Rain, Partially cloudy"
+123,"Johor Bahru, Johor, Malaysia",06/20/2020,28.0,24.9,26.4,32.7,55.8,11.6,213.42,25.3,5.8,54.4,90.61,"Rain, Partially cloudy"
+124,"Johor Bahru, Johor, Malaysia",06/21/2020,28.1,25.1,26.6,32.6,11.7,13.2,218.13,26.4,5.9,54.6,88.21,"Rain, Partially cloudy"
+125,"Johor Bahru, Johor, Malaysia",06/22/2020,28.7,25.3,26.9,33.7,10.0,13.2,186.63,25.3,6.1,53.3,87.83,"Rain, Partially cloudy"
+126,"Johor Bahru, Johor, Malaysia",06/23/2020,28.5,24.0,26.4,33.2,8.2,10.0,190.17,23.0,5.5,55.3,89.23,"Rain, Partially cloudy"
+127,"Johor Bahru, Johor, Malaysia",06/24/2020,27.6,25.3,26.5,31.4,9.0,9.5,168.88,27.7,5.9,56.9,87.64,"Rain, Partially cloudy"
+128,"Johor Bahru, Johor, Malaysia",06/25/2020,31.1,25.1,27.9,36.7,0.0,9.0,160.43,31.1,6.2,68.8,80.41,Partially cloudy
+129,"Johor Bahru, Johor, Malaysia",06/26/2020,31.6,25.5,28.4,37.7,0.0,9.9,149.46,26.4,6.2,54.7,79.96,Partially cloudy
+130,"Johor Bahru, Johor, Malaysia",06/27/2020,31.6,27.1,28.9,38.5,0.0,10.9,123.54,23.0,6.1,52.8,79.46,Partially cloudy
+131,"Johor Bahru, Johor, Malaysia",06/28/2020,30.9,27.3,28.9,37.5,0.0,11.7,155.33,30.0,6.1,49.8,77.39,Partially cloudy
+132,"Johor Bahru, Johor, Malaysia",06/29/2020,32.6,27.9,29.3,38.8,4.0,11.8,157.92,27.7,6.2,51.0,76.63,"Rain, Partially cloudy"
+133,"Johor Bahru, Johor, Malaysia",06/30/2020,32.1,26.8,29.3,37.9,40.0,10.3,145.08,27.7,6.1,61.2,74.93,"Rain, Partially cloudy"
+134,"Johor Bahru, Johor, Malaysia",7/1/2020,31.2,26.3,28.3,36.9,2.0,8.4,157.04,39.1,6.2,52.7,81.19,"Rain, Partially cloudy"
+135,"Johor Bahru, Johor, Malaysia",7/2/2020,31.9,27.0,29.2,38.2,0.3,10.2,160.71,28.9,6.2,55.6,76.83,"Rain, Partially cloudy"
+136,"Johor Bahru, Johor, Malaysia",7/3/2020,32.1,27.7,29.7,38.4,0.0,9.5,143.33,28.9,6.2,57.9,72.12,Partially cloudy
+137,"Johor Bahru, Johor, Malaysia",7/4/2020,32.0,26.0,28.9,38.4,1.0,8.7,121.83,31.1,6.2,52.6,75.56,"Rain, Partially cloudy"
+138,"Johor Bahru, Johor, Malaysia",7/5/2020,32.2,25.9,27.7,37.9,0.0,10.9,95.17,33.3,6.2,51.7,80.26,Partially cloudy
+139,"Johor Bahru, Johor, Malaysia",7/6/2020,32.4,26.0,28.5,37.8,0.0,10.3,104.63,39.1,6.0,49.8,77.36,Partially cloudy
+140,"Johor Bahru, Johor, Malaysia",7/7/2020,31.6,26.0,27.4,37.2,0.0,10.2,138.54,27.7,6.0,49.6,82.65,Partially cloudy
+141,"Johor Bahru, Johor, Malaysia",7/8/2020,29.9,25.4,27.2,34.9,37.0,6.4,244.75,23.0,6.0,51.8,83.92,"Rain, Partially cloudy"
+142,"Johor Bahru, Johor, Malaysia",7/9/2020,28.0,24.9,25.9,31.5,7.0,8.3,240.54,28.9,6.0,54.9,86.43,"Rain, Partially cloudy"
+143,"Johor Bahru, Johor, Malaysia",7/10/2020,30.4,24.9,27.5,35.0,0.2,7.9,135.0,26.4,6.2,51.4,78.27,"Rain, Partially cloudy"
+144,"Johor Bahru, Johor, Malaysia",7/11/2020,29.7,26.1,27.4,35.1,2.5,7.3,132.17,24.2,6.1,45.0,83.41,"Rain, Partially cloudy"
+145,"Johor Bahru, Johor, Malaysia",7/12/2020,31.1,26.0,28.4,37.2,0.0,10.7,174.96,27.7,6.0,54.7,79.37,Partially cloudy
+146,"Johor Bahru, Johor, Malaysia",07/13/2020,28.0,24.6,25.9,32.1,30.0,7.9,220.08,25.3,5.5,51.9,89.43,"Rain, Partially cloudy"
+147,"Johor Bahru, Johor, Malaysia",07/14/2020,29.0,25.0,26.9,33.7,9.6,7.1,171.88,28.9,6.2,56.6,82.93,"Rain, Partially cloudy"
+148,"Johor Bahru, Johor, Malaysia",07/15/2020,30.1,25.4,27.4,36.4,0.0,8.2,161.88,24.2,6.0,52.2,84.76,Partially cloudy
+149,"Johor Bahru, Johor, Malaysia",07/16/2020,33.2,25.4,27.9,38.4,0.0,8.6,100.96,24.2,5.9,47.0,82.92,Partially cloudy
+150,"Johor Bahru, Johor, Malaysia",07/21/2020,32.6,26.9,29.0,38.3,0.0,8.5,109.13,19.7,6.1,52.7,75.2,Partially cloudy
+151,"Johor Bahru, Johor, Malaysia",07/29/2020,28.1,25.0,26.1,31.8,30.0,8.2,144.58,25.3,5.6,54.0,88.25,"Rain, Partially cloudy"
+152,"Johor Bahru, Johor, Malaysia",8/4/2020,29.7,25.0,28.0,33.8,8.0,9.6,193.13,23.0,6.0,54.1,77.58,"Rain, Partially cloudy"
+153,"Johor Bahru, Johor, Malaysia",08/15/2020,31.4,24.7,27.4,36.9,13.0,7.7,150.0,19.7,5.8,47.2,82.73,"Rain, Partially cloudy"
+154,"Johor Bahru, Johor, Malaysia",08/16/2020,30.7,26.0,27.9,36.1,0.7,8.1,172.04,21.9,6.1,52.9,78.99,"Rain, Partially cloudy"
+155,"Johor Bahru, Johor, Malaysia",08/21/2020,32.7,27.0,29.6,38.1,0.0,8.4,130.96,23.0,6.2,48.9,71.17,Partially cloudy
+156,"Johor Bahru, Johor, Malaysia",08/24/2020,32.2,24.1,27.9,38.4,6.4,9.3,74.38,21.9,5.9,54.4,80.16,"Rain, Partially cloudy"
+157,"Johor Bahru, Johor, Malaysia",9/6/2020,30.3,24.3,26.3,36.0,70.0,9.2,138.68,21.9,5.8,56.2,87.24,"Rain, Partially cloudy"
+158,"Johor Bahru, Johor, Malaysia",09/14/2020,28.9,23.3,25.6,33.8,15.0,11.6,106.33,24.2,5.7,55.1,89.01,"Rain, Partially cloudy"
+159,"Johor Bahru, Johor, Malaysia",09/15/2020,31.1,24.5,27.7,37.2,0.0,9.8,153.38,26.4,5.9,52.7,80.61,Partially cloudy
+160,"Johor Bahru, Johor, Malaysia",09/16/2020,30.3,22.6,27.0,33.5,10.0,15.0,173.17,27.7,5.9,49.9,77.65,"Rain, Partially cloudy"
+161,"Johor Bahru, Johor, Malaysia",09/19/2020,33.0,24.1,28.8,37.7,0.0,10.6,199.33,19.7,6.1,52.6,72.95,Partially cloudy
+162,"Johor Bahru, Johor, Malaysia",09/26/2020,28.3,23.6,26.2,32.0,3.0,9.4,232.5,19.7,5.6,56.6,84.96,"Rain, Partially cloudy"
+163,"Johor Bahru, Johor, Malaysia",09/29/2020,30.2,25.7,27.6,36.0,11.0,9.5,147.88,17.2,6.0,53.8,81.98,"Rain, Partially cloudy"
+164,"Johor Bahru, Johor, Malaysia",10/8/2020,31.6,25.6,27.4,38.1,32.1,11.0,262.75,20.8,6.1,74.4,81.64,"Rain, Partially cloudy"
+165,"Johor Bahru, Johor, Malaysia",10/11/2020,31.2,24.1,27.8,35.8,3.3,13.9,196.67,20.8,6.1,74.8,77.29,"Rain, Partially cloudy"
+166,"Johor Bahru, Johor, Malaysia",10/18/2020,31.0,24.3,28.2,36.4,25.2,7.9,129.83,23.0,6.0,72.5,80.68,"Rain, Partially cloudy"
+167,"Johor Bahru, Johor, Malaysia",10/19/2020,32.3,26.3,29.1,37.4,0.0,8.5,170.5,24.2,6.1,70.5,73.71,Partially cloudy
+168,"Johor Bahru, Johor, Malaysia",10/27/2020,33.3,26.4,29.6,38.6,0.0,9.3,247.29,28.9,6.2,80.6,72.11,Overcast
+169,"Johor Bahru, Johor, Malaysia",10/31/2020,32.7,25.1,27.5,38.9,2.0,9.9,93.5,27.7,5.9,73.1,83.46,"Rain, Partially cloudy"
+170,"Johor Bahru, Johor, Malaysia",11/2/2020,32.1,24.0,27.0,38.0,22.0,8.7,137.71,18.3,6.0,78.4,82.95,"Rain, Overcast"
+171,"Johor Bahru, Johor, Malaysia",12/3/2020,32.6,24.8,27.0,37.8,37.1,11.6,93.71,23.0,6.0,66.8,84.91,"Rain, Partially cloudy"
+172,"Johor Bahru, Johor, Malaysia",12/10/2020,31.8,24.3,26.9,37.4,2.0,11.8,153.83,27.7,5.9,67.5,82.76,"Rain, Partially cloudy"
+173,"Johor Bahru, Johor, Malaysia",12/12/2020,32.0,23.9,26.7,37.4,8.2,9.7,228.79,27.7,5.9,78.4,82.29,"Rain, Overcast"
+174,"Johor Bahru, Johor, Malaysia",12/15/2020,31.4,24.6,26.6,36.9,11.7,7.2,202.42,17.2,6.0,71.5,84.73,"Rain, Partially cloudy"
+175,"Johor Bahru, Johor, Malaysia",1/6/2021,28.7,25.3,26.9,32.0,0.2,9.1,233.25,20.8,6.2,75.6,78.66,"Rain, Overcast"
+176,"Johor Bahru, Johor, Malaysia",1/9/2021,27.8,24.4,25.6,31.9,111.0,12.4,70.67,17.2,5.3,80.3,89.07,"Rain, Overcast"
+177,"Johor Bahru, Johor, Malaysia",1/12/2021,27.5,23.9,25.5,30.5,10.3,17.5,28.08,28.9,5.3,77.5,86.17,"Rain, Overcast"
+178,"Johor Bahru, Johor, Malaysia",01/13/2021,27.2,23.9,25.3,29.8,12.5,13.9,31.46,25.3,5.9,80.9,83.75,"Rain, Overcast"
+179,"Johor Bahru, Johor, Malaysia",01/22/2021,28.9,24.4,26.0,32.9,0.0,8.4,52.88,23.0,5.9,68.6,82.56,Partially cloudy
+180,"Johor Bahru, Johor, Malaysia",01/23/2021,28.9,23.8,25.9,32.3,0.0,10.6,33.96,24.2,5.9,75.5,81.66,Overcast
+181,"Johor Bahru, Johor, Malaysia",01/30/2021,29.6,24.9,26.8,32.4,0.0,16.3,23.88,27.7,6.2,73.4,74.6,Partially cloudy
+182,"Johor Bahru, Johor, Malaysia",2/7/2021,31.4,25.0,27.9,34.8,0.0,13.8,26.58,25.3,6.2,68.5,71.28,Partially cloudy
+183,"Johor Bahru, Johor, Malaysia",02/15/2021,30.2,24.0,26.9,32.5,0.0,15.1,32.38,20.8,6.2,74.2,70.58,Partially cloudy
+184,"Johor Bahru, Johor, Malaysia",3/2/2021,31.9,25.2,28.2,35.3,0.0,14.3,39.38,24.2,5.9,77.2,71.0,Overcast
+185,"Johor Bahru, Johor, Malaysia",3/7/2021,31.4,23.9,26.4,34.9,36.0,10.6,152.63,23.0,5.7,78.1,83.41,"Rain, Overcast"
+186,"Johor Bahru, Johor, Malaysia",03/17/2021,31.7,23.7,27.0,37.7,0.0,9.9,137.71,24.2,5.8,63.9,82.42,Partially cloudy
+187,"Johor Bahru, Johor, Malaysia",03/19/2021,33.0,25.3,28.3,37.9,0.0,8.3,83.58,23.0,5.8,79.7,76.69,Overcast
+188,"Johor Bahru, Johor, Malaysia",03/20/2021,32.3,25.7,27.7,38.8,0.0,10.5,52.13,20.8,6.0,74.9,79.06,Partially cloudy
+189,"Johor Bahru, Johor, Malaysia",03/23/2021,31.7,24.9,27.5,37.3,4.0,13.9,84.75,19.7,6.0,72.3,80.3,"Rain, Partially cloudy"
+190,"Johor Bahru, Johor, Malaysia",4/6/2021,32.4,24.9,27.3,39.0,0.0,8.9,98.17,19.7,6.0,74.6,83.38,Partially cloudy
+191,"Johor Bahru, Johor, Malaysia",4/7/2021,33.4,24.7,28.6,38.6,0.0,11.9,62.0,20.8,6.2,80.1,73.17,Overcast
+192,"Johor Bahru, Johor, Malaysia",4/9/2021,32.8,25.3,28.3,39.5,6.0,9.6,132.46,23.0,6.1,78.5,77.73,"Rain, Overcast"
+193,"Johor Bahru, Johor, Malaysia",04/15/2021,32.3,24.6,26.4,37.9,22.9,10.8,140.13,31.1,5.6,78.9,85.4,"Rain, Overcast"
+194,"Johor Bahru, Johor, Malaysia",04/24/2021,28.0,24.0,26.3,31.3,4.0,10.8,189.83,33.3,5.9,77.0,85.11,"Rain, Overcast"
+195,"Johor Bahru, Johor, Malaysia",5/12/2021,31.1,25.9,27.6,38.3,2.2,9.7,138.17,24.2,5.8,73.8,86.72,"Rain, Partially cloudy"
+196,"Johor Bahru, Johor, Malaysia",6/1/2021,32.0,26.6,28.5,39.2,0.0,14.3,174.13,19.7,6.0,63.6,80.97,Partially cloudy
+197,"Johor Bahru, Johor, Malaysia",6/2/2021,31.1,26.7,28.4,38.3,0.0,12.0,99.29,35.8,5.6,75.0,82.38,Partially cloudy
+198,"Johor Bahru, Johor, Malaysia",6/5/2021,32.1,26.7,28.9,38.8,0.0,9.3,193.92,33.3,6.0,76.4,78.51,Overcast
+199,"Kota Bharu, Kelantan, Malaysia",2/12/2018,29.1,23.0,26.3,32.7,0.0,13.9,101.41,25.3,5.9,88.5,77.61,Overcast
+200,"Kota Bharu, Kelantan, Malaysia",3/12/2018,30.0,26.0,27.6,35.6,0.0,12.7,75.13,23.0,5.7,87.8,80.15,Overcast
+201,"Kota Bharu, Kelantan, Malaysia",05/23/2018,30.0,26.0,27.8,37.5,1.0,9.1,149.3,20.8,5.5,88.7,84.82,"Rain, Overcast"
+202,"Kota Bharu, Kelantan, Malaysia",06/17/2018,33.0,24.0,27.1,43.8,17.68,21.9,195.14,35.8,5.5,95.4,82.97,"Rain, Overcast"
+203,"Kota Bharu, Kelantan, Malaysia",06/29/2018,32.0,24.0,26.6,40.3,0.0,12.7,158.71,25.3,6.2,88.6,85.78,Overcast
+204,"Kota Bharu, Kelantan, Malaysia",7/7/2018,32.8,26.0,28.3,43.1,16.0,8.1,131.32,27.7,5.2,88.8,82.98,"Rain, Overcast"
+205,"Kota Bharu, Kelantan, Malaysia",07/31/2018,32.0,24.0,28.4,37.9,8.7,10.3,285.81,34.4,6.1,89.6,76.85,"Rain, Overcast"
+206,"Kota Bharu, Kelantan, Malaysia",8/7/2018,32.0,24.9,26.9,39.2,5.05,20.7,188.35,26.4,5.8,93.3,84.93,"Rain, Overcast"
+207,"Kota Bharu, Kelantan, Malaysia",8/8/2018,33.0,25.0,27.8,39.2,26.0,7.0,165.74,18.3,5.1,96.1,83.89,"Rain, Overcast"
+208,"Kota Bharu, Kelantan, Malaysia",08/28/2018,32.8,22.2,28.0,39.2,10.89,16.0,113.12,31.1,4.8,90.5,81.61,"Rain, Overcast"
+209,"Kota Bharu, Kelantan, Malaysia",9/4/2018,32.0,23.8,26.2,37.6,63.0,17.2,224.32,25.3,6.2,92.9,83.34,"Rain, Overcast"
+210,"Kota Bharu, Kelantan, Malaysia",9/6/2018,32.0,23.0,27.1,39.2,19.01,10.3,225.26,26.4,5.7,91.9,82.72,"Rain, Overcast"
+211,"Kota Bharu, Kelantan, Malaysia",09/13/2018,32.0,23.9,26.3,39.1,12.7,21.7,189.5,36.9,5.7,91.9,84.26,"Rain, Overcast"
+212,"Kota Bharu, Kelantan, Malaysia",10/18/2018,31.8,22.9,26.9,38.7,3.0,12.8,248.71,24.2,5.5,91.5,83.7,"Rain, Overcast"
+213,"Kota Bharu, Kelantan, Malaysia",11/7/2018,28.1,24.0,25.4,32.7,69.99,8.0,222.32,19.7,5.5,95.6,91.8,"Rain, Overcast"
+214,"Kota Bharu, Kelantan, Malaysia",12/3/2018,30.0,24.9,26.2,37.4,49.95,13.8,118.53,25.3,5.2,92.2,91.99,"Rain, Overcast"
+215,"Kota Bharu, Kelantan, Malaysia",12/5/2018,27.0,24.0,25.1,30.6,128.32,11.4,160.75,30.0,3.5,96.7,96.07,"Rain, Overcast"
+216,"Kota Bharu, Kelantan, Malaysia",12/11/2018,29.0,24.8,25.9,34.5,35.06,8.1,157.58,13.9,5.3,92.8,92.53,"Rain, Overcast"
+217,"Kota Bharu, Kelantan, Malaysia",01/17/2019,28.0,23.0,25.5,32.1,45.95,15.0,129.83,28.9,6.0,53.6,88.99,"Rain, Partially cloudy"
+218,"Kota Bharu, Kelantan, Malaysia",2/12/2019,31.0,24.0,26.5,39.0,17.0,14.9,126.41,17.2,5.6,59.2,86.06,"Rain, Partially cloudy"
+219,"Kota Bharu, Kelantan, Malaysia",5/7/2019,35.0,25.8,29.8,43.3,4.0,10.3,212.52,19.7,6.2,53.7,71.82,"Rain, Partially cloudy"
+220,"Kota Bharu, Kelantan, Malaysia",6/9/2019,32.0,24.0,27.0,40.6,10.0,11.4,147.38,24.2,5.9,54.5,88.36,"Rain, Partially cloudy"
+221,"Kota Bharu, Kelantan, Malaysia",6/12/2019,34.0,24.9,28.6,43.8,0.0,9.2,154.95,21.9,6.2,52.4,81.74,Partially cloudy
+222,"Kota Bharu, Kelantan, Malaysia",06/18/2019,33.8,23.0,26.7,41.9,56.44,18.2,168.79,33.3,6.0,55.7,85.09,"Rain, Partially cloudy"
+223,"Kota Bharu, Kelantan, Malaysia",06/22/2019,32.9,24.0,28.1,40.5,13.2,7.0,218.94,35.8,6.1,54.4,84.02,"Rain, Partially cloudy"
+224,"Kota Bharu, Kelantan, Malaysia",7/12/2019,33.0,23.0,27.6,42.3,0.0,9.2,144.3,21.9,6.2,52.8,80.67,Partially cloudy
+225,"Kota Bharu, Kelantan, Malaysia",08/16/2019,33.0,23.9,28.0,40.0,4.2,12.8,143.32,30.0,6.3,53.9,79.58,"Rain, Partially cloudy"
+226,"Kota Bharu, Kelantan, Malaysia",08/27/2019,32.0,23.0,27.1,39.1,0.0,18.3,221.76,30.0,6.3,53.0,79.92,Partially cloudy
+227,"Kota Bharu, Kelantan, Malaysia",9/1/2019,33.0,24.0,27.3,40.6,26.0,10.3,193.19,33.3,5.9,54.2,81.04,"Rain, Partially cloudy"
+228,"Kota Bharu, Kelantan, Malaysia",09/14/2019,32.8,24.0,26.1,39.2,34.71,12.7,214.32,28.9,6.0,55.3,83.45,"Rain, Partially cloudy"
+229,"Kota Bharu, Kelantan, Malaysia",09/15/2019,32.0,23.8,26.0,37.9,34.93,12.8,211.15,33.3,5.9,53.9,84.5,"Rain, Partially cloudy"
+230,"Kota Bharu, Kelantan, Malaysia",11/27/2019,28.0,23.8,25.2,32.7,87.75,13.8,157.56,23.0,4.9,41.1,93.04,"Rain, Partially cloudy"
+231,"Kota Bharu, Kelantan, Malaysia",11/30/2019,29.0,24.8,26.6,35.6,123.23,16.0,99.0,27.7,5.2,42.6,90.24,"Rain, Partially cloudy"
+232,"Kota Bharu, Kelantan, Malaysia",12/1/2019,27.0,24.0,25.3,30.7,187.88,13.8,150.53,25.3,4.7,42.3,93.29,"Rain, Partially cloudy"
+233,"Kota Bharu, Kelantan, Malaysia",12/13/2019,29.0,25.0,27.1,33.5,18.0,12.8,82.63,15.0,6.3,38.5,77.1,"Rain, Partially cloudy"
+234,"Kota Bharu, Kelantan, Malaysia",2/9/2020,30.0,24.0,26.8,35.1,0.65,21.9,107.05,36.9,6.0,42.0,80.88,"Rain, Partially cloudy"
+235,"Kota Bharu, Kelantan, Malaysia",2/10/2020,29.0,25.0,26.8,33.5,15.01,18.3,67.08,31.1,5.5,44.1,81.2,"Rain, Partially cloudy"
+236,"Kota Bharu, Kelantan, Malaysia",02/18/2020,30.0,25.0,27.7,35.2,31.0,18.3,94.43,32.2,6.2,40.0,78.82,"Rain, Partially cloudy"
+237,"Kota Bharu, Kelantan, Malaysia",04/15/2020,33.8,27.0,29.8,43.3,0.0,13.8,100.57,24.2,6.5,39.1,76.39,Partially cloudy
+238,"Kota Bharu, Kelantan, Malaysia",04/17/2020,34.0,27.0,30.2,42.1,0.0,15.0,120.33,19.7,6.7,37.5,72.93,Partially cloudy
+239,"Kota Bharu, Kelantan, Malaysia",04/23/2020,30.0,25.1,26.7,36.2,18.94,22.9,155.18,35.8,5.2,43.8,89.83,"Rain, Partially cloudy"
+240,"Kota Bharu, Kelantan, Malaysia",04/25/2020,33.0,25.8,28.8,42.1,0.2,14.9,133.33,28.9,6.3,42.3,81.7,"Rain, Partially cloudy"
+241,"Kota Bharu, Kelantan, Malaysia",04/30/2020,28.8,25.0,26.5,34.3,17.6,9.2,128.21,25.3,6.3,43.1,91.12,"Rain, Partially cloudy"
+242,"Kota Bharu, Kelantan, Malaysia",05/15/2020,34.0,26.0,29.7,42.1,0.0,13.8,110.95,18.3,6.4,36.8,79.78,Partially cloudy
+243,"Kota Bharu, Kelantan, Malaysia",6/9/2020,32.0,25.8,28.9,40.7,0.8,8.1,126.9,26.4,6.3,36.7,80.96,"Rain, Partially cloudy"
+244,"Kota Bharu, Kelantan, Malaysia",6/10/2020,34.0,23.0,27.7,42.1,36.4,8.1,217.86,26.4,6.0,40.4,81.96,"Rain, Partially cloudy"
+245,"Kota Bharu, Kelantan, Malaysia",6/12/2020,33.0,24.0,27.3,40.7,48.88,17.2,159.3,31.1,5.8,39.5,85.69,"Rain, Partially cloudy"
+246,"Kota Bharu, Kelantan, Malaysia",06/26/2020,30.8,25.0,27.2,36.2,12.0,11.3,203.67,16.1,6.3,38.9,81.78,"Rain, Partially cloudy"
+247,"Kota Bharu, Kelantan, Malaysia",7/11/2020,32.0,24.0,27.5,39.2,36.0,8.1,149.33,23.0,6.3,39.0,82.92,"Rain, Partially cloudy"
+248,"Kota Bharu, Kelantan, Malaysia",7/12/2020,33.0,23.8,26.9,39.2,5.67,9.2,183.33,21.9,6.3,41.4,81.66,"Rain, Partially cloudy"
+249,"Kota Bharu, Kelantan, Malaysia",8/5/2020,33.0,23.8,28.3,42.3,2.6,6.9,117.37,25.3,6.1,37.1,84.65,"Rain, Partially cloudy"
+250,"Kota Bharu, Kelantan, Malaysia",9/5/2020,32.0,25.8,27.8,40.6,1.2,9.2,167.4,24.2,6.4,39.3,84.37,"Rain, Partially cloudy"
+251,"Kota Bharu, Kelantan, Malaysia",09/17/2020,32.0,24.0,26.6,39.2,22.1,21.8,229.81,41.4,6.0,40.6,89.13,"Rain, Partially cloudy"
+252,"Kota Bharu, Kelantan, Malaysia",09/25/2020,29.0,24.0,26.4,34.5,15.97,6.9,168.26,19.7,6.4,36.6,87.72,"Rain, Partially cloudy"
+253,"Kota Bharu, Kelantan, Malaysia",10/6/2020,33.0,23.0,27.1,40.5,31.0,10.3,118.68,21.9,5.8,37.6,84.83,"Rain, Partially cloudy"
+254,"Kota Bharu, Kelantan, Malaysia",10/12/2020,31.0,24.8,26.8,37.7,9.32,14.9,237.12,33.3,6.1,42.6,84.62,"Rain, Partially cloudy"
+255,"Kota Bharu, Kelantan, Malaysia",10/21/2020,30.0,25.0,27.4,37.4,1.2,15.0,252.19,23.0,6.1,38.2,85.46,"Rain, Partially cloudy"
+256,"Kota Bharu, Kelantan, Malaysia",11/27/2020,30.0,26.1,27.5,36.2,70.52,18.3,87.17,31.1,5.8,51.2,85.75,"Rain, Partially cloudy"
+257,"Kota Bharu, Kelantan, Malaysia",12/19/2020,28.0,23.0,25.1,32.7,57.44,6.9,192.62,21.9,5.3,53.1,92.14,"Rain, Partially cloudy"
+258,"Kota Bharu, Kelantan, Malaysia",03/23/2021,31.2,26.8,28.7,39.5,8.0,20.8,69.58,31.0,6.2,50.4,78.72,"Rain, Partially cloudy"
+259,"Kota Bharu, Kelantan, Malaysia",03/24/2021,31.0,26.0,28.2,40.6,21.02,18.3,81.67,31.1,6.2,52.5,85.79,"Rain, Partially cloudy"
+260,"Kota Bharu, Kelantan, Malaysia",4/2/2021,32.0,24.0,27.9,42.2,22.0,12.8,281.53,27.7,6.4,39.0,85.86,"Rain, Partially cloudy"
+261,"Kota Bharu, Kelantan, Malaysia",05/21/2021,32.2,24.0,27.7,42.2,44.79,12.7,144.65,28.9,6.2,42.6,85.05,"Rain, Partially cloudy"
+262,"Kuala Terengganu, Terengganu, Malaysia",1/2/2018,27.0,26.0,26.9,30.1,0.0,13.9,57.5,24.2,6.2,89.0,82.43,Overcast
+263,"Kuala Terengganu, Terengganu, Malaysia",1/12/2018,28.0,26.0,26.9,31.3,0.2,16.1,51.3,26.4,6.4,89.0,75.59,"Rain, Overcast"
+264,"Kuala Terengganu, Terengganu, Malaysia",4/9/2018,32.0,27.0,28.9,39.2,4.0,11.4,61.76,19.7,6.3,89.0,77.9,"Rain, Overcast"
+265,"Kuala Terengganu, Terengganu, Malaysia",6/7/2018,34.1,26.0,29.2,47.3,0.0,5.8,207.78,18.3,6.4,89.0,81.8,Overcast
+266,"Kuala Terengganu, Terengganu, Malaysia",6/8/2018,33.0,24.0,28.0,43.8,8.0,11.4,192.0,21.9,5.9,89.0,84.35,"Rain, Overcast"
+267,"Kuala Terengganu, Terengganu, Malaysia",6/10/2018,34.0,26.0,29.6,45.3,0.0,6.9,173.08,19.7,6.4,89.0,80.26,Overcast
+268,"Kuala Terengganu, Terengganu, Malaysia",06/13/2018,34.0,25.0,29.5,45.0,0.0,5.8,192.22,16.1,6.3,89.0,76.11,Overcast
+269,"Kuala Terengganu, Terengganu, Malaysia",7/9/2018,30.8,24.0,26.0,38.6,6.0,18.3,84.62,35.8,6.0,89.0,91.22,"Rain, Overcast"
+270,"Kuala Terengganu, Terengganu, Malaysia",08/14/2018,33.0,25.0,28.7,45.8,0.0,6.9,161.0,19.7,6.1,89.0,86.34,Overcast
+271,"Kuala Terengganu, Terengganu, Malaysia",08/18/2018,33.0,24.0,28.1,43.8,10.0,9.2,198.57,18.3,6.1,87.1,84.95,"Rain, Overcast"
+272,"Kuala Terengganu, Terengganu, Malaysia",08/19/2018,33.0,24.0,28.6,43.8,0.0,13.9,176.67,21.9,6.2,89.0,83.53,Overcast
+273,"Kuala Terengganu, Terengganu, Malaysia",08/22/2018,31.1,24.0,27.7,39.3,0.0,13.9,175.0,26.4,6.2,89.9,87.24,Overcast
+274,"Kuala Terengganu, Terengganu, Malaysia",08/28/2018,33.0,24.0,28.1,42.1,0.0,13.9,170.0,27.7,6.4,89.0,81.19,Overcast
+275,"Kuala Terengganu, Terengganu, Malaysia",09/13/2018,33.0,24.0,28.1,39.3,0.0,17.2,190.77,28.9,6.2,88.9,81.38,Overcast
+276,"Kuala Terengganu, Terengganu, Malaysia",09/14/2018,31.0,23.0,25.9,39.1,66.0,11.4,99.41,25.3,6.1,89.0,92.1,"Rain, Overcast"
+277,"Kuala Terengganu, Terengganu, Malaysia",09/17/2018,32.0,25.0,27.8,40.5,0.0,5.8,177.5,18.3,6.2,88.3,83.57,Overcast
+278,"Kuala Terengganu, Terengganu, Malaysia",09/27/2018,33.0,25.0,27.5,43.8,0.0,6.9,198.67,20.8,6.4,89.0,84.74,Overcast
+279,"Kuala Terengganu, Terengganu, Malaysia",10/23/2018,32.0,25.0,27.6,39.1,0.0,16.1,177.78,27.7,6.0,88.8,84.89,Overcast
+280,"Kuala Terengganu, Terengganu, Malaysia",10/29/2018,31.0,25.0,27.7,39.1,13.0,8.1,169.38,16.1,6.0,89.5,87.6,"Rain, Overcast"
+281,"Kuala Terengganu, Terengganu, Malaysia",12/3/2018,30.0,24.9,26.4,37.3,47.0,10.3,148.33,24.2,5.0,91.3,93.68,"Rain, Overcast"
+282,"Kuala Terengganu, Terengganu, Malaysia",1/2/2019,29.0,22.2,26.2,33.6,33.2,23.7,322.08,32.2,5.7,64.4,82.59,"Rain, Partially cloudy"
+283,"Kuala Terengganu, Terengganu, Malaysia",5/8/2019,33.0,20.6,24.7,42.1,33.0,25.4,214.52,26.4,6.8,73.6,83.98,"Rain, Partially cloudy"
+284,"Kuala Terengganu, Terengganu, Malaysia",6/8/2019,33.0,21.9,26.7,42.1,21.0,10.4,228.93,18.3,7.2,67.3,83.89,"Rain, Partially cloudy"
+285,"Kuala Terengganu, Terengganu, Malaysia",06/25/2019,33.0,26.0,29.2,45.8,0.0,16.9,192.5,19.7,6.5,62.3,81.75,Partially cloudy
+286,"Kuala Terengganu, Terengganu, Malaysia",8/5/2019,34.0,26.0,29.4,42.3,0.0,9.2,193.29,19.7,6.6,64.3,79.73,Partially cloudy
+287,"Kuala Terengganu, Terengganu, Malaysia",8/11/2019,32.1,26.0,29.0,42.3,0.0,10.3,180.09,23.0,6.0,67.8,82.17,Partially cloudy
+288,"Kuala Terengganu, Terengganu, Malaysia",08/17/2019,32.0,24.9,27.9,40.6,0.0,10.3,173.64,21.9,6.3,57.3,82.68,Partially cloudy
+289,"Kuala Terengganu, Terengganu, Malaysia",08/26/2019,31.1,22.7,27.2,40.5,4.0,12.8,153.31,25.3,7.1,61.5,82.22,"Rain, Partially cloudy"
+290,"Kuala Terengganu, Terengganu, Malaysia",9/10/2019,31.0,25.0,28.3,40.6,0.0,13.9,178.21,20.8,5.2,60.2,83.5,Partially cloudy
+291,"Kuala Terengganu, Terengganu, Malaysia",09/14/2019,32.0,22.8,27.3,40.7,36.0,19.7,209.71,34.4,5.0,58.4,85.21,"Rain, Partially cloudy"
+292,"Kuala Terengganu, Terengganu, Malaysia",09/21/2019,31.0,25.0,28.1,40.5,0.0,20.8,181.54,20.8,4.8,61.1,85.52,Partially cloudy
+293,"Kuala Terengganu, Terengganu, Malaysia",09/25/2019,32.0,24.9,27.5,40.6,31.0,12.7,131.53,19.7,6.4,67.8,87.44,"Rain, Partially cloudy"
+294,"Kuala Terengganu, Terengganu, Malaysia",11/20/2019,31.0,23.4,27.7,39.1,32.0,16.7,103.81,23.0,6.9,55.0,76.79,"Rain, Partially cloudy"
+295,"Kuala Terengganu, Terengganu, Malaysia",11/21/2019,31.3,24.0,27.6,37.7,18.6,13.2,108.79,21.9,6.7,41.1,79.04,"Rain, Partially cloudy"
+296,"Kuala Terengganu, Terengganu, Malaysia",11/22/2019,31.0,24.0,27.0,36.5,55.2,13.9,105.55,30.0,5.7,44.4,84.7,"Rain, Partially cloudy"
+297,"Kuala Terengganu, Terengganu, Malaysia",11/24/2019,31.8,25.0,27.8,38.6,0.0,10.3,253.7,21.9,6.5,38.9,84.21,Partially cloudy
+298,"Kuala Terengganu, Terengganu, Malaysia",11/25/2019,27.1,24.0,25.0,30.8,72.0,11.4,216.88,28.9,5.3,42.0,95.57,"Rain, Partially cloudy"
+299,"Kuala Terengganu, Terengganu, Malaysia",11/26/2019,29.0,24.0,26.3,34.5,12.0,13.9,126.19,28.9,6.5,46.9,87.18,"Rain, Partially cloudy"
+300,"Kuala Terengganu, Terengganu, Malaysia",11/27/2019,31.1,26.1,28.3,39.2,10.0,13.3,59.06,27.7,6.2,44.9,83.94,"Rain, Partially cloudy"
+301,"Kuala Terengganu, Terengganu, Malaysia",11/28/2019,31.0,25.7,28.0,39.1,3.4,16.7,74.17,30.0,6.6,48.9,81.95,"Rain, Partially cloudy"
+302,"Kuala Terengganu, Terengganu, Malaysia",11/29/2019,30.0,25.5,27.9,37.4,21.4,15.0,54.32,33.3,6.2,41.7,81.39,"Rain, Partially cloudy"
+303,"Kuala Terengganu, Terengganu, Malaysia",11/30/2019,30.0,26.0,27.7,37.4,4.0,11.4,85.33,25.3,6.1,44.3,85.21,"Rain, Partially cloudy"
+304,"Kuala Terengganu, Terengganu, Malaysia",12/1/2019,27.0,22.9,25.5,31.2,154.0,13.9,81.84,32.2,3.6,40.3,94.48,"Rain, Partially cloudy"
+305,"Kuala Terengganu, Terengganu, Malaysia",12/2/2019,28.6,23.0,25.6,32.7,53.0,10.3,133.78,27.7,5.8,40.3,85.28,"Rain, Partially cloudy"
+306,"Kuala Terengganu, Terengganu, Malaysia",12/3/2019,30.0,26.2,28.3,35.1,0.0,18.5,64.0,25.3,6.6,42.9,71.33,Partially cloudy
+307,"Kuala Terengganu, Terengganu, Malaysia",12/4/2019,30.0,26.0,27.9,35.1,0.0,11.4,54.35,31.1,6.3,48.1,73.46,Partially cloudy
+308,"Kuala Terengganu, Terengganu, Malaysia",12/5/2019,30.0,26.6,27.8,35.1,0.0,13.2,50.91,23.0,6.4,52.0,72.36,Partially cloudy
+309,"Kuala Terengganu, Terengganu, Malaysia",12/6/2019,29.0,26.0,27.4,32.7,2.0,13.9,40.0,30.0,6.2,49.0,76.18,"Rain, Partially cloudy"
+310,"Kuala Terengganu, Terengganu, Malaysia",12/7/2019,30.3,26.0,27.6,35.1,0.0,18.4,39.38,26.4,6.4,53.3,75.65,Partially cloudy
+311,"Kuala Terengganu, Terengganu, Malaysia",12/8/2019,29.0,26.0,27.5,33.6,0.4,15.0,51.52,33.3,6.3,51.5,76.2,"Rain, Partially cloudy"
+312,"Kuala Terengganu, Terengganu, Malaysia",12/9/2019,30.0,26.0,27.7,33.3,2.2,15.0,42.71,34.4,6.0,48.3,74.44,"Rain, Partially cloudy"
+313,"Kuala Terengganu, Terengganu, Malaysia",12/10/2019,30.0,26.0,27.8,34.1,0.0,15.6,50.21,25.3,6.7,48.7,72.36,Partially cloudy
+314,"Kuala Terengganu, Terengganu, Malaysia",12/11/2019,30.5,25.6,27.7,34.9,0.0,12.1,56.78,21.9,6.7,42.1,74.05,Partially cloudy
+315,"Kuala Terengganu, Terengganu, Malaysia",12/12/2019,30.0,26.0,27.8,35.1,0.0,10.3,54.57,23.0,6.4,45.3,75.72,Partially cloudy
+316,"Kuala Terengganu, Terengganu, Malaysia",12/13/2019,30.6,26.0,27.7,35.7,0.6,15.0,48.86,30.0,6.4,47.0,75.08,"Rain, Partially cloudy"
+317,"Kuala Terengganu, Terengganu, Malaysia",12/14/2019,30.6,26.4,27.4,36.1,1.2,18.4,52.5,39.1,6.2,49.0,81.06,"Rain, Partially cloudy"
+318,"Kuala Terengganu, Terengganu, Malaysia",12/15/2019,29.0,26.0,27.5,34.5,6.0,16.1,65.0,30.0,6.3,48.0,83.06,"Rain, Partially cloudy"
+319,"Kuala Terengganu, Terengganu, Malaysia",12/16/2019,30.0,23.8,26.9,36.2,7.8,17.4,45.48,31.1,6.8,48.7,79.23,"Rain, Partially cloudy"
+320,"Kuala Terengganu, Terengganu, Malaysia",12/17/2019,27.0,22.9,26.5,30.6,43.4,15.0,47.83,31.1,5.5,42.8,88.64,"Rain, Partially cloudy"
+321,"Kuala Terengganu, Terengganu, Malaysia",12/18/2019,29.0,22.7,26.2,35.6,0.6,12.8,52.06,33.3,6.6,42.6,85.29,"Rain, Partially cloudy"
+322,"Kuala Terengganu, Terengganu, Malaysia",12/19/2019,30.0,20.9,25.8,37.4,2.8,16.9,88.16,23.0,6.9,46.7,86.56,"Rain, Partially cloudy"
+323,"Kuala Terengganu, Terengganu, Malaysia",12/20/2019,30.0,21.7,26.5,36.2,0.0,14.5,82.41,21.9,7.1,53.9,79.71,Partially cloudy
+324,"Kuala Terengganu, Terengganu, Malaysia",12/25/2019,30.0,20.6,25.8,34.1,0.0,25.4,119.06,19.7,7.2,37.0,80.63,Partially cloudy
+325,"Kuala Terengganu, Terengganu, Malaysia",12/28/2019,29.0,19.0,25.1,33.6,0.0,23.7,51.48,20.8,7.3,54.8,74.54,Partially cloudy
+326,"Kuala Terengganu, Terengganu, Malaysia",12/31/2019,30.0,26.8,28.0,36.2,0.6,10.3,45.0,21.9,6.4,47.2,79.41,"Rain, Partially cloudy"
+327,"Kuala Terengganu, Terengganu, Malaysia",1/1/2020,30.0,25.0,27.8,36.2,3.0,12.8,50.87,26.4,6.3,51.2,79.6,"Rain, Partially cloudy"
+328,"Kuala Terengganu, Terengganu, Malaysia",1/2/2020,30.0,18.9,25.7,36.2,0.0,16.8,100.0,26.4,7.2,50.6,75.93,Partially cloudy
+329,"Kuala Terengganu, Terengganu, Malaysia",1/3/2020,30.0,21.0,26.1,36.2,0.0,14.9,76.74,25.3,7.5,51.2,77.83,Partially cloudy
+330,"Kuala Terengganu, Terengganu, Malaysia",1/4/2020,30.0,21.3,27.1,35.1,1.0,21.3,67.33,31.1,6.6,51.7,80.27,"Rain, Partially cloudy"
+331,"Kuala Terengganu, Terengganu, Malaysia",1/5/2020,30.1,21.2,27.6,35.3,0.0,10.3,57.73,20.8,6.6,49.6,77.86,Partially cloudy
+332,"Kuala Terengganu, Terengganu, Malaysia",1/6/2020,30.0,19.7,25.5,35.1,0.0,12.8,121.09,28.9,7.3,36.8,72.56,Partially cloudy
+333,"Kuala Terengganu, Terengganu, Malaysia",1/7/2020,30.0,22.6,25.9,35.1,0.0,12.1,60.74,17.2,7.5,49.2,79.68,Partially cloudy
+334,"Kuala Terengganu, Terengganu, Malaysia",1/8/2020,30.0,22.7,26.8,36.2,0.0,12.2,52.95,23.0,7.5,51.7,76.3,Partially cloudy
+335,"Kuala Terengganu, Terengganu, Malaysia",1/9/2020,31.0,23.2,27.1,36.5,0.0,17.3,62.17,21.9,6.7,54.3,77.78,Partially cloudy
+336,"Kuala Terengganu, Terengganu, Malaysia",1/12/2020,30.0,21.5,25.9,35.1,0.0,15.6,116.07,17.2,7.2,46.1,81.58,Partially cloudy
+337,"Kuala Terengganu, Terengganu, Malaysia",01/13/2020,30.0,24.0,27.1,35.1,0.0,15.0,77.06,18.3,7.4,45.3,80.02,Partially cloudy
+338,"Kuala Terengganu, Terengganu, Malaysia",01/14/2020,30.0,24.8,27.0,35.1,0.0,17.4,82.8,19.7,7.3,50.7,78.83,Partially cloudy
+339,"Kuala Terengganu, Terengganu, Malaysia",01/15/2020,30.1,22.7,27.0,34.4,0.0,13.8,86.76,20.8,6.9,47.2,78.74,Partially cloudy
+340,"Kuala Terengganu, Terengganu, Malaysia",01/18/2020,30.0,25.0,27.5,36.2,13.0,9.2,57.89,20.8,6.4,50.7,84.25,"Rain, Partially cloudy"
+341,"Kuala Terengganu, Terengganu, Malaysia",01/19/2020,30.0,26.9,27.9,36.3,0.0,9.2,65.38,20.8,6.2,52.4,83.91,Partially cloudy
+342,"Kuala Terengganu, Terengganu, Malaysia",01/20/2020,30.0,17.6,27.1,36.2,0.2,15.6,85.0,19.7,6.7,54.1,80.6,"Rain, Partially cloudy"
+343,"Kuala Terengganu, Terengganu, Malaysia",01/21/2020,30.0,27.0,28.0,36.2,0.0,9.2,57.83,24.2,6.5,53.3,80.01,Partially cloudy
+344,"Kuala Terengganu, Terengganu, Malaysia",01/22/2020,31.0,18.3,27.4,37.7,0.0,14.5,52.0,19.7,6.4,51.0,81.36,Partially cloudy
+345,"Kuala Terengganu, Terengganu, Malaysia",01/23/2020,30.0,20.7,25.9,36.2,0.2,15.6,101.74,19.7,6.4,57.4,81.83,"Rain, Partially cloudy"
+346,"Kuala Terengganu, Terengganu, Malaysia",01/28/2020,31.0,20.1,26.7,37.7,0.0,9.8,160.45,19.7,7.1,43.9,80.81,Partially cloudy
+347,"Kuala Terengganu, Terengganu, Malaysia",01/29/2020,29.0,23.5,27.1,34.5,0.0,8.6,96.47,18.3,7.0,50.3,79.28,Partially cloudy
+348,"Kuala Terengganu, Terengganu, Malaysia",01/30/2020,30.0,18.9,24.4,34.3,0.0,12.7,222.14,19.7,7.9,52.0,79.73,Partially cloudy
+349,"Kuala Terengganu, Terengganu, Malaysia",01/31/2020,29.0,19.7,24.5,33.6,8.0,11.5,163.94,24.2,7.5,49.1,83.44,"Rain, Partially cloudy"
+350,"Kuala Terengganu, Terengganu, Malaysia",2/1/2020,30.0,20.5,25.1,35.2,0.2,13.8,232.28,26.4,8.0,51.9,77.81,"Rain, Partially cloudy"
+351,"Kuala Terengganu, Terengganu, Malaysia",2/2/2020,30.0,20.4,24.1,34.1,0.4,12.7,288.76,26.4,8.6,50.7,74.6,"Rain, Partially cloudy"
+352,"Kuala Terengganu, Terengganu, Malaysia",2/7/2020,30.0,24.9,27.3,34.1,0.0,13.3,121.3,18.3,7.3,40.3,76.18,Partially cloudy
+353,"Kuala Terengganu, Terengganu, Malaysia",2/9/2020,29.0,25.0,27.4,33.6,2.2,17.2,52.39,36.9,6.4,51.0,80.25,"Rain, Partially cloudy"
+354,"Kuala Terengganu, Terengganu, Malaysia",2/10/2020,29.1,25.3,26.7,32.9,16.0,13.9,64.57,32.2,6.7,45.8,81.93,"Rain, Partially cloudy"
+355,"Kuala Terengganu, Terengganu, Malaysia",2/11/2020,30.0,25.4,27.7,36.2,1.4,10.3,71.47,30.0,6.9,49.3,81.13,"Rain, Partially cloudy"
+356,"Kuala Terengganu, Terengganu, Malaysia",2/12/2020,30.0,27.0,28.0,36.9,0.0,9.2,70.0,24.2,6.3,51.4,83.66,Partially cloudy
+357,"Kuala Terengganu, Terengganu, Malaysia",02/13/2020,31.0,26.9,28.5,39.1,0.0,5.8,83.33,16.1,6.4,42.9,82.12,Partially cloudy
+358,"Kuala Terengganu, Terengganu, Malaysia",02/14/2020,31.0,26.0,28.2,37.7,0.0,6.9,82.86,19.7,6.5,44.6,81.94,Partially cloudy
+359,"Kuala Terengganu, Terengganu, Malaysia",02/16/2020,30.0,23.0,27.0,35.1,0.0,6.9,65.0,23.0,6.5,35.3,81.86,Partially cloudy
+360,"Kuala Terengganu, Terengganu, Malaysia",02/17/2020,31.0,23.0,25.6,37.7,6.0,6.9,133.33,20.8,6.1,42.1,85.69,"Rain, Partially cloudy"
+361,"Kuala Terengganu, Terengganu, Malaysia",02/18/2020,31.0,23.0,27.8,37.7,12.0,11.4,85.67,24.2,6.9,49.0,77.21,"Rain, Partially cloudy"
+362,"Kuala Terengganu, Terengganu, Malaysia",02/19/2020,31.0,26.1,28.1,37.1,1.0,10.3,55.45,25.3,6.4,49.9,77.69,"Rain, Partially cloudy"
+363,"Kuala Terengganu, Terengganu, Malaysia",02/20/2020,31.0,25.6,28.1,37.7,0.8,11.0,93.64,20.8,6.5,51.8,76.61,"Rain, Partially cloudy"
+364,"Kuala Terengganu, Terengganu, Malaysia",02/21/2020,31.0,25.6,28.0,36.5,0.4,13.9,76.25,30.0,6.2,50.4,73.69,"Rain, Partially cloudy"
+365,"Kuala Terengganu, Terengganu, Malaysia",02/22/2020,30.1,24.8,27.7,35.1,15.2,17.2,51.25,46.1,6.0,50.3,77.67,"Rain, Partially cloudy"
+366,"Kuala Terengganu, Terengganu, Malaysia",02/23/2020,30.0,26.9,27.6,36.2,0.2,15.0,50.87,36.9,6.2,52.3,81.14,"Rain, Partially cloudy"
+367,"Kuala Terengganu, Terengganu, Malaysia",02/24/2020,30.0,26.0,27.8,35.1,0.2,14.3,51.36,25.3,6.5,54.6,74.48,"Rain, Partially cloudy"
+368,"Kuala Terengganu, Terengganu, Malaysia",02/26/2020,31.0,23.4,27.5,36.5,0.0,15.0,65.71,21.9,6.6,43.5,78.47,Partially cloudy
+369,"Kuala Terengganu, Terengganu, Malaysia",02/28/2020,31.0,24.7,27.8,37.7,0.0,8.1,139.58,20.8,6.6,40.0,77.5,Partially cloudy
+370,"Kuala Terengganu, Terengganu, Malaysia",3/2/2020,31.0,21.9,26.2,36.5,0.0,17.4,83.95,25.3,7.4,34.1,76.76,Partially cloudy
+371,"Kuala Terengganu, Terengganu, Malaysia",3/3/2020,31.0,19.6,26.9,37.7,0.0,9.8,102.31,20.8,7.0,42.2,81.74,Partially cloudy
+372,"Kuala Terengganu, Terengganu, Malaysia",3/4/2020,31.0,20.1,27.1,37.7,0.0,14.5,88.93,21.9,6.9,52.3,81.09,Partially cloudy
+373,"Kuala Terengganu, Terengganu, Malaysia",3/5/2020,31.0,20.1,27.2,39.1,0.0,15.0,108.33,19.7,6.7,51.9,79.79,Partially cloudy
+374,"Kuala Terengganu, Terengganu, Malaysia",3/6/2020,31.0,20.2,26.6,37.7,8.0,15.0,104.41,23.0,6.6,51.3,84.5,"Rain, Partially cloudy"
+375,"Kuala Terengganu, Terengganu, Malaysia",3/7/2020,31.0,20.8,27.0,37.7,0.0,18.0,40.65,21.9,7.3,47.6,77.23,Partially cloudy
+376,"Kuala Terengganu, Terengganu, Malaysia",3/8/2020,32.0,24.0,27.7,37.9,0.0,9.2,81.33,27.7,6.5,38.6,81.98,Partially cloudy
+377,"Kuala Terengganu, Terengganu, Malaysia",3/9/2020,31.1,22.1,26.4,39.3,0.0,14.5,146.47,18.3,7.1,33.7,82.41,Partially cloudy
+378,"Kuala Terengganu, Terengganu, Malaysia",03/15/2020,32.0,20.4,28.2,40.6,0.0,22.6,120.33,21.9,6.4,52.1,79.68,Partially cloudy
+379,"Kuala Terengganu, Terengganu, Malaysia",03/16/2020,32.0,28.0,29.6,39.2,0.0,8.1,69.0,24.2,6.5,48.6,75.01,Partially cloudy
+380,"Kuala Terengganu, Terengganu, Malaysia",03/17/2020,32.0,25.0,28.1,38.9,2.0,9.2,90.0,21.9,6.4,44.2,79.88,"Rain, Partially cloudy"
+381,"Kuala Terengganu, Terengganu, Malaysia",03/19/2020,31.0,18.4,26.3,35.5,0.0,11.6,54.67,17.2,7.6,35.4,77.03,Partially cloudy
+382,"Kuala Terengganu, Terengganu, Malaysia",03/21/2020,32.0,25.0,27.9,39.2,0.0,12.7,151.54,24.2,6.7,40.8,76.94,Partially cloudy
+383,"Kuala Terengganu, Terengganu, Malaysia",03/22/2020,32.0,25.0,28.2,40.6,2.0,6.9,173.64,20.8,6.4,44.3,82.26,"Rain, Partially cloudy"
+384,"Kuala Terengganu, Terengganu, Malaysia",03/25/2020,32.0,25.0,28.6,39.2,0.0,10.9,106.67,19.7,7.5,42.7,81.05,Partially cloudy
+385,"Kuala Terengganu, Terengganu, Malaysia",03/30/2020,33.0,24.0,28.1,39.3,0.0,13.9,140.29,18.3,7.3,36.9,77.31,Partially cloudy
+386,"Kuala Terengganu, Terengganu, Malaysia",03/31/2020,32.0,25.0,28.1,40.6,0.0,11.6,176.25,24.2,6.9,35.4,78.89,Partially cloudy
+387,"Kuala Terengganu, Terengganu, Malaysia",4/1/2020,33.0,21.8,29.2,42.1,0.0,13.8,139.21,20.8,7.0,34.0,80.03,Partially cloudy
+388,"Kuala Terengganu, Terengganu, Malaysia",4/4/2020,33.0,26.0,29.4,42.1,7.0,6.9,73.53,21.9,6.4,40.6,80.27,"Rain, Partially cloudy"
+389,"Kuala Terengganu, Terengganu, Malaysia",4/6/2020,32.0,25.0,28.0,40.6,0.0,5.8,150.83,18.3,6.4,45.2,86.87,Partially cloudy
+390,"Kuala Terengganu, Terengganu, Malaysia",4/8/2020,33.0,17.9,28.6,43.8,0.0,9.9,149.23,19.7,6.7,36.9,79.38,Partially cloudy
+391,"Kuala Terengganu, Terengganu, Malaysia",4/9/2020,32.0,19.1,28.1,40.6,0.0,13.3,178.64,17.2,6.6,38.4,80.36,Partially cloudy
+392,"Kuala Terengganu, Terengganu, Malaysia",4/12/2020,33.0,22.9,29.0,43.0,0.0,16.2,168.75,17.2,6.7,40.8,80.04,Partially cloudy
+393,"Kuala Terengganu, Terengganu, Malaysia",04/13/2020,33.0,21.1,28.9,42.1,0.0,13.9,162.73,19.7,6.6,43.5,79.2,Partially cloudy
+394,"Kuala Terengganu, Terengganu, Malaysia",04/14/2020,33.0,21.0,28.6,40.6,0.0,9.8,162.08,19.7,6.6,42.5,78.6,Partially cloudy
+395,"Kuala Terengganu, Terengganu, Malaysia",04/15/2020,33.0,26.0,29.1,42.1,0.0,6.9,138.89,20.8,6.5,43.8,79.48,Partially cloudy
+396,"Kuala Terengganu, Terengganu, Malaysia",04/16/2020,32.0,26.0,29.1,40.6,0.0,6.9,161.25,20.8,6.3,37.2,80.12,Partially cloudy
+397,"Kuala Terengganu, Terengganu, Malaysia",04/17/2020,33.0,24.7,28.7,40.6,0.0,10.4,184.67,20.8,6.6,38.1,78.6,Partially cloudy
+398,"Kuala Terengganu, Terengganu, Malaysia",04/19/2020,33.0,21.0,28.6,43.8,0.0,10.3,169.58,19.7,6.3,40.2,79.19,Partially cloudy
+399,"Kuala Terengganu, Terengganu, Malaysia",04/21/2020,33.0,21.7,29.0,43.8,0.0,9.9,162.27,15.0,7.1,41.0,80.16,Partially cloudy
+400,"Kuala Terengganu, Terengganu, Malaysia",04/22/2020,33.0,22.5,29.6,43.8,0.0,11.0,138.18,20.8,6.8,47.9,81.32,Partially cloudy
+401,"Kuala Terengganu, Terengganu, Malaysia",04/23/2020,30.0,25.0,27.4,37.4,2.4,6.9,191.25,19.7,5.9,46.6,91.04,"Rain, Partially cloudy"
+402,"Kuala Terengganu, Terengganu, Malaysia",04/24/2020,33.0,24.5,28.8,42.1,0.2,13.8,101.67,20.8,6.4,37.4,80.11,"Rain, Partially cloudy"
+403,"Kuala Terengganu, Terengganu, Malaysia",04/25/2020,33.0,25.0,27.8,43.8,84.8,13.9,182.86,25.3,5.5,45.3,86.51,"Rain, Partially cloudy"
+404,"Kuala Terengganu, Terengganu, Malaysia",04/28/2020,29.9,25.0,25.9,37.4,83.0,11.4,200.53,26.4,5.1,45.2,95.22,"Rain, Partially cloudy"
+405,"Kuala Terengganu, Terengganu, Malaysia",04/29/2020,30.0,24.9,27.0,37.4,10.0,9.2,145.79,20.8,6.2,44.6,90.25,"Rain, Partially cloudy"
+406,"Kuala Terengganu, Terengganu, Malaysia",04/30/2020,30.0,25.0,27.0,36.2,0.8,10.3,126.92,31.1,6.3,43.5,91.06,"Rain, Partially cloudy"
+407,"Kuala Terengganu, Terengganu, Malaysia",5/2/2020,33.3,25.0,28.8,45.3,0.0,8.6,120.75,17.2,7.0,43.7,85.79,Partially cloudy
+408,"Kuala Terengganu, Terengganu, Malaysia",5/3/2020,32.0,26.0,29.1,42.3,0.0,8.1,93.95,19.7,6.8,35.8,82.7,Partially cloudy
+409,"Kuala Terengganu, Terengganu, Malaysia",5/4/2020,33.0,25.0,29.1,43.8,0.0,9.2,102.31,20.8,6.6,37.0,81.57,Partially cloudy
+410,"Kuala Terengganu, Terengganu, Malaysia",5/6/2020,34.3,26.0,29.6,45.9,0.0,10.3,180.73,19.7,7.0,45.3,82.43,Partially cloudy
+411,"Kuala Terengganu, Terengganu, Malaysia",5/7/2020,33.0,27.0,29.6,43.8,0.4,14.5,185.31,21.9,7.3,42.3,82.62,"Rain, Partially cloudy"
+412,"Kuala Terengganu, Terengganu, Malaysia",5/8/2020,35.1,26.0,29.5,46.6,0.0,8.6,212.41,23.0,7.1,44.8,81.37,Partially cloudy
+413,"Kuala Terengganu, Terengganu, Malaysia",5/10/2020,34.4,26.9,29.7,47.1,0.0,8.1,157.23,23.0,6.6,40.1,84.14,Partially cloudy
+414,"Kuala Terengganu, Terengganu, Malaysia",5/11/2020,33.0,27.0,29.8,45.8,0.0,8.7,187.31,18.3,7.2,36.5,81.74,Partially cloudy
+415,"Kuala Terengganu, Terengganu, Malaysia",5/12/2020,34.0,27.0,29.9,45.8,0.0,8.6,171.11,20.8,6.5,41.4,83.28,Partially cloudy
+416,"Kuala Terengganu, Terengganu, Malaysia",05/13/2020,33.0,27.0,29.6,42.3,0.0,8.1,188.33,20.8,6.5,43.4,82.55,Partially cloudy
+417,"Kuala Terengganu, Terengganu, Malaysia",05/14/2020,33.0,26.0,29.3,43.8,0.0,8.1,166.67,23.0,6.5,46.0,83.66,Partially cloudy
+418,"Kuala Terengganu, Terengganu, Malaysia",05/15/2020,34.8,26.0,29.5,45.3,0.0,9.9,202.57,23.0,6.9,40.8,82.93,Partially cloudy
+419,"Kuala Terengganu, Terengganu, Malaysia",05/16/2020,33.0,27.0,29.9,45.1,0.2,9.3,176.92,19.7,6.5,45.3,83.18,"Rain, Partially cloudy"
+420,"Kuala Terengganu, Terengganu, Malaysia",05/17/2020,32.9,26.0,29.0,42.3,0.8,15.0,208.18,28.9,6.4,37.6,84.44,"Rain, Partially cloudy"
+421,"Kuala Terengganu, Terengganu, Malaysia",05/18/2020,33.0,25.0,29.0,44.1,0.0,11.6,188.67,21.9,6.5,34.9,84.72,Partially cloudy
+422,"Kuala Terengganu, Terengganu, Malaysia",05/21/2020,34.0,26.0,30.2,44.2,0.0,21.3,154.25,23.0,7.0,35.2,79.06,Partially cloudy
+423,"Kuala Terengganu, Terengganu, Malaysia",05/22/2020,34.4,26.0,29.8,46.3,0.0,6.9,193.89,17.2,7.1,39.9,78.34,Partially cloudy
+424,"Kuala Terengganu, Terengganu, Malaysia",05/23/2020,32.0,25.0,27.8,44.1,9.0,17.2,185.28,33.3,6.4,40.6,89.4,"Rain, Partially cloudy"
+425,"Kuala Terengganu, Terengganu, Malaysia",05/25/2020,35.5,26.0,29.8,51.2,0.0,8.1,131.58,21.9,6.6,39.8,82.69,Partially cloudy
+426,"Kuala Terengganu, Terengganu, Malaysia",05/26/2020,34.4,26.0,29.3,46.4,7.0,8.1,143.61,18.3,6.8,42.8,84.02,"Rain, Partially cloudy"
+427,"Kuala Terengganu, Terengganu, Malaysia",05/27/2020,32.0,26.0,28.7,42.3,0.0,6.9,141.67,19.7,6.8,38.3,83.16,Partially cloudy
+428,"Kuala Terengganu, Terengganu, Malaysia",05/29/2020,32.7,27.0,28.5,45.9,0.0,15.6,207.0,20.8,6.4,42.2,87.35,Partially cloudy
+429,"Kuala Terengganu, Terengganu, Malaysia",6/6/2020,31.0,23.7,27.0,39.1,24.2,12.1,168.46,28.9,6.2,39.1,88.72,"Rain, Partially cloudy"
+430,"Kuala Terengganu, Terengganu, Malaysia",6/9/2020,32.0,24.5,28.4,40.6,0.0,9.9,179.58,19.7,7.0,37.2,83.84,Partially cloudy
+431,"Kuala Terengganu, Terengganu, Malaysia",6/11/2020,32.0,25.0,28.2,42.3,0.0,5.8,168.89,17.2,6.5,43.4,84.43,Partially cloudy
+432,"Kuala Terengganu, Terengganu, Malaysia",6/12/2020,33.0,25.0,27.7,43.5,6.0,15.0,224.71,30.0,6.7,39.4,85.37,"Rain, Partially cloudy"
+433,"Kuala Terengganu, Terengganu, Malaysia",06/16/2020,33.0,19.9,27.3,43.8,0.0,11.6,224.4,17.2,7.5,36.7,84.68,Partially cloudy
+434,"Kuala Terengganu, Terengganu, Malaysia",06/17/2020,33.0,25.0,28.1,42.3,0.0,10.3,184.74,30.0,6.4,40.1,82.8,Partially cloudy
+435,"Kuala Terengganu, Terengganu, Malaysia",06/20/2020,31.8,26.0,27.3,38.7,3.0,5.8,182.78,21.9,6.4,36.4,88.19,"Rain, Partially cloudy"
+436,"Kuala Terengganu, Terengganu, Malaysia",06/22/2020,33.0,25.0,28.4,42.3,0.0,6.9,197.14,20.8,6.4,36.9,83.53,Partially cloudy
+437,"Kuala Terengganu, Terengganu, Malaysia",06/27/2020,32.0,25.0,27.6,42.3,1.8,5.8,216.92,21.9,6.1,44.4,88.99,"Rain, Partially cloudy"
+438,"Kuala Terengganu, Terengganu, Malaysia",06/29/2020,34.1,25.0,28.6,42.3,0.0,9.2,170.0,28.9,6.6,40.2,82.44,Partially cloudy
+439,"Kuala Terengganu, Terengganu, Malaysia",7/2/2020,32.0,24.0,27.7,42.3,0.0,6.9,190.0,18.3,6.4,40.3,88.0,Partially cloudy
+440,"Kuala Terengganu, Terengganu, Malaysia",7/5/2020,32.8,24.0,28.1,40.6,0.0,9.2,138.57,19.7,6.6,37.3,82.57,Partially cloudy
+441,"Kuala Terengganu, Terengganu, Malaysia",7/6/2020,33.0,26.0,29.0,42.1,0.0,5.8,190.83,19.7,6.5,34.9,80.36,Partially cloudy
+442,"Kuala Terengganu, Terengganu, Malaysia",7/7/2020,33.0,25.0,28.8,41.5,0.0,12.1,178.57,24.2,6.6,36.6,81.43,Partially cloudy
+443,"Kuala Terengganu, Terengganu, Malaysia",7/9/2020,33.0,22.9,27.5,39.3,0.0,13.9,148.55,20.8,6.4,42.8,83.59,Partially cloudy
+444,"Kuala Terengganu, Terengganu, Malaysia",7/10/2020,31.0,23.0,25.9,37.7,93.0,9.2,166.67,19.7,6.4,39.1,89.29,"Rain, Partially cloudy"
+445,"Kuala Terengganu, Terengganu, Malaysia",7/12/2020,32.0,22.7,27.2,40.6,0.0,11.6,166.41,20.8,7.4,39.7,79.75,Partially cloudy
+446,"Kuala Terengganu, Terengganu, Malaysia",07/14/2020,31.0,22.7,26.4,40.6,0.8,13.9,229.0,18.3,7.1,40.9,87.29,"Rain, Partially cloudy"
+447,"Kuala Terengganu, Terengganu, Malaysia",07/17/2020,32.0,24.2,27.8,40.6,0.0,13.3,162.0,24.2,8.0,38.6,79.52,Partially cloudy
+448,"Kuala Terengganu, Terengganu, Malaysia",07/19/2020,32.8,24.6,28.6,41.7,0.0,11.6,214.81,18.3,7.7,38.5,80.13,Partially cloudy
+449,"Kuala Terengganu, Terengganu, Malaysia",07/20/2020,32.0,25.0,28.7,42.3,0.0,10.9,227.67,20.8,6.8,35.8,84.33,Partially cloudy
+450,"Kuala Terengganu, Terengganu, Malaysia",07/21/2020,33.7,25.0,29.1,41.1,0.0,11.0,210.67,19.7,6.8,34.2,80.31,Partially cloudy
+451,"Kuala Terengganu, Terengganu, Malaysia",07/23/2020,33.0,26.0,29.5,42.1,0.0,8.1,210.47,21.9,7.0,44.0,78.26,Partially cloudy
+452,"Kuala Terengganu, Terengganu, Malaysia",07/27/2020,33.0,26.0,28.7,42.1,0.0,8.1,187.06,21.9,6.5,39.4,79.28,Partially cloudy
+453,"Kuala Terengganu, Terengganu, Malaysia",07/28/2020,33.0,25.0,28.3,41.2,5.0,12.7,229.24,18.3,6.9,38.7,82.3,"Rain, Partially cloudy"
+454,"Kuala Terengganu, Terengganu, Malaysia",07/30/2020,32.0,25.0,28.2,42.3,2.0,22.0,222.25,27.7,6.3,41.9,83.32,"Rain, Partially cloudy"
+455,"Kuala Terengganu, Terengganu, Malaysia",8/3/2020,32.5,24.0,28.7,43.4,0.0,12.7,185.0,20.8,6.3,41.7,86.1,Partially cloudy
+456,"Kuala Terengganu, Terengganu, Malaysia",8/5/2020,33.0,24.0,28.1,42.3,0.0,12.8,183.85,30.0,6.3,32.9,85.54,Partially cloudy
+457,"Kuala Terengganu, Terengganu, Malaysia",8/8/2020,32.4,26.0,28.9,43.3,0.0,23.7,143.9,24.2,6.4,39.6,87.69,Partially cloudy
+458,"Kuala Terengganu, Terengganu, Malaysia",8/11/2020,31.0,23.8,26.9,42.4,11.0,19.7,191.07,32.2,5.8,41.6,89.84,"Rain, Partially cloudy"
+459,"Kuala Terengganu, Terengganu, Malaysia",08/18/2020,32.9,24.0,27.5,41.7,34.0,14.9,177.58,26.4,7.2,37.9,83.07,"Rain, Partially cloudy"
+460,"Kuala Terengganu, Terengganu, Malaysia",08/21/2020,32.8,25.0,28.5,43.7,0.0,14.5,165.07,24.2,6.9,35.2,81.96,Partially cloudy
+461,"Kuala Terengganu, Terengganu, Malaysia",08/23/2020,31.8,25.0,28.4,41.5,0.0,10.3,144.17,20.8,6.5,33.9,82.65,Partially cloudy
+462,"Kuala Terengganu, Terengganu, Malaysia",9/1/2020,33.0,26.0,29.5,43.7,0.0,9.2,158.75,20.8,6.7,40.9,79.09,Partially cloudy
+463,"Kuala Terengganu, Terengganu, Malaysia",09/18/2020,31.9,22.5,26.2,39.1,0.2,9.9,170.71,28.9,6.7,47.3,85.14,"Rain, Partially cloudy"
+464,"Kuala Terengganu, Terengganu, Malaysia",10/5/2020,33.0,25.0,27.5,42.1,11.0,9.2,182.0,19.7,7.5,34.2,81.97,"Rain, Partially cloudy"
+465,"Kuala Terengganu, Terengganu, Malaysia",10/21/2020,33.4,26.0,28.5,39.2,0.0,13.9,302.78,25.3,6.7,45.5,81.21,Partially cloudy
+466,"Kuala Terengganu, Terengganu, Malaysia",10/22/2020,33.0,25.0,27.4,37.7,1.0,15.0,288.26,27.7,6.6,47.1,81.4,"Rain, Partially cloudy"
+467,"Kuala Terengganu, Terengganu, Malaysia",11/23/2020,28.0,23.7,25.4,32.7,188.0,9.2,211.67,25.3,4.8,54.7,94.4,"Rain, Partially cloudy"
+468,"Kuala Terengganu, Terengganu, Malaysia",11/24/2020,28.0,24.0,24.6,32.7,126.0,9.2,223.53,18.3,4.2,52.1,94.34,"Rain, Partially cloudy"
+469,"Kuala Terengganu, Terengganu, Malaysia",11/27/2020,29.0,24.9,27.3,34.5,35.0,11.4,111.67,23.0,6.2,53.8,86.34,"Rain, Partially cloudy"
+470,"Kuala Terengganu, Terengganu, Malaysia",12/2/2020,30.0,22.2,25.9,37.2,32.0,16.2,25.91,21.9,6.0,48.2,87.49,"Rain, Partially cloudy"
+471,"Kuala Terengganu, Terengganu, Malaysia",12/17/2020,30.0,20.9,26.8,36.2,31.0,11.4,66.06,23.0,5.7,55.9,85.92,"Rain, Partially cloudy"
+472,"Kuala Terengganu, Terengganu, Malaysia",12/18/2020,30.0,21.5,27.1,36.2,12.0,16.1,70.0,42.5,6.0,53.3,84.44,"Rain, Partially cloudy"
+473,"Kuala Terengganu, Terengganu, Malaysia",12/20/2020,28.0,21.2,26.4,32.7,13.0,13.9,163.76,23.0,6.7,48.1,82.08,"Rain, Partially cloudy"
+474,"Kuala Terengganu, Terengganu, Malaysia",12/27/2020,30.0,23.9,27.4,37.4,5.0,8.1,68.13,17.2,6.1,52.4,84.51,"Rain, Partially cloudy"
+475,"Kuala Terengganu, Terengganu, Malaysia",12/31/2020,27.1,23.9,25.9,30.2,7.0,17.2,113.27,30.0,5.7,48.1,82.68,"Rain, Partially cloudy"
+476,"Kuala Terengganu, Terengganu, Malaysia",1/1/2021,28.5,23.6,26.8,31.3,12.2,16.1,46.46,31.1,5.9,53.1,75.96,"Rain, Partially cloudy"
+477,"Kuala Terengganu, Terengganu, Malaysia",1/3/2021,27.6,23.0,26.0,31.1,17.0,18.5,76.65,34.4,6.1,52.7,82.15,"Rain, Partially cloudy"
+478,"Kuala Terengganu, Terengganu, Malaysia",1/5/2021,28.0,23.1,26.4,32.7,11.0,16.1,45.43,26.4,6.0,51.2,83.9,"Rain, Partially cloudy"
+479,"Kuala Terengganu, Terengganu, Malaysia",1/6/2021,28.0,21.1,26.6,32.7,7.6,12.8,50.21,35.8,5.9,53.3,83.14,"Rain, Partially cloudy"
+480,"Kuala Terengganu, Terengganu, Malaysia",1/7/2021,28.5,21.5,26.8,33.2,2.0,12.1,52.05,21.9,6.2,51.9,80.83,"Rain, Partially cloudy"
+481,"Kuala Terengganu, Terengganu, Malaysia",1/8/2021,28.5,26.2,27.5,33.2,0.0,12.1,52.5,24.2,6.2,47.4,79.76,Partially cloudy
+482,"Kuala Terengganu, Terengganu, Malaysia",1/9/2021,28.0,26.1,27.2,31.6,0.6,13.9,49.35,26.4,6.3,52.4,77.47,"Rain, Partially cloudy"
+483,"Kuala Terengganu, Terengganu, Malaysia",1/11/2021,28.5,23.5,25.8,32.3,0.4,13.2,67.27,24.2,6.0,54.6,83.06,"Rain, Partially cloudy"
+484,"Kuala Terengganu, Terengganu, Malaysia",1/12/2021,28.7,25.2,26.5,32.3,1.4,15.6,46.25,26.4,6.0,52.1,77.36,"Rain, Partially cloudy"
+485,"Kuala Terengganu, Terengganu, Malaysia",01/13/2021,28.0,25.3,26.5,30.7,0.6,15.0,46.67,27.7,6.4,50.8,72.93,"Rain, Partially cloudy"
+486,"Kuala Terengganu, Terengganu, Malaysia",01/19/2021,28.0,21.4,26.2,30.1,0.0,7.5,76.67,17.2,6.5,44.9,71.48,Partially cloudy
+487,"Kuala Terengganu, Terengganu, Malaysia",01/31/2021,28.0,24.5,26.2,31.6,4.4,10.9,79.84,23.0,5.8,52.4,84.55,"Rain, Partially cloudy"
+488,"Kuala Terengganu, Terengganu, Malaysia",3/10/2021,30.0,24.0,27.1,35.1,0.4,9.2,143.57,20.8,6.3,46.2,80.48,"Rain, Partially cloudy"
+489,"Kuala Terengganu, Terengganu, Malaysia",03/23/2021,31.8,25.1,28.8,39.9,2.8,15.0,72.23,26.4,6.4,53.9,77.1,"Rain, Partially cloudy"
+490,"Kuala Terengganu, Terengganu, Malaysia",03/24/2021,30.0,25.2,28.3,36.2,1.2,12.8,68.48,27.7,5.9,49.6,81.68,"Rain, Partially cloudy"
+491,"Kuala Terengganu, Terengganu, Malaysia",04/24/2021,31.0,23.6,26.1,39.1,26.0,11.0,207.41,25.3,6.2,48.1,86.36,"Rain, Partially cloudy"
+492,"Pulau Pinang, Malaysia",01/23/2018,31.0,25.0,27.4,38.5,8.94,9.6,107.36,25.3,5.3,88.9,84.78,"Rain, Overcast"
+493,"Pulau Pinang, Malaysia",01/26/2018,30.8,25.9,27.7,37.1,0.0,32.4,113.04,19.7,4.8,88.9,84.33,Overcast
+494,"Pulau Pinang, Malaysia",2/6/2018,32.0,23.4,27.7,34.7,0.0,15.2,61.13,23.0,5.6,88.5,61.92,Overcast
+495,"Pulau Pinang, Malaysia",2/11/2018,32.2,21.1,27.3,35.3,0.2,10.3,147.29,21.9,5.1,88.8,62.6,"Rain, Overcast"
+496,"Pulau Pinang, Malaysia",02/20/2018,32.0,25.1,28.1,38.9,3.17,11.0,146.13,17.2,4.5,89.1,79.95,"Rain, Overcast"
+497,"Pulau Pinang, Malaysia",02/28/2018,32.3,25.1,28.5,39.5,0.0,8.8,147.83,19.7,5.4,88.8,78.03,Overcast
+498,"Pulau Pinang, Malaysia",03/20/2018,32.4,25.4,28.7,40.8,0.0,12.0,131.78,18.3,5.4,88.9,80.19,Overcast
+499,"Pulau Pinang, Malaysia",03/24/2018,33.8,25.2,28.7,41.3,0.0,11.4,131.54,20.8,5.6,89.0,77.88,Overcast
+500,"Pulau Pinang, Malaysia",4/12/2018,32.8,26.3,29.4,41.9,0.8,11.7,171.18,20.8,4.9,88.7,78.59,"Rain, Overcast"
+501,"Pulau Pinang, Malaysia",05/26/2018,30.4,25.2,27.2,37.7,21.17,11.5,144.24,21.9,4.7,90.8,88.23,"Rain, Overcast"
+502,"Pulau Pinang, Malaysia",6/1/2018,31.6,26.0,28.0,37.7,0.0,12.1,170.76,20.8,5.1,88.9,79.59,Overcast
+503,"Pulau Pinang, Malaysia",6/11/2018,33.9,28.2,31.0,42.1,0.0,10.5,176.88,21.9,4.8,88.9,68.91,Overcast
+504,"Pulau Pinang, Malaysia",06/13/2018,33.8,26.4,29.2,36.7,3.0,8.8,179.5,26.8,4.7,88.9,73.73,"Rain, Overcast"
+505,"Pulau Pinang, Malaysia",06/17/2018,32.2,23.2,27.3,38.8,15.47,24.1,143.39,40.5,5.2,88.9,79.08,"Rain, Overcast"
+506,"Pulau Pinang, Malaysia",7/9/2018,30.2,22.7,26.8,36.5,18.0,10.5,149.57,24.2,5.5,88.9,84.6,"Rain, Overcast"
+507,"Pulau Pinang, Malaysia",7/10/2018,31.0,23.0,27.0,35.2,11.25,8.2,110.82,20.6,4.9,89.0,81.18,"Rain, Overcast"
+508,"Pulau Pinang, Malaysia",07/13/2018,32.3,27.8,30.0,39.5,0.0,13.0,184.21,25.3,5.2,88.8,71.82,Overcast
+509,"Pulau Pinang, Malaysia",07/20/2018,32.0,26.6,28.5,38.6,13.2,13.7,168.39,32.2,5.0,88.9,79.1,"Rain, Overcast"
+510,"Pulau Pinang, Malaysia",07/24/2018,30.2,25.7,27.4,38.9,16.28,8.5,136.86,20.8,4.4,89.7,88.18,"Rain, Overcast"
+511,"Pulau Pinang, Malaysia",07/30/2018,30.2,24.0,27.1,35.9,51.0,12.5,145.65,24.2,4.7,89.0,83.61,"Rain, Overcast"
+512,"Pulau Pinang, Malaysia",8/8/2018,31.2,23.8,26.9,37.7,7.34,8.8,152.78,32.2,4.7,88.9,82.74,"Rain, Overcast"
+513,"Pulau Pinang, Malaysia",08/19/2018,33.0,26.4,29.3,41.8,0.0,14.4,152.5,25.3,4.3,88.9,76.57,Overcast
+514,"Pulau Pinang, Malaysia",08/31/2018,32.0,23.4,28.7,37.0,0.0,10.7,139.05,25.3,5.2,88.8,74.89,Overcast
+515,"Pulau Pinang, Malaysia",9/2/2018,31.6,25.2,27.2,37.3,29.2,8.1,123.9,19.7,5.4,88.9,80.35,"Rain, Overcast"
+516,"Pulau Pinang, Malaysia",9/7/2018,28.8,24.2,26.1,33.4,46.1,7.7,142.8,25.3,4.5,91.0,90.89,"Rain, Overcast"
+517,"Pulau Pinang, Malaysia",09/13/2018,29.0,25.2,26.9,34.0,26.8,11.4,163.1,26.4,4.8,88.9,87.25,"Rain, Overcast"
+518,"Pulau Pinang, Malaysia",09/14/2018,30.2,24.2,26.7,35.4,10.0,10.2,150.05,24.2,5.1,87.7,85.44,"Rain, Overcast"
+519,"Pulau Pinang, Malaysia",09/18/2018,28.9,23.7,26.0,33.3,0.0,18.4,102.85,23.0,4.6,88.2,86.36,Overcast
+520,"Pulau Pinang, Malaysia",10/4/2018,30.6,24.9,27.7,37.1,22.23,10.3,129.39,21.9,5.5,89.0,85.13,"Rain, Overcast"
+521,"Pulau Pinang, Malaysia",10/19/2018,28.7,23.8,25.9,32.5,10.32,7.7,222.81,19.7,4.8,89.0,87.38,"Rain, Overcast"
+522,"Pulau Pinang, Malaysia",10/27/2018,32.0,24.2,27.4,40.3,8.96,19.0,126.57,33.3,5.0,88.8,85.64,"Rain, Overcast"
+523,"Pulau Pinang, Malaysia",11/20/2018,30.0,24.2,26.4,36.0,14.33,11.2,153.7,23.0,4.9,89.0,88.57,"Rain, Overcast"
+524,"Pulau Pinang, Malaysia",11/21/2018,30.0,24.9,26.4,36.5,29.54,10.9,163.71,21.9,4.8,80.8,89.03,"Rain, Overcast"
+525,"Pulau Pinang, Malaysia",12/19/2018,29.4,24.8,27.1,34.9,4.23,8.9,174.6,15.0,5.4,88.9,86.08,"Rain, Overcast"
+526,"Pulau Pinang, Malaysia",12/31/2018,31.2,25.0,28.1,38.1,0.0,10.2,84.96,26.4,5.5,88.9,78.72,Overcast
+527,"Pulau Pinang, Malaysia",1/1/2019,32.8,24.7,28.5,38.9,0.0,13.1,100.13,27.7,5.2,67.9,73.45,Partially cloudy
+528,"Pulau Pinang, Malaysia",1/2/2019,31.8,24.4,28.3,37.8,0.0,13.6,181.63,24.2,5.4,55.8,73.77,Partially cloudy
+529,"Pulau Pinang, Malaysia",03/13/2019,33.4,26.2,29.7,40.6,0.0,12.6,181.91,19.7,5.4,48.7,76.89,Partially cloudy
+530,"Pulau Pinang, Malaysia",03/22/2019,33.3,24.4,29.7,41.4,0.2,13.1,195.52,21.9,5.1,55.8,75.21,"Rain, Partially cloudy"
+531,"Pulau Pinang, Malaysia",04/23/2019,32.6,26.2,29.0,41.8,5.0,8.2,140.36,20.8,4.3,56.5,83.52,"Rain, Partially cloudy"
+532,"Pulau Pinang, Malaysia",04/27/2019,32.8,25.8,29.2,39.2,0.0,8.9,153.04,19.7,5.0,55.6,77.71,Partially cloudy
+533,"Pulau Pinang, Malaysia",04/28/2019,32.6,24.9,28.9,39.2,8.36,10.0,171.13,27.7,5.5,55.4,78.12,"Rain, Partially cloudy"
+534,"Pulau Pinang, Malaysia",5/5/2019,31.0,25.0,27.7,37.8,13.77,8.4,193.38,23.0,5.5,55.8,82.36,"Rain, Partially cloudy"
+535,"Pulau Pinang, Malaysia",5/6/2019,28.0,24.8,26.3,32.7,81.21,12.0,108.04,24.2,4.4,55.6,89.8,"Rain, Partially cloudy"
+536,"Pulau Pinang, Malaysia",5/8/2019,29.0,25.2,26.7,35.6,56.42,8.9,117.86,17.2,4.2,56.5,91.88,"Rain, Partially cloudy"
+537,"Pulau Pinang, Malaysia",5/9/2019,30.0,24.0,26.3,37.4,35.45,9.2,111.6,19.7,4.3,55.4,91.34,"Rain, Partially cloudy"
+538,"Pulau Pinang, Malaysia",05/16/2019,30.9,25.6,27.8,36.8,5.31,7.6,181.73,19.7,5.4,56.7,81.45,"Rain, Partially cloudy"
+539,"Pulau Pinang, Malaysia",6/6/2019,30.2,26.0,27.5,37.5,1.65,14.3,139.21,26.4,4.9,55.8,85.38,"Rain, Partially cloudy"
+540,"Pulau Pinang, Malaysia",6/12/2019,32.2,27.2,29.8,41.3,0.0,13.9,174.83,25.3,5.2,55.6,78.05,Partially cloudy
+541,"Pulau Pinang, Malaysia",06/22/2019,32.0,24.2,27.6,39.2,0.0,18.0,133.4,36.9,5.4,55.9,81.52,Partially cloudy
+542,"Pulau Pinang, Malaysia",06/23/2019,30.8,24.9,27.8,36.9,0.2,14.8,200.86,32.2,5.4,56.5,82.74,"Rain, Partially cloudy"
+543,"Pulau Pinang, Malaysia",7/9/2019,31.8,25.2,28.8,37.0,0.0,11.4,140.54,24.2,5.1,56.8,74.0,Partially cloudy
+544,"Pulau Pinang, Malaysia",07/14/2019,31.2,25.2,27.6,37.8,4.02,16.4,131.0,21.9,4.7,55.4,83.08,"Rain, Partially cloudy"
+545,"Pulau Pinang, Malaysia",07/19/2019,32.0,26.2,28.8,38.9,4.0,13.5,148.26,25.3,4.5,56.7,79.57,"Rain, Partially cloudy"
+546,"Pulau Pinang, Malaysia",8/1/2019,31.0,24.0,27.8,36.3,15.24,10.6,140.65,33.3,4.8,55.5,79.64,"Rain, Partially cloudy"
+547,"Pulau Pinang, Malaysia",8/2/2019,32.8,25.2,29.2,40.3,0.0,15.0,150.45,27.7,4.5,55.4,77.21,Partially cloudy
+548,"Pulau Pinang, Malaysia",8/9/2019,31.2,24.2,28.3,38.9,0.0,26.0,144.54,41.2,3.4,56.2,81.7,Partially cloudy
+549,"Pulau Pinang, Malaysia",8/10/2019,32.0,23.2,26.2,37.8,14.7,21.4,141.82,35.7,4.9,55.4,84.75,"Rain, Partially cloudy"
+550,"Pulau Pinang, Malaysia",08/15/2019,28.0,24.2,26.3,32.3,45.89,8.4,69.76,21.9,4.5,56.4,90.25,"Rain, Partially cloudy"
+551,"Pulau Pinang, Malaysia",08/25/2019,31.0,24.3,26.2,37.7,32.0,14.1,146.13,20.8,4.5,57.5,89.41,"Rain, Partially cloudy"
+552,"Pulau Pinang, Malaysia",08/27/2019,30.8,25.2,27.3,36.1,0.4,9.1,92.77,28.2,4.9,55.4,78.48,"Rain, Partially cloudy"
+553,"Pulau Pinang, Malaysia",08/31/2019,33.0,25.4,28.9,38.2,0.0,14.5,156.46,24.2,4.2,55.4,77.68,Partially cloudy
+554,"Pulau Pinang, Malaysia",9/3/2019,29.8,25.0,27.0,37.0,9.27,8.2,52.75,23.0,2.9,55.4,90.84,"Rain, Partially cloudy"
+555,"Pulau Pinang, Malaysia",9/5/2019,32.6,25.4,28.9,37.3,0.0,11.2,131.3,24.2,4.0,55.8,75.69,Partially cloudy
+556,"Pulau Pinang, Malaysia",9/8/2019,31.8,25.2,28.3,37.8,8.0,10.4,135.74,23.0,3.4,55.6,81.16,"Rain, Partially cloudy"
+557,"Pulau Pinang, Malaysia",9/11/2019,32.0,24.9,28.3,40.3,0.2,11.3,131.73,21.9,2.6,54.8,81.04,"Rain, Partially cloudy"
+558,"Pulau Pinang, Malaysia",09/23/2019,31.9,25.0,27.6,40.7,11.81,11.7,124.91,32.2,3.1,55.4,84.67,"Rain, Partially cloudy"
+559,"Pulau Pinang, Malaysia",09/24/2019,33.0,25.0,27.5,41.5,20.74,8.7,96.32,19.7,3.2,55.5,85.68,"Rain, Partially cloudy"
+560,"Pulau Pinang, Malaysia",09/25/2019,32.1,24.9,27.4,39.3,12.77,11.4,125.9,28.9,3.3,55.8,86.61,"Rain, Partially cloudy"
+561,"Pulau Pinang, Malaysia",09/28/2019,32.0,24.0,26.6,38.9,21.37,11.5,106.13,23.0,4.7,57.6,87.74,"Rain, Partially cloudy"
+562,"Pulau Pinang, Malaysia",10/3/2019,30.8,24.2,26.8,36.2,3.2,10.7,101.04,23.0,4.1,55.2,84.94,"Rain, Partially cloudy"
+563,"Pulau Pinang, Malaysia",10/17/2019,31.2,25.0,27.7,38.5,0.45,13.1,128.92,18.3,4.8,58.1,85.0,"Rain, Partially cloudy"
+564,"Pulau Pinang, Malaysia",10/21/2019,30.9,25.2,27.1,38.7,15.2,11.9,162.48,25.3,4.5,56.5,89.59,"Rain, Partially cloudy"
+565,"Pulau Pinang, Malaysia",10/27/2019,31.0,23.8,26.6,38.8,24.08,12.2,142.9,31.1,4.7,57.5,89.45,"Rain, Partially cloudy"
+566,"Pulau Pinang, Malaysia",10/28/2019,31.0,24.0,26.1,37.5,4.47,15.7,145.0,32.2,4.8,56.2,89.85,"Rain, Partially cloudy"
+567,"Pulau Pinang, Malaysia",11/7/2019,31.2,24.0,26.9,38.3,11.72,12.8,133.21,28.9,4.9,55.0,85.09,"Rain, Partially cloudy"
+568,"Pulau Pinang, Malaysia",11/19/2019,31.0,24.2,26.9,38.9,71.36,11.9,89.04,26.4,4.4,35.9,88.41,"Rain, Partially cloudy"
+569,"Pulau Pinang, Malaysia",11/20/2019,31.8,24.2,27.2,40.0,6.15,14.6,136.17,27.7,4.9,33.7,86.07,"Rain, Partially cloudy"
+570,"Pulau Pinang, Malaysia",11/22/2019,30.8,25.2,27.5,36.5,12.0,7.3,71.43,26.4,5.0,38.1,79.63,"Rain, Partially cloudy"
+571,"Pulau Pinang, Malaysia",11/23/2019,31.8,25.0,27.4,37.4,0.93,10.5,96.25,24.2,5.2,33.8,81.51,"Rain, Partially cloudy"
+572,"Pulau Pinang, Malaysia",11/25/2019,31.9,24.2,27.3,38.0,1.0,8.5,60.36,23.0,4.8,36.7,84.26,"Rain, Partially cloudy"
+573,"Pulau Pinang, Malaysia",11/26/2019,32.8,25.0,28.4,38.7,0.0,15.5,46.52,34.4,5.5,33.1,75.26,Partially cloudy
+574,"Pulau Pinang, Malaysia",11/27/2019,31.0,24.2,27.6,35.5,0.0,13.0,56.5,32.2,5.6,37.7,75.26,Partially cloudy
+575,"Pulau Pinang, Malaysia",11/28/2019,31.8,24.4,27.2,39.3,29.61,11.9,112.81,19.7,4.8,33.5,84.22,"Rain, Partially cloudy"
+576,"Pulau Pinang, Malaysia",11/29/2019,32.0,24.4,28.0,38.9,2.34,13.2,43.13,34.4,4.9,34.5,80.56,"Rain, Partially cloudy"
+577,"Pulau Pinang, Malaysia",11/30/2019,31.8,25.2,27.6,39.2,8.53,9.7,126.78,23.0,4.9,37.7,83.51,"Rain, Partially cloudy"
+578,"Pulau Pinang, Malaysia",12/1/2019,28.2,25.2,26.6,32.9,0.4,10.5,47.87,31.1,5.2,34.1,87.03,"Rain, Partially cloudy"
+579,"Pulau Pinang, Malaysia",12/2/2019,30.8,24.2,26.8,35.2,0.81,14.2,56.0,27.7,5.1,36.5,83.61,"Rain, Partially cloudy"
+580,"Pulau Pinang, Malaysia",12/3/2019,31.8,25.2,27.7,38.9,7.0,10.2,121.26,31.1,5.0,36.7,78.18,"Rain, Partially cloudy"
+581,"Pulau Pinang, Malaysia",12/4/2019,32.6,25.2,28.2,37.2,1.2,11.5,88.74,30.0,5.1,33.8,70.67,"Rain, Partially cloudy"
+582,"Pulau Pinang, Malaysia",12/5/2019,32.8,24.4,28.4,37.0,0.0,13.9,103.5,32.2,5.5,36.1,71.83,Partially cloudy
+583,"Pulau Pinang, Malaysia",12/6/2019,33.0,25.4,28.3,37.0,0.8,14.4,28.88,35.8,5.4,34.8,70.53,"Rain, Partially cloudy"
+584,"Pulau Pinang, Malaysia",12/7/2019,32.6,24.4,28.3,37.4,0.0,14.7,72.08,35.8,5.3,34.1,69.08,Partially cloudy
+585,"Pulau Pinang, Malaysia",12/8/2019,31.0,24.4,27.6,35.5,0.0,12.5,53.54,34.4,5.1,34.3,72.71,Partially cloudy
+586,"Pulau Pinang, Malaysia",12/9/2019,31.2,25.4,27.6,36.4,0.4,11.9,109.83,34.4,5.4,36.5,73.68,"Rain, Partially cloudy"
+587,"Pulau Pinang, Malaysia",12/10/2019,31.0,24.4,27.4,35.5,0.8,12.0,115.63,27.7,5.3,37.9,73.72,"Rain, Partially cloudy"
+588,"Pulau Pinang, Malaysia",12/13/2019,33.0,24.4,28.6,35.5,0.0,13.1,76.38,32.2,5.7,32.8,66.19,Partially cloudy
+589,"Pulau Pinang, Malaysia",12/20/2019,32.0,25.2,27.8,39.1,2.26,12.2,94.18,24.2,5.1,35.1,83.79,"Rain, Partially cloudy"
+590,"Pulau Pinang, Malaysia",12/21/2019,33.0,24.2,28.1,37.7,0.0,9.8,72.92,30.0,5.6,33.1,73.67,Partially cloudy
+591,"Pulau Pinang, Malaysia",12/25/2019,31.2,24.4,28.2,37.1,0.0,10.5,150.21,21.9,5.5,33.5,77.35,Partially cloudy
+592,"Pulau Pinang, Malaysia",1/1/2020,34.6,24.4,28.9,38.3,0.0,11.2,97.46,32.2,5.8,34.1,62.89,Partially cloudy
+593,"Pulau Pinang, Malaysia",1/2/2020,32.8,25.4,28.4,35.8,0.0,18.9,107.46,25.3,5.5,40.7,71.15,Partially cloudy
+594,"Pulau Pinang, Malaysia",1/6/2020,34.8,24.4,29.0,37.6,0.0,16.1,63.54,26.4,5.7,33.5,61.52,Partially cloudy
+595,"Pulau Pinang, Malaysia",1/7/2020,33.8,24.4,28.8,37.7,0.0,17.9,95.0,18.3,6.0,32.8,67.0,Partially cloudy
+596,"Pulau Pinang, Malaysia",01/28/2020,32.4,25.3,28.6,38.2,0.0,10.9,170.74,25.3,5.1,33.0,77.74,Partially cloudy
+597,"Pulau Pinang, Malaysia",01/29/2020,32.0,26.2,29.2,37.0,0.0,10.5,204.3,18.3,5.3,33.1,69.42,Partially cloudy
+598,"Pulau Pinang, Malaysia",02/21/2020,35.8,24.4,29.7,38.6,0.0,20.6,49.42,35.8,5.8,32.9,59.47,Partially cloudy
+599,"Pulau Pinang, Malaysia",02/23/2020,33.8,24.4,28.9,37.6,0.6,15.5,40.96,28.9,5.8,33.1,65.56,"Rain, Partially cloudy"
+600,"Pulau Pinang, Malaysia",02/28/2020,32.4,24.4,28.6,39.2,37.0,14.2,154.78,25.3,5.2,36.3,77.83,"Rain, Partially cloudy"
+601,"Pulau Pinang, Malaysia",02/29/2020,33.8,25.5,29.5,41.4,0.0,10.7,151.96,23.0,5.3,33.0,75.3,Partially cloudy
+602,"Pulau Pinang, Malaysia",3/10/2020,32.5,26.2,29.8,41.1,0.0,12.6,243.91,19.7,5.0,34.5,79.05,Partially cloudy
+603,"Pulau Pinang, Malaysia",03/23/2020,33.0,25.4,29.3,39.2,0.0,13.1,177.0,20.8,5.2,34.4,73.25,Partially cloudy
+604,"Pulau Pinang, Malaysia",03/30/2020,34.2,26.2,30.2,40.6,0.0,10.2,157.67,18.3,5.1,36.5,73.54,Partially cloudy
+605,"Pulau Pinang, Malaysia",4/5/2020,32.6,25.2,28.5,42.6,5.26,12.8,129.29,26.4,4.9,35.8,84.03,"Rain, Partially cloudy"
+606,"Pulau Pinang, Malaysia",4/12/2020,34.0,27.2,30.3,45.3,0.2,10.5,150.32,16.1,5.2,34.2,77.04,"Rain, Partially cloudy"
+607,"Pulau Pinang, Malaysia",04/14/2020,33.8,25.4,29.1,40.0,0.2,10.0,117.64,18.3,5.3,33.1,78.43,"Rain, Partially cloudy"
+608,"Pulau Pinang, Malaysia",04/18/2020,33.2,25.2,29.1,41.0,0.0,11.7,130.29,23.0,5.6,33.1,79.6,Partially cloudy
+609,"Pulau Pinang, Malaysia",04/23/2020,33.0,23.8,26.7,42.1,71.9,16.8,150.45,33.3,4.7,37.3,90.47,"Rain, Partially cloudy"
+610,"Pulau Pinang, Malaysia",5/8/2020,32.2,25.4,28.8,42.2,0.6,14.2,180.64,34.4,5.0,36.9,86.54,"Rain, Partially cloudy"
+611,"Pulau Pinang, Malaysia",5/10/2020,30.9,24.0,27.9,40.4,9.0,10.7,160.05,16.1,4.0,39.7,92.22,"Rain, Partially cloudy"
+612,"Pulau Pinang, Malaysia",05/17/2020,28.2,25.8,26.4,34.0,22.39,14.4,93.39,26.4,4.3,36.5,94.22,"Rain, Partially cloudy"
+613,"Pulau Pinang, Malaysia",05/22/2020,30.7,26.2,28.0,38.3,46.74,10.8,109.17,18.3,4.7,35.0,89.45,"Rain, Partially cloudy"
+614,"Pulau Pinang, Malaysia",05/26/2020,29.2,25.2,27.4,35.9,3.33,6.2,105.16,30.0,4.9,37.8,89.14,"Rain, Partially cloudy"
+615,"Pulau Pinang, Malaysia",05/29/2020,31.2,24.9,27.7,38.8,44.76,10.2,193.67,25.3,4.9,34.1,86.78,"Rain, Partially cloudy"
+616,"Pulau Pinang, Malaysia",6/12/2020,29.2,25.2,27.1,35.1,39.3,21.4,144.68,43.8,4.7,37.0,87.28,"Rain, Partially cloudy"
+617,"Pulau Pinang, Malaysia",06/16/2020,31.3,24.3,28.2,38.8,10.9,8.8,169.68,26.4,4.9,36.5,84.2,"Rain, Partially cloudy"
+618,"Pulau Pinang, Malaysia",06/24/2020,32.0,26.0,28.7,40.6,7.0,11.9,139.86,32.2,5.3,35.7,81.76,"Rain, Partially cloudy"
+619,"Pulau Pinang, Malaysia",06/28/2020,31.8,26.2,29.1,40.3,0.0,14.0,161.96,24.2,4.6,36.6,82.77,Partially cloudy
+620,"Pulau Pinang, Malaysia",7/1/2020,31.0,25.4,27.5,39.4,10.0,10.3,122.88,28.9,4.1,33.5,87.49,"Rain, Partially cloudy"
+621,"Pulau Pinang, Malaysia",07/28/2020,32.0,25.2,28.4,39.4,3.64,12.2,154.36,27.7,5.1,33.9,79.73,"Rain, Partially cloudy"
+622,"Pulau Pinang, Malaysia",07/29/2020,31.8,25.0,28.1,37.1,8.0,10.3,151.92,26.4,5.0,35.6,78.78,"Rain, Partially cloudy"
+623,"Pulau Pinang, Malaysia",8/2/2020,32.0,24.2,28.4,38.2,0.0,8.3,133.88,21.9,5.3,34.2,80.02,Partially cloudy
+624,"Pulau Pinang, Malaysia",8/4/2020,31.8,27.2,29.6,39.1,0.0,10.3,198.48,21.9,4.9,34.3,77.63,Partially cloudy
+625,"Pulau Pinang, Malaysia",08/27/2020,31.8,25.2,28.4,38.9,0.0,9.7,144.59,24.2,4.4,33.7,78.95,Partially cloudy
+626,"Pulau Pinang, Malaysia",08/28/2020,32.8,25.4,28.9,39.5,0.0,12.4,139.5,21.9,5.1,35.4,76.92,Partially cloudy
+627,"Pulau Pinang, Malaysia",9/4/2020,29.8,24.8,26.9,35.0,9.81,10.9,146.32,23.0,4.5,39.5,84.24,"Rain, Partially cloudy"
+628,"Pulau Pinang, Malaysia",9/6/2020,31.8,25.2,28.1,37.0,0.69,10.5,163.82,27.7,4.8,36.9,79.94,"Rain, Partially cloudy"
+629,"Pulau Pinang, Malaysia",9/9/2020,31.0,25.2,27.9,37.7,2.0,11.4,136.96,23.0,4.5,38.8,81.61,"Rain, Partially cloudy"
+630,"Pulau Pinang, Malaysia",09/26/2020,29.7,24.0,26.3,33.7,22.07,14.5,153.13,28.9,5.1,40.3,83.45,"Rain, Partially cloudy"
+631,"Pulau Pinang, Malaysia",09/27/2020,29.8,25.6,27.7,35.0,2.5,8.1,161.75,18.3,5.1,36.7,77.74,"Rain, Partially cloudy"
+632,"Pulau Pinang, Malaysia",10/7/2020,28.8,24.2,25.9,34.1,48.36,13.2,169.52,31.1,3.8,39.0,89.97,"Rain, Partially cloudy"
+633,"Pulau Pinang, Malaysia",10/12/2020,30.2,25.0,26.5,36.3,7.37,14.1,102.09,33.3,5.2,35.7,86.72,"Rain, Partially cloudy"
+634,"Pulau Pinang, Malaysia",10/13/2020,27.0,23.8,25.4,30.1,13.9,7.0,55.1,30.0,4.6,44.4,90.02,"Rain, Partially cloudy"
+635,"Pulau Pinang, Malaysia",10/24/2020,30.2,25.2,27.6,35.7,3.4,11.2,134.55,25.3,5.4,35.1,81.77,"Rain, Partially cloudy"
+636,"Pulau Pinang, Malaysia",11/16/2020,32.0,25.0,26.9,39.2,43.67,17.4,104.83,36.9,4.7,40.7,87.79,"Rain, Partially cloudy"
+637,"Pulau Pinang, Malaysia",11/22/2020,29.2,24.2,26.0,34.3,16.98,11.2,121.75,26.4,4.8,45.0,88.9,"Rain, Partially cloudy"
+638,"Pulau Pinang, Malaysia",12/15/2020,31.0,24.2,26.4,36.8,14.17,10.2,127.14,30.0,4.8,38.0,88.03,"Rain, Partially cloudy"
+639,"Pulau Pinang, Malaysia",1/7/2021,29.5,25.0,26.7,34.5,8.16,7.4,100.46,30.0,5.0,41.0,83.69,"Rain, Partially cloudy"
+640,"Pulau Pinang, Malaysia",01/18/2021,30.5,25.0,27.6,32.7,0.0,11.9,47.04,25.3,5.2,35.1,62.71,Partially cloudy
+641,"Pulau Pinang, Malaysia",01/31/2021,31.3,23.9,27.7,34.4,0.0,8.9,163.13,23.0,5.1,36.5,69.85,Partially cloudy
+642,"Pulau Pinang, Malaysia",2/4/2021,32.7,24.8,28.3,33.4,0.0,14.1,49.96,26.4,5.8,33.1,56.69,Partially cloudy
+643,"Pulau Pinang, Malaysia",02/15/2021,33.4,24.7,28.8,36.2,0.0,10.0,199.54,25.3,5.5,32.5,61.9,Partially cloudy
+644,"Pulau Pinang, Malaysia",02/18/2021,33.8,24.5,29.0,33.1,0.0,14.9,49.88,28.9,5.4,32.9,47.68,Partially cloudy
+645,"Pulau Pinang, Malaysia",02/19/2021,33.0,24.3,29.0,36.6,0.0,14.0,138.29,21.9,5.7,30.3,53.91,Partially cloudy
+646,"Pulau Pinang, Malaysia",02/20/2021,33.7,24.2,28.5,36.5,0.0,14.7,115.63,24.2,5.7,26.2,59.88,Partially cloudy
+647,"Pulau Pinang, Malaysia",02/25/2021,30.8,24.6,27.7,34.8,0.0,10.0,226.92,19.7,5.1,33.0,71.01,Partially cloudy
+648,"Pulau Pinang, Malaysia",3/3/2021,30.7,25.7,28.0,36.1,0.0,12.5,147.0,28.9,4.8,38.2,78.05,Partially cloudy
+649,"Pulau Pinang, Malaysia",3/6/2021,29.4,25.5,27.2,33.5,0.62,10.3,118.75,30.0,5.1,34.1,78.7,"Rain, Partially cloudy"
+650,"Pulau Pinang, Malaysia",3/10/2021,35.0,23.6,29.2,37.1,0.0,13.6,130.52,34.4,5.4,33.0,62.87,Partially cloudy
+651,"Pulau Pinang, Malaysia",03/25/2021,31.2,24.4,27.1,38.3,7.17,8.7,118.91,21.9,4.5,40.2,86.36,"Rain, Partially cloudy"
+652,"Pulau Pinang, Malaysia",4/2/2021,32.0,26.4,28.9,39.1,1.0,9.6,187.14,19.7,5.1,41.8,79.16,"Rain, Partially cloudy"
+653,"Pulau Pinang, Malaysia",4/5/2021,33.0,26.0,29.7,41.8,0.0,10.2,167.29,17.2,4.7,40.0,77.43,Partially cloudy
+654,"Pulau Pinang, Malaysia",4/7/2021,29.0,25.0,26.7,34.5,13.0,6.4,82.0,26.4,4.6,33.5,87.53,"Rain, Partially cloudy"
+655,"Pulau Pinang, Malaysia",04/19/2021,32.0,26.0,28.9,39.8,0.0,15.4,182.7,34.4,5.4,42.4,78.22,Partially cloudy
+656,"Pulau Pinang, Malaysia",04/20/2021,31.2,24.2,27.8,38.1,9.0,10.4,256.0,25.3,5.2,41.4,80.42,"Rain, Partially cloudy"
+657,"Pulau Pinang, Malaysia",04/26/2021,31.8,26.0,28.8,39.2,0.0,9.8,166.57,21.9,5.1,39.9,79.75,Partially cloudy
+658,"Pulau Pinang, Malaysia",05/30/2021,32.8,26.2,29.5,42.3,0.0,12.8,123.25,25.3,5.0,34.2,79.63,Partially cloudy
+659,"Pulau Pinang, Malaysia",6/5/2021,31.2,25.4,27.6,39.8,0.2,16.6,137.78,26.4,4.7,40.4,84.29,"Rain, Partially cloudy"
+660,"Selangor, Malaysia",02/19/2018,33.7,24.1,27.3,39.2,17.0,11.3,125.41,19.7,5.6,89.5,80.05,"Rain, Overcast"
+661,"Selangor, Malaysia",3/5/2018,33.0,25.0,27.1,40.4,26.47,14.8,112.14,27.7,5.2,89.0,85.01,"Rain, Overcast"
+662,"Selangor, Malaysia",3/9/2018,34.0,25.0,29.4,37.3,0.0,8.1,82.38,23.0,6.1,88.2,67.73,Overcast
+663,"Selangor, Malaysia",3/10/2018,34.0,24.9,29.1,38.3,0.0,9.2,97.14,20.8,6.2,89.0,65.99,Overcast
+664,"Selangor, Malaysia",03/13/2018,33.0,24.0,27.0,37.9,46.1,8.2,59.29,21.0,5.9,89.0,81.24,"Rain, Overcast"
+665,"Selangor, Malaysia",03/22/2018,34.0,25.9,27.6,39.2,4.0,13.7,102.67,19.7,4.8,89.0,79.41,"Rain, Overcast"
+666,"Selangor, Malaysia",03/23/2018,34.0,24.0,28.1,37.3,0.2,11.3,153.21,18.3,5.0,89.0,74.09,"Rain, Overcast"
+667,"Selangor, Malaysia",04/19/2018,33.0,24.1,27.0,39.3,30.08,11.2,137.23,27.7,5.7,89.0,84.67,"Rain, Overcast"
+668,"Selangor, Malaysia",04/21/2018,33.7,25.0,27.4,40.4,1.0,9.1,93.91,23.0,5.6,89.0,83.22,"Rain, Overcast"
+669,"Selangor, Malaysia",04/30/2018,33.0,25.0,27.9,39.3,40.0,10.1,80.09,28.9,5.9,90.8,78.74,"Rain, Overcast"
+670,"Selangor, Malaysia",5/4/2018,33.0,23.0,27.0,39.3,48.0,18.0,159.8,33.3,5.6,89.4,80.78,"Rain, Overcast"
+671,"Selangor, Malaysia",06/17/2018,29.0,23.0,26.6,34.5,2.0,18.0,66.59,30.0,5.8,91.7,84.56,"Rain, Overcast"
+672,"Selangor, Malaysia",08/24/2018,35.0,24.0,29.0,36.9,0.0,17.2,153.0,30.0,6.1,89.0,65.71,Overcast
+673,"Selangor, Malaysia",08/28/2018,33.0,22.8,28.2,38.0,19.0,11.3,127.64,19.7,5.9,89.5,74.01,"Rain, Overcast"
+674,"Selangor, Malaysia",9/4/2018,32.9,23.0,27.7,38.0,1.48,12.6,214.86,26.4,6.2,89.0,73.04,"Rain, Overcast"
+675,"Selangor, Malaysia",9/7/2018,29.9,24.0,26.2,35.0,9.24,8.1,144.82,26.4,5.0,89.0,84.86,"Rain, Overcast"
+676,"Selangor, Malaysia",11/27/2018,30.7,23.0,27.4,37.0,49.22,13.6,122.62,20.8,5.9,91.2,86.38,"Rain, Overcast"
+677,"Selangor, Malaysia",11/29/2018,34.0,24.2,27.3,42.1,52.95,12.6,134.48,25.3,4.4,91.2,87.61,"Rain, Overcast"
+678,"Selangor, Malaysia",12/14/2018,30.0,24.0,26.2,36.2,47.5,9.1,174.64,21.9,4.8,89.0,91.47,"Rain, Overcast"
+679,"Selangor, Malaysia",12/15/2018,32.1,23.8,26.9,39.2,1.21,10.2,218.42,18.3,5.6,89.0,85.44,"Rain, Overcast"
+680,"Selangor, Malaysia",12/21/2018,34.0,25.8,28.6,43.4,1.23,13.6,239.3,28.9,5.9,89.0,79.16,"Rain, Overcast"
+681,"Selangor, Malaysia",12/25/2018,32.0,25.0,27.9,40.6,8.95,14.9,271.18,32.2,5.9,88.2,82.92,"Rain, Overcast"
+682,"Selangor, Malaysia",12/26/2018,32.1,24.9,27.6,39.4,9.53,16.0,235.55,21.9,5.8,89.2,85.43,"Rain, Overcast"
+683,"Selangor, Malaysia",1/3/2019,32.8,25.1,28.4,39.0,0.0,19.6,317.17,28.9,6.3,59.3,76.66,Partially cloudy
+684,"Selangor, Malaysia",01/16/2019,32.9,25.2,28.3,42.0,15.0,10.2,120.94,16.1,5.5,58.8,82.68,"Rain, Partially cloudy"
+685,"Selangor, Malaysia",01/17/2019,33.0,24.8,27.2,39.2,47.13,9.1,93.2,19.7,5.3,60.8,85.25,"Rain, Partially cloudy"
+686,"Selangor, Malaysia",01/29/2019,33.1,25.0,27.4,39.4,14.61,11.2,170.18,23.0,5.6,57.4,83.25,"Rain, Partially cloudy"
+687,"Selangor, Malaysia",2/10/2019,33.0,23.9,27.3,44.0,54.0,11.4,101.48,23.0,5.3,59.3,87.3,"Rain, Partially cloudy"
+688,"Selangor, Malaysia",3/10/2019,34.9,23.2,27.2,44.7,47.0,22.6,139.81,40.3,4.8,58.7,83.91,"Rain, Partially cloudy"
+689,"Selangor, Malaysia",03/17/2019,36.0,25.2,30.2,39.7,0.0,8.1,101.73,21.9,4.8,58.7,66.36,Partially cloudy
+690,"Selangor, Malaysia",03/31/2019,33.8,24.0,28.3,41.8,19.46,18.2,151.0,32.2,5.4,59.7,82.78,"Rain, Partially cloudy"
+691,"Selangor, Malaysia",4/3/2019,33.7,25.0,26.9,40.6,29.6,12.5,163.21,25.3,5.6,59.1,88.82,"Rain, Partially cloudy"
+692,"Selangor, Malaysia",04/17/2019,34.9,24.0,29.1,43.5,9.0,11.3,150.91,23.0,5.7,59.3,79.71,"Rain, Partially cloudy"
+693,"Selangor, Malaysia",04/20/2019,33.6,26.7,28.7,42.9,2.08,13.6,188.38,20.8,5.3,57.7,83.56,"Rain, Partially cloudy"
+694,"Selangor, Malaysia",04/22/2019,33.9,26.0,28.9,40.5,50.11,10.1,88.82,21.9,4.9,58.6,81.96,"Rain, Partially cloudy"
+695,"Selangor, Malaysia",04/24/2019,35.0,25.0,29.2,42.0,6.97,8.0,112.19,19.7,5.2,58.2,81.18,"Rain, Partially cloudy"
+696,"Selangor, Malaysia",5/9/2019,33.1,26.0,29.2,39.4,0.8,11.4,306.55,20.8,6.1,59.1,74.92,"Rain, Partially cloudy"
+697,"Selangor, Malaysia",05/15/2019,34.0,26.0,28.4,41.9,8.78,12.6,107.1,28.9,5.1,58.8,83.67,"Rain, Partially cloudy"
+698,"Selangor, Malaysia",05/22/2019,31.0,24.1,26.2,39.1,55.0,10.2,154.25,27.7,3.7,58.1,92.19,"Rain, Partially cloudy"
+699,"Selangor, Malaysia",05/29/2019,33.9,24.8,29.2,40.6,0.0,11.3,179.62,23.0,5.4,58.7,80.63,Partially cloudy
+700,"Selangor, Malaysia",06/15/2019,32.9,23.0,27.9,39.2,54.05,16.0,121.74,28.9,5.8,58.9,79.14,"Rain, Partially cloudy"
+701,"Selangor, Malaysia",06/26/2019,33.0,23.0,28.2,38.0,5.13,22.6,142.45,35.8,5.9,58.0,74.55,"Rain, Partially cloudy"
+702,"Selangor, Malaysia",7/6/2019,32.9,24.0,27.8,41.4,69.0,10.2,120.7,19.7,4.8,58.1,83.64,"Rain, Partially cloudy"
+703,"Selangor, Malaysia",7/10/2019,33.7,25.8,29.0,39.9,0.0,11.3,110.79,21.9,6.2,58.6,75.25,Partially cloudy
+704,"Selangor, Malaysia",07/25/2019,32.0,24.2,26.6,39.2,10.6,16.9,100.19,31.1,5.8,57.5,87.35,"Rain, Partially cloudy"
+705,"Selangor, Malaysia",8/10/2019,31.0,23.9,27.9,36.6,0.0,13.6,168.13,30.0,4.6,60.1,80.54,Partially cloudy
+706,"Selangor, Malaysia",08/15/2019,31.9,24.1,26.8,40.5,101.18,11.3,150.76,24.2,4.9,58.9,88.4,"Rain, Partially cloudy"
+707,"Selangor, Malaysia",9/4/2019,32.0,23.0,27.9,39.1,0.0,17.0,113.73,28.9,4.8,58.5,83.0,Partially cloudy
+708,"Selangor, Malaysia",09/24/2019,34.9,26.0,29.1,40.6,2.08,9.0,120.9,26.4,3.2,57.8,75.6,"Rain, Partially cloudy"
+709,"Selangor, Malaysia",09/25/2019,33.0,25.0,26.9,39.3,42.89,10.2,165.25,31.1,4.6,57.8,85.8,"Rain, Partially cloudy"
+710,"Selangor, Malaysia",10/2/2019,33.0,23.0,27.1,38.7,16.95,8.0,91.1,23.0,3.1,36.8,83.56,"Rain, Partially cloudy"
+711,"Selangor, Malaysia",10/14/2019,33.0,23.2,27.0,40.3,37.0,10.1,102.25,24.2,4.6,38.3,84.47,"Rain, Partially cloudy"
+712,"Selangor, Malaysia",10/17/2019,33.0,24.8,27.4,42.0,64.66,13.8,217.7,20.8,4.3,40.7,87.53,"Rain, Partially cloudy"
+713,"Selangor, Malaysia",10/23/2019,33.9,24.0,26.9,40.5,53.0,20.4,135.65,32.2,5.2,38.4,87.02,"Rain, Partially cloudy"
+714,"Selangor, Malaysia",10/26/2019,31.0,25.0,26.4,37.7,20.46,14.7,134.0,26.4,3.7,45.2,92.92,"Rain, Partially cloudy"
+715,"Selangor, Malaysia",11/12/2019,33.0,24.8,28.2,40.5,0.0,10.2,248.55,27.7,5.6,37.7,80.64,Partially cloudy
+716,"Selangor, Malaysia",11/14/2019,32.9,25.0,27.5,40.6,32.76,11.3,176.6,26.4,4.0,37.9,86.75,"Rain, Partially cloudy"
+717,"Selangor, Malaysia",11/20/2019,33.1,25.0,27.6,40.7,2.97,12.6,149.0,30.0,5.3,39.1,85.5,"Rain, Partially cloudy"
+718,"Selangor, Malaysia",11/26/2019,35.0,24.0,27.8,40.6,12.68,9.1,87.83,21.9,5.2,37.9,82.78,"Rain, Partially cloudy"
+719,"Selangor, Malaysia",11/28/2019,32.0,24.8,28.0,38.1,0.6,6.8,190.29,18.3,5.2,39.3,81.97,"Rain, Partially cloudy"
+720,"Selangor, Malaysia",12/2/2019,32.7,25.0,27.4,40.0,22.7,10.3,136.71,21.9,5.4,39.7,85.43,"Rain, Partially cloudy"
+721,"Selangor, Malaysia",12/11/2019,32.8,24.0,26.7,40.6,23.0,10.2,144.29,21.9,5.9,38.7,86.4,"Rain, Partially cloudy"
+722,"Selangor, Malaysia",12/20/2019,34.0,24.8,28.1,41.9,0.0,10.3,116.18,23.0,5.4,37.7,82.37,Partially cloudy
+723,"Selangor, Malaysia",12/24/2019,33.0,25.0,27.0,39.4,30.03,9.1,117.0,27.7,5.3,39.4,87.59,"Rain, Partially cloudy"
+724,"Selangor, Malaysia",01/17/2020,33.9,25.0,28.3,43.4,0.0,8.0,145.41,19.7,5.2,38.6,85.02,Partially cloudy
+725,"Selangor, Malaysia",01/18/2020,33.7,24.8,28.1,42.8,0.0,11.3,173.14,25.3,5.1,38.0,84.15,Partially cloudy
+726,"Selangor, Malaysia",01/19/2020,33.9,25.0,28.0,44.4,71.68,11.5,149.27,25.3,4.8,43.5,87.27,"Rain, Partially cloudy"
+727,"Selangor, Malaysia",01/31/2020,33.0,25.0,27.9,40.6,4.0,9.1,156.91,23.0,6.0,37.9,81.37,"Rain, Partially cloudy"
+728,"Selangor, Malaysia",02/25/2020,34.9,26.0,29.5,41.3,7.0,9.1,80.05,16.1,6.3,40.6,71.23,"Rain, Partially cloudy"
+729,"Selangor, Malaysia",3/3/2020,35.0,25.0,28.8,41.9,0.0,15.8,149.78,32.2,5.0,40.0,81.33,Partially cloudy
+730,"Selangor, Malaysia",3/7/2020,33.0,24.8,26.9,40.5,24.45,10.3,200.95,32.2,5.5,38.5,87.68,"Rain, Partially cloudy"
+731,"Selangor, Malaysia",3/8/2020,33.8,25.0,27.8,43.3,6.0,12.5,148.68,23.0,4.7,38.9,87.13,"Rain, Partially cloudy"
+732,"Selangor, Malaysia",3/12/2020,34.9,25.9,28.5,45.3,11.05,10.2,109.38,33.3,5.3,40.1,84.38,"Rain, Partially cloudy"
+733,"Selangor, Malaysia",03/15/2020,35.0,25.9,29.1,40.9,16.63,11.2,79.24,33.3,6.0,38.1,77.37,"Rain, Partially cloudy"
+734,"Selangor, Malaysia",03/18/2020,34.9,27.0,29.7,43.3,2.94,12.7,136.24,20.8,6.3,39.5,75.58,"Rain, Partially cloudy"
+735,"Selangor, Malaysia",4/7/2020,32.9,24.8,28.1,43.0,12.13,9.1,111.0,19.7,5.6,39.8,84.22,"Rain, Partially cloudy"
+736,"Selangor, Malaysia",04/18/2020,35.0,25.1,28.8,45.2,28.0,11.3,106.05,23.0,5.8,39.2,83.88,"Rain, Partially cloudy"
+737,"Selangor, Malaysia",04/21/2020,35.0,25.0,28.4,45.2,19.26,17.3,107.5,39.1,6.0,37.7,86.09,"Rain, Partially cloudy"
+738,"Selangor, Malaysia",04/22/2020,34.0,23.1,27.4,43.7,83.15,10.2,154.91,26.4,5.4,40.0,89.17,"Rain, Partially cloudy"
+739,"Selangor, Malaysia",04/27/2020,33.0,25.0,27.8,42.2,16.23,10.1,90.11,15.0,6.3,39.1,86.87,"Rain, Partially cloudy"
+740,"Selangor, Malaysia",6/3/2020,34.0,26.9,29.2,40.6,0.6,11.3,153.64,19.7,6.1,37.6,78.99,"Rain, Partially cloudy"
+741,"Selangor, Malaysia",6/12/2020,32.0,23.2,27.0,39.2,84.0,14.7,167.95,27.7,5.3,38.5,87.98,"Rain, Partially cloudy"
+742,"Selangor, Malaysia",06/26/2020,31.2,23.0,27.6,36.6,0.22,13.8,71.68,25.3,6.0,38.5,81.07,"Rain, Partially cloudy"
+743,"Selangor, Malaysia",7/3/2020,32.9,24.8,29.0,39.3,0.0,10.2,149.78,31.1,6.3,37.7,72.32,Partially cloudy
+744,"Selangor, Malaysia",07/30/2020,33.9,26.8,29.7,40.5,0.0,8.0,134.0,18.3,6.0,37.6,72.43,Partially cloudy
+745,"Selangor, Malaysia",07/31/2020,30.0,23.0,27.1,36.2,31.96,11.2,185.24,21.9,5.8,38.0,86.24,"Rain, Partially cloudy"
+746,"Selangor, Malaysia",8/11/2020,32.0,25.8,29.5,39.2,0.0,12.6,157.55,27.7,6.0,38.4,75.0,Partially cloudy
+747,"Selangor, Malaysia",9/7/2020,34.0,25.1,27.9,39.3,37.0,10.3,150.06,20.8,5.6,41.0,80.85,"Rain, Partially cloudy"
+748,"Selangor, Malaysia",09/14/2020,30.9,25.0,26.6,37.7,8.24,10.1,68.83,23.0,6.0,39.6,88.47,"Rain, Partially cloudy"
+749,"Selangor, Malaysia",09/16/2020,32.9,23.8,27.9,39.3,9.0,12.6,138.71,18.3,6.1,37.7,81.24,"Rain, Partially cloudy"
+750,"Selangor, Malaysia",09/20/2020,33.2,24.1,28.1,39.3,2.0,9.0,108.6,24.2,6.0,39.8,78.57,"Rain, Partially cloudy"
+751,"Selangor, Malaysia",09/21/2020,32.9,24.0,26.8,39.2,25.97,10.2,143.3,34.4,5.7,37.7,86.62,"Rain, Partially cloudy"
+752,"Selangor, Malaysia",09/26/2020,32.9,24.9,26.8,37.7,8.0,13.7,196.95,35.8,5.9,38.1,84.4,"Rain, Partially cloudy"
+753,"Selangor, Malaysia",09/27/2020,31.9,24.0,27.3,36.7,2.0,8.0,134.43,19.7,6.2,41.8,79.34,"Rain, Partially cloudy"
+754,"Selangor, Malaysia",10/10/2020,32.9,24.0,28.3,38.0,0.4,12.5,124.91,31.1,6.2,40.2,76.44,"Rain, Partially cloudy"
+755,"Selangor, Malaysia",10/12/2020,33.0,25.0,28.8,38.0,0.0,9.1,104.39,24.3,6.3,37.7,74.47,Partially cloudy
+756,"Selangor, Malaysia",10/16/2020,33.9,26.8,29.4,40.5,4.0,9.0,125.9,21.9,6.3,37.6,71.35,"Rain, Partially cloudy"
+757,"Selangor, Malaysia",10/20/2020,32.9,26.0,28.7,38.0,3.8,9.1,150.65,21.9,6.1,38.2,77.58,"Rain, Partially cloudy"
+758,"Selangor, Malaysia",12/1/2020,31.0,23.0,27.2,36.5,24.98,9.1,214.8,23.0,5.6,37.9,82.2,"Rain, Partially cloudy"
+759,"Selangor, Malaysia",12/28/2020,32.0,24.0,26.9,36.8,20.33,10.2,142.59,15.0,5.9,39.8,86.39,"Rain, Partially cloudy"
+760,"Selangor, Malaysia",01/17/2021,32.0,26.5,28.6,37.9,0.0,6.3,185.5,21.9,6.0,38.0,72.68,Partially cloudy
+761,"Selangor, Malaysia",01/19/2021,30.1,24.0,26.7,32.2,1.0,4.7,83.13,26.4,6.1,41.2,69.47,"Rain, Partially cloudy"
+762,"Selangor, Malaysia",02/26/2021,33.0,24.2,28.8,34.9,0.0,16.6,316.38,26.4,6.3,36.8,61.48,Partially cloudy
+763,"Selangor, Malaysia",3/2/2021,32.0,24.6,27.7,37.5,47.0,11.3,157.78,19.7,5.0,41.6,78.36,"Rain, Partially cloudy"
+764,"Selangor, Malaysia",3/5/2021,33.4,26.4,29.7,39.1,0.8,5.6,152.79,24.2,6.3,41.2,70.26,"Rain, Partially cloudy"
+765,"Selangor, Malaysia",03/17/2021,32.9,25.0,27.3,38.0,2.0,8.0,186.78,23.0,6.1,39.2,81.81,"Rain, Partially cloudy"
+766,"Selangor, Malaysia",03/19/2021,33.0,25.0,27.2,39.0,14.68,19.3,149.4,34.4,5.3,37.7,82.25,"Rain, Partially cloudy"
+767,"Selangor, Malaysia",03/22/2021,35.0,26.0,29.2,40.6,0.0,12.6,104.75,16.1,5.9,39.6,72.91,Partially cloudy
+768,"Selangor, Malaysia",03/25/2021,33.0,25.0,27.2,37.9,2.55,8.1,73.4,28.9,6.2,41.2,82.99,"Rain, Partially cloudy"
+769,"Selangor, Malaysia",03/27/2021,33.2,24.0,26.7,38.4,134.47,9.1,135.41,18.3,5.4,41.5,85.32,"Rain, Partially cloudy"
+770,"Selangor, Malaysia",4/2/2021,35.0,26.0,29.3,41.4,5.0,10.1,208.38,23.0,6.0,38.2,71.47,"Rain, Partially cloudy"
+771,"Selangor, Malaysia",4/3/2021,34.0,26.0,29.5,39.4,0.0,11.3,257.1,19.7,6.1,37.6,71.01,Partially cloudy
+772,"Selangor, Malaysia",4/11/2021,34.0,24.1,28.4,41.9,45.0,15.7,119.9,32.2,5.2,39.2,78.71,"Rain, Partially cloudy"
+773,"Selangor, Malaysia",4/12/2021,34.0,23.2,27.5,41.9,48.0,11.3,170.89,20.8,5.5,40.4,81.23,"Rain, Partially cloudy"
+774,"Selangor, Malaysia",04/13/2021,33.3,24.1,27.1,40.6,22.2,10.2,125.89,25.3,5.7,38.7,84.4,"Rain, Partially cloudy"
+775,"Selangor, Malaysia",04/15/2021,33.9,24.0,27.1,42.1,15.04,10.2,146.95,30.0,5.1,37.8,82.99,"Rain, Partially cloudy"
+776,"Selangor, Malaysia",04/23/2021,32.9,23.9,28.0,39.2,1.0,9.1,212.64,21.9,6.2,39.1,76.31,"Rain, Partially cloudy"
+777,"Selangor, Malaysia",5/1/2021,33.0,24.0,27.9,40.6,0.2,10.2,139.11,23.0,6.1,40.7,80.53,"Rain, Partially cloudy"
+778,"Selangor, Malaysia",05/27/2021,30.1,24.8,26.2,35.3,22.45,13.6,152.19,25.3,5.4,38.6,89.79,"Rain, Partially cloudy"
