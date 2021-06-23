@@ -31,7 +31,7 @@ dependencies:
   intl: ^0.16.0
   syncfusion_flutter_charts: ^18.4.46
   custom_navigator: ^0.3.0
-  charts_flutter:  0.10.0
+  charts_flutter:  ^0.10.0
   font_awesome_flutter: 9.0.0
   webview_flutter: 2.0.8
   flutter_inappwebview: 5.3.2

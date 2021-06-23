@@ -4,6 +4,7 @@ import 'package:get/get.dart';
 import 'package:justmarryapp/router.dart';
 import 'package:justmarryapp/shared/navigation_drawer.dart';
 import 'package:justmarryapp/shared/weather_binding.dart';
+import 'package:justmarryapp/view/Predict.dart';
 import 'package:justmarryapp/view/chart.dart';
 import 'package:justmarryapp/view/homepage.dart';
 import 'package:justmarryapp/view/loginpage.dart';
@@ -56,7 +57,7 @@ class MyApp extends StatelessWidget {
         GetPage(name: 'webkb', page:() => WebPageKB(),),
         GetPage(name: 'drawer', page:() => NavigationDrawer(),),
         GetPage(name: 'all', page:() => WebPageAll(),),
-        GetPage(name: 'chart', page:() => ChartPage(),),
+        GetPage(name: 'chart', page:() => ChartPages(),),
         // GetPage(name: 'mea', page:() => VisualPage(),binding: WeatherBinding(),),
       ],
 

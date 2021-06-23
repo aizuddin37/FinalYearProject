@@ -1,6 +1,10 @@
+import 'dart:convert';
+
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/gestures.dart';
+import 'package:http/http.dart' as http;
+import 'package:justmarryapp/api_repo/WeatherPredict.dart';
 
 class ChartPage extends StatefulWidget {
   @override
@@ -14,6 +18,21 @@ class ChartPageState extends State<ChartPage> {
 
  List<BarChartGroupData> rawBarGroups;
  List<BarChartGroupData> showingBarGroups;
+ List<WeatherPredict> fromJson(strJson){
+   final data = jsonDecode(strJson);
+   return List<WeatherPredict>.from(data.map((i) => WeatherPredict.fromJson(i)));
+ }
+ List<WeatherPredict> predict =[];
+ Future<List<WeatherPredict>> getdata() async{
+   List<WeatherPredict> list =[];
+   final response =
+       await http.get(Uri.parse("http://192.168.68.114:83/justmarry/api/check_selangor"));
+   if (response.statusCode == 200){
+     list = fromJson(response.body);
+   }
+     return list;
+ }
+
 
   int touchedGroupIndex = -1;
 
@@ -27,6 +46,9 @@ class ChartPageState extends State<ChartPage> {
     final barGroup5 = makeGroupData(4, 17, 6);
     final barGroup6 = makeGroupData(5, 19, 1.5);
     final barGroup7 = makeGroupData(6, 10, 1.5);
+
+
+
 
     final items = [
       barGroup1,
