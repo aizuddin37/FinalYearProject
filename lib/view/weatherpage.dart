@@ -12,24 +12,20 @@ import 'package:justmarryapp/shared/weather_controller.dart';
 import 'package:justmarryapp/view/loginpage.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 
-
 class WeatherPage extends StatefulWidget {
-
   const WeatherPage({key}) : super(key: key);
 
   @override
   State<WeatherPage> createState() => _WeatherPageState();
 }
+
 class _WeatherPageState extends State<WeatherPage> {
   int _selectedIndex = 0;
-  int index =0;
-
-
+  int index = 0;
 
   final List<Widget> _widgetOptions = <Widget>[
     HomePage(),
     WeatherPage(),
-
   ];
 
   void _onItemTapped(int index) {
@@ -38,12 +34,9 @@ class _WeatherPageState extends State<WeatherPage> {
     });
   }
 
-
   @override
   Widget build(BuildContext context) {
     _widgetOptions[_selectedIndex];
-
-
     return Scaffold(
       resizeToAvoidBottomInset: false,
       body: GetBuilder<WeatherController>(
@@ -113,13 +106,14 @@ class _WeatherPageState extends State<WeatherPage> {
                     Align(
                       alignment: Alignment(0.0, 1.0),
                       child: SizedBox(
-                        height: 10,
+                        height: 100,
                         width: 10,
                         child: OverflowBox(
                           minWidth: 0.0,
                           maxWidth: MediaQuery.of(context).size.width,
                           minHeight: 0.0,
-                          maxHeight: (MediaQuery.of(context).size.height / 4),
+                          maxHeight:
+                              300, // (MediaQuery.of(context).size.height / 4),
                           child: Stack(
                             children: <Widget>[
                               Container(
@@ -134,36 +128,34 @@ class _WeatherPageState extends State<WeatherPage> {
                                   ),
                                   child: Column(
                                     crossAxisAlignment:
-                                    CrossAxisAlignment.center,
+                                        CrossAxisAlignment.center,
                                     children: <Widget>[
                                       Container(
                                         padding: EdgeInsets.only(
                                             top: 15, left: 10, right: 10),
                                         child: Column(
                                           crossAxisAlignment:
-                                          CrossAxisAlignment.start,
+                                              CrossAxisAlignment.start,
                                           children: <Widget>[
-
-
-                                  //Display of the current data that is search for
+                                            //Display of the current data that is search for
                                             Center(
                                               child: Text(
                                                 (controller.currentWeatherData !=
-                                                    null)
+                                                        null)
                                                     ? '${controller.currentWeatherData.name}'
-                                                    .toUpperCase()
+                                                        .toUpperCase()
                                                     : '',
                                                 style: Theme.of(context)
                                                     .textTheme
                                                     .caption
                                                     .copyWith(
-                                                  color: Colors.black45,
-                                                  fontSize: 16,
-                                                  fontWeight:
-                                                  FontWeight.bold,
-                                                  fontFamily:
-                                                  'flutterfonts',
-                                                ),
+                                                      color: Colors.black45,
+                                                      fontSize: 16,
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                      fontFamily:
+                                                          'flutterfonts',
+                                                    ),
                                               ),
                                             ),
                                             Center(
@@ -175,11 +167,11 @@ class _WeatherPageState extends State<WeatherPage> {
                                                     .textTheme
                                                     .caption
                                                     .copyWith(
-                                                  color: Colors.black45,
-                                                  fontSize: 8,
-                                                  fontFamily:
-                                                  'flutterfonts',
-                                                ),
+                                                      color: Colors.black45,
+                                                      fontSize: 8,
+                                                      fontFamily:
+                                                          'flutterfonts',
+                                                    ),
                                               ),
                                             ),
                                           ],
@@ -188,7 +180,7 @@ class _WeatherPageState extends State<WeatherPage> {
                                       Divider(),
                                       Row(
                                         mainAxisAlignment:
-                                        MainAxisAlignment.spaceBetween,
+                                            MainAxisAlignment.spaceBetween,
                                         children: <Widget>[
                                           Container(
                                             padding: EdgeInsets.only(left: 50),
@@ -196,52 +188,52 @@ class _WeatherPageState extends State<WeatherPage> {
                                               children: <Widget>[
                                                 Text(
                                                   (controller.currentWeatherData
-                                                      .weather !=
-                                                      null)
+                                                              .weather !=
+                                                          null)
                                                       ? '${controller.currentWeatherData.weather[0].description}'
                                                       : '',
                                                   style: Theme.of(context)
                                                       .textTheme
                                                       .caption
                                                       .copyWith(
-                                                    color: Colors.black45,
-                                                    fontSize: 16,
-                                                    fontFamily:
-                                                    'flutterfonts',
-                                                  ),
+                                                        color: Colors.black45,
+                                                        fontSize: 16,
+                                                        fontFamily:
+                                                            'flutterfonts',
+                                                      ),
                                                 ),
                                                 SizedBox(height: 10),
                                                 Text(
                                                   (controller.currentWeatherData
-                                                      .main !=
-                                                      null)
+                                                              .main !=
+                                                          null)
                                                       ? '${(controller.currentWeatherData.main.temp - 273.15).round().toString()}\u2103'
                                                       : '',
                                                   style: Theme.of(context)
                                                       .textTheme
                                                       .headline2
                                                       .copyWith(
-                                                      color: Colors.black45,
-                                                      fontFamily:
-                                                      'flutterfonts'),
+                                                          color: Colors.black45,
+                                                          fontFamily:
+                                                              'flutterfonts'),
                                                 ),
                                                 Text(
                                                   (controller.currentWeatherData
-                                                      .main !=
-                                                      null)
+                                                              .main !=
+                                                          null)
                                                       ? 'min: ${(controller.currentWeatherData.main.tempMin - 273.15).round().toString()}\u2103 / max: ${(controller.currentWeatherData.main.tempMax - 273.15).round().toString()}\u2103'
                                                       : '',
                                                   style: Theme.of(context)
                                                       .textTheme
                                                       .caption
                                                       .copyWith(
-                                                    color: Colors.black45,
-                                                    fontSize: 8,
-                                                    fontWeight:
-                                                    FontWeight.bold,
-                                                    fontFamily:
-                                                    'flutterfonts',
-                                                  ),
+                                                        color: Colors.black45,
+                                                        fontSize: 8,
+                                                        fontWeight:
+                                                            FontWeight.bold,
+                                                        fontFamily:
+                                                            'flutterfonts',
+                                                      ),
                                                 ),
                                               ],
                                             ),
@@ -250,7 +242,7 @@ class _WeatherPageState extends State<WeatherPage> {
                                             padding: EdgeInsets.only(right: 10),
                                             child: Column(
                                               mainAxisAlignment:
-                                              MainAxisAlignment.center,
+                                                  MainAxisAlignment.center,
                                               children: <Widget>[
                                                 Container(
                                                   width: 70,
@@ -260,28 +252,27 @@ class _WeatherPageState extends State<WeatherPage> {
                                                       image: AssetImage(
                                                           'assets/icon-01.jpg'),
                                                       fit: BoxFit.cover,
-
                                                     ),
                                                   ),
                                                 ),
                                                 Container(
                                                   child: Text(
                                                     (controller.currentWeatherData
-                                                        .wind !=
-                                                        null)
+                                                                .wind !=
+                                                            null)
                                                         ? 'wind ${controller.currentWeatherData.wind.speed} m/s'
                                                         : '',
                                                     style: Theme.of(context)
                                                         .textTheme
                                                         .caption
                                                         .copyWith(
-                                                      color: Colors.black45,
-                                                      fontSize: 10,
-                                                      fontWeight:
-                                                      FontWeight.bold,
-                                                      fontFamily:
-                                                      'flutterfonts',
-                                                    ),
+                                                          color: Colors.black45,
+                                                          fontSize: 10,
+                                                          fontWeight:
+                                                              FontWeight.bold,
+                                                          fontFamily:
+                                                              'flutterfonts',
+                                                        ),
                                                   ),
                                                 ),
                                                 // Text(
@@ -313,6 +304,7 @@ class _WeatherPageState extends State<WeatherPage> {
                 ),
               ),
             ),
+            UIHelper.verticalSpaceMedium(),
             UIHelper.verticalSpaceLarge(),
             Expanded(
               flex: 1,
@@ -336,15 +328,13 @@ class _WeatherPageState extends State<WeatherPage> {
                                         .textTheme
                                         .caption
                                         .copyWith(
-                                      fontSize: 10,
-                                      fontFamily: 'flutterfonts',
-                                      color: Colors.black45,
-                                      fontWeight: FontWeight.bold,
-                                    ),
+                                          fontSize: 10,
+                                          fontFamily: 'flutterfonts',
+                                          color: Colors.black45,
+                                          fontWeight: FontWeight.bold,
+                                        ),
                                   ),
-                                  UIHelper.horizontalSpaceLarge(),
-                                  UIHelper.horizontalSpaceLarge(),
-                                  UIHelper.horizontalSpaceMedium(),
+                                  Spacer(),
                                   InkWell(
                                     child: Text(
                                       'More info on Predictions'.toUpperCase(),
@@ -352,19 +342,19 @@ class _WeatherPageState extends State<WeatherPage> {
                                           .textTheme
                                           .caption
                                           .copyWith(
-                                        fontSize: 10,
-                                        fontFamily: 'flutterfonts',
-                                        color: Colors.black45,
-                                        fontWeight: FontWeight.bold,
-                                      ),
+                                            fontSize: 10,
+                                            fontFamily: 'flutterfonts',
+                                            color: Colors.black45,
+                                            fontWeight: FontWeight.bold,
+                                          ),
                                     ),
-                                    onTap:(){ Get.toNamed('all');},
+                                    onTap: () {
+                                      Get.toNamed('all');
+                                    },
                                   ),
-
                                 ],
                               ),
                             ),
-
                             //Using Card to display the data of other cities
                             Container(
                               height: 80,
@@ -373,9 +363,9 @@ class _WeatherPageState extends State<WeatherPage> {
                                 scrollDirection: Axis.horizontal,
                                 separatorBuilder: (context, index) =>
                                     VerticalDivider(
-                                      color: Colors.transparent,
-                                      width: 5,
-                                    ),
+                                  color: Colors.transparent,
+                                  width: 5,
+                                ),
                                 itemCount: controller.dataList.length,
                                 itemBuilder: (context, index) {
                                   CurrentWeatherData data;
@@ -386,7 +376,6 @@ class _WeatherPageState extends State<WeatherPage> {
                                     width: 90,
                                     height: 100,
                                     child: Card(
-
                                       shape: RoundedRectangleBorder(
                                         borderRadius: BorderRadius.circular(15),
                                       ),
@@ -418,12 +407,11 @@ class _WeatherPageState extends State<WeatherPage> {
                                                 Get.toNamed('webkb');
                                               }
                                               break;
-
                                           }
                                         },
                                         child: Column(
                                           mainAxisAlignment:
-                                          MainAxisAlignment.center,
+                                              MainAxisAlignment.center,
                                           children: <Widget>[
                                             Text(
                                               (data != null)
@@ -433,11 +421,11 @@ class _WeatherPageState extends State<WeatherPage> {
                                                   .textTheme
                                                   .caption
                                                   .copyWith(
-                                                fontSize: 8,
-                                                fontWeight: FontWeight.bold,
-                                                color: Colors.black45,
-                                                fontFamily: 'flutterfonts',
-                                              ),
+                                                    fontSize: 8,
+                                                    fontWeight: FontWeight.bold,
+                                                    color: Colors.black45,
+                                                    fontFamily: 'flutterfonts',
+                                                  ),
                                             ),
                                             Text(
                                               (data != null)
@@ -447,11 +435,11 @@ class _WeatherPageState extends State<WeatherPage> {
                                                   .textTheme
                                                   .caption
                                                   .copyWith(
-                                                fontSize: 8,
-                                                fontWeight: FontWeight.bold,
-                                                color: Colors.black45,
-                                                fontFamily: 'flutterfonts',
-                                              ),
+                                                    fontSize: 8,
+                                                    fontWeight: FontWeight.bold,
+                                                    color: Colors.black45,
+                                                    fontFamily: 'flutterfonts',
+                                                  ),
                                             ),
                                             Container(
                                               width: 30,
@@ -472,10 +460,10 @@ class _WeatherPageState extends State<WeatherPage> {
                                                   .textTheme
                                                   .caption
                                                   .copyWith(
-                                                color: Colors.black45,
-                                                fontFamily: 'flutterfonts',
-                                                fontSize: 8,
-                                              ),
+                                                    color: Colors.black45,
+                                                    fontFamily: 'flutterfonts',
+                                                    fontSize: 8,
+                                                  ),
                                             ),
                                           ],
                                         ),
@@ -485,13 +473,11 @@ class _WeatherPageState extends State<WeatherPage> {
                                 },
                               ),
                             ),
-
                             //Display Line Chart of the forecast that is predicted for the next five days
                             Container(
-
                               child: Row(
                                 mainAxisAlignment:
-                                MainAxisAlignment.spaceBetween,
+                                    MainAxisAlignment.spaceBetween,
                                 children: <Widget>[
                                   Text(
                                     'forecast next 5 days'.toUpperCase(),
@@ -499,10 +485,10 @@ class _WeatherPageState extends State<WeatherPage> {
                                         .textTheme
                                         .caption
                                         .copyWith(
-                                      fontSize: 10,
-                                      fontWeight: FontWeight.bold,
-                                      color: Colors.black45,
-                                    ),
+                                          fontSize: 10,
+                                          fontWeight: FontWeight.bold,
+                                          color: Colors.black45,
+                                        ),
                                   ),
                                   Icon(
                                     Icons.next_plan_outlined,
@@ -525,9 +511,9 @@ class _WeatherPageState extends State<WeatherPage> {
                                     SplineSeries<FiveDayData, String>(
                                       dataSource: controller.fiveDaysData,
                                       xValueMapper: (FiveDayData f, _) =>
-                                      f.dateTime,
+                                          f.dateTime,
                                       yValueMapper: (FiveDayData f, _) =>
-                                      f.temp,
+                                          f.temp,
                                     ),
                                   ],
                                 ),
