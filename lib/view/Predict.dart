@@ -10,6 +10,7 @@ import 'package:dio/dio.dart';
 import 'package:charts_flutter/flutter.dart' as charts;
 import 'package:justmarryapp/api_repo/bar_chart_graph.dart';
 import 'package:justmarryapp/api_repo/bar_chart_model.dart';
+import 'package:get/get.dart';
 
 class ChartPages extends StatefulWidget {
   @override
@@ -21,7 +22,7 @@ class ChartPagesState extends State<ChartPages> {
   final endDateCtrl = TextEditingController();
   String data = "No data";
   String startDate = '2021-10-10';
-  String endDate = '2021-10-15';
+  String endDate = '2021-10-12';
   List<WeatherPredict> listWeatherPredit;
   List<BarChartModel> listModel;
 
@@ -30,7 +31,10 @@ class ChartPagesState extends State<ChartPages> {
     super.initState();
     startDateCtrl.text = startDate;
     endDateCtrl.text = endDate;
-    getData().then((value) => listWeatherPredit = value);
+    getData().then((value) {
+      listWeatherPredit = value;
+       listModel = convertToBarChartModel(listWeatherPredit);
+      });
   }
 
   Future<List<WeatherPredict>> getData() async {
@@ -72,48 +76,62 @@ class ChartPagesState extends State<ChartPages> {
         appBar: AppBar(
           title: Text("woo"),
         ),
-        body: Container(
-          child: Column(
-            children: [
-              TextField(
-                controller: startDateCtrl,
-              ),
-              TextField(
-                controller: endDateCtrl,
-              ),
-              TextButton(
-                style: ButtonStyle(
-                  foregroundColor:
-                      MaterialStateProperty.all<Color>(Colors.blue),
+        body: SingleChildScrollView(
+          child: Container(
+            child: Column(
+              children: [
+                TextField(
+                  controller: startDateCtrl,
                 ),
-                onPressed: () {
-                  getData().then((value) {
-                    setState(() {
-                      listWeatherPredit = value;
-                      listModel = convertToBarChartModel(listWeatherPredit);
-                    });
-                  });
-                },
-                child: Text('Get Data'),
-              ),
-              Container(
-                child: Text(data),
-              ),
-              Center(
-                child: Container(
-                  child: ListView(
-                    scrollDirection: Axis.vertical,
-                    shrinkWrap: true,
-                    children: [BarChartGraph(
-                      data: listModel,
-                    ),]
+                TextField(
+                  controller: endDateCtrl,
+                ),
+                TextButton(
+                  style: ButtonStyle(
+                    foregroundColor:
+                        MaterialStateProperty.all<Color>(Colors.blue),
                   ),
+                  onPressed: () {
+                    DateTime start = DateTime.parse(startDateCtrl.text);
+                    DateTime end = DateTime.parse(endDateCtrl.text);
+                    int differenceInDays = end.difference(start).inDays;
+
+                    if (differenceInDays > 10) {
+                      Get.defaultDialog(title: "oops", middleText: "The period can not be more than 10 days");
+                      return;
+                    }
+
+                    getData().then((value) {
+                      setState(() {
+                        this.listWeatherPredit = value;
+                        this.listModel = convertToBarChartModel(listWeatherPredit);
+                      });
+                    });
+                  },
+                  child: Text('Get Data'),
                 ),
-              ),
-              Container(
-                child: Text(data),
-              ),
-            ],
+                // Container(
+                //   child: Text(data),
+                // ),
+                Container(
+                  height: 1000,
+                  padding: EdgeInsets.all(20),
+                  child: Padding(
+                    padding: EdgeInsets.all(8.0),
+                    child: Column(children: [
+                      Expanded(
+                        child: BarChartGraph(
+                          data: listModel,
+                        ),
+                      ),
+                    ],),
+                  )
+                ),
+                // Container(
+                //   child: Text(data),
+                // ),
+              ],
+            ),
           ),
         ));
   }
