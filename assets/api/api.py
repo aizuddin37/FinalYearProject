@@ -282,8 +282,8 @@ def main():
             try:
               con = DBHelper.getDBConnection(self)
               tempquery="""
-                        SELECT  *  FROM DIDI.Weather_cleaned W
-                        WHERE W.Name = 'Kuala Terengganu, Terengganu, Malaysia' AND STR_TO_DATE(Date_time ,'%d/%m/%Y') = %s
+                        SELECT  *  FROM DIDI.WeatherHistory W
+                        WHERE  STR_TO_DATE(Date_time ,'%d/%m/%Y') = %s
 
 
                         """
@@ -352,7 +352,7 @@ def main():
 
 
     # run the app on specific port
-    app.run(host='0.0.0.0', port=89)
+    app.run(host='0.0.0.0', port=83)
 
 if __name__ == '__main__':
     # justmarry_api=os.path.basename(sys.argv[0])

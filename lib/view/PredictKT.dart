@@ -44,7 +44,7 @@ class Chart5PagesState extends State<Chart5Pages> {
       List<WeatherPredict> tempList = [];
 
       var response = await Dio().get(
-          "http://13.228.175.39:89/justmarry/api/check_kt" +
+          "http://13.228.175.39:89/justmarry/api/check_kt?startDate=" +
               startDateCtrl.text +
               "&endDate=" +
               endDateCtrl.text);
@@ -76,6 +76,7 @@ class Chart5PagesState extends State<Chart5Pages> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          elevation: 0,
           leading: IconButton(
             icon: Icon(
               FontAwesomeIcons.arrowLeft,
@@ -87,7 +88,7 @@ class Chart5PagesState extends State<Chart5Pages> {
             },
           ),
           iconTheme: IconThemeData(color: Colors.amber),
-          backgroundColor: Colors.white,
+          backgroundColor: Colors.transparent,
           title: new Text(
             "Prediction Page",
             textAlign: TextAlign.center,

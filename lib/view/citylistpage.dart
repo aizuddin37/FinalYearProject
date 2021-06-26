@@ -24,6 +24,21 @@ class _ListPageState extends State<ListPage> {
   @override
   Widget build(BuildContext context){
     return Scaffold(
+        appBar: AppBar(
+          elevation: 0,
+          brightness: Brightness.light,
+          backgroundColor: Colors.transparent,
+          leading: IconButton(
+            onPressed: () {
+              Get.back();
+            },
+            icon: Icon(
+              Icons.arrow_back,
+              size: 20,
+              color: Colors.amber,
+            ),
+          ),
+        ),
         body:SafeArea(
             child:Container(
 

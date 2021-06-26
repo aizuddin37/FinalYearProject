@@ -76,6 +76,7 @@ class Chart2PagesState extends State<Chart2Pages> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          elevation: 0,
           leading: IconButton(
             icon: Icon(
               FontAwesomeIcons.arrowLeft,
@@ -87,7 +88,7 @@ class Chart2PagesState extends State<Chart2Pages> {
             },
           ),
           iconTheme: IconThemeData(color: Colors.amber),
-          backgroundColor: Colors.white,
+          backgroundColor: Colors.transparent,
           title: new Text(
             "Prediction Page",
             textAlign: TextAlign.center,
