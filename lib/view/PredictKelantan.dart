@@ -103,6 +103,13 @@ class Chart2PagesState extends State<Chart2Pages> {
             child: Column(
               children: [
                 UIHelper.verticalSpaceMedium(),
+                Text("Please enter your start date and end date to search with the format of 'year-month-day'",
+                  textAlign:TextAlign.center,
+                  style:TextStyle(
+                    color: Colors.amber[700],
+                    fontSize: 15,
+                  ),),
+                UIHelper.verticalSpaceSmall(),
                 TextField(
                   controller: startDateCtrl,
                   decoration: InputDecoration(
@@ -122,6 +129,7 @@ class Chart2PagesState extends State<Chart2Pages> {
                     ),
                   ),
                 ),
+
                 UIHelper.verticalSpaceMedium(),
                 TextField(
                   controller: endDateCtrl,

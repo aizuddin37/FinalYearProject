@@ -14,12 +14,12 @@ import 'package:justmarryapp/api_repo/bar_chart_model.dart';
 import 'package:get/get.dart';
 import 'package:justmarryapp/help/ui.dart';
 
-class ChartPages extends StatefulWidget {
+class Chart3Pages extends StatefulWidget {
   @override
-  State<StatefulWidget> createState() => ChartPagesState();
+  State<StatefulWidget> createState() => Chart3PagesState();
 }
 
-class ChartPagesState extends State<ChartPages> {
+class Chart3PagesState extends State<Chart3Pages> {
   final startDateCtrl = TextEditingController();
   final endDateCtrl = TextEditingController();
   String data = "No data";
@@ -35,8 +35,8 @@ class ChartPagesState extends State<ChartPages> {
     endDateCtrl.text = endDate;
     getData().then((value) {
       listWeatherPredit = value;
-       listModel = convertToBarChartModel(listWeatherPredit);
-      });
+      listModel = convertToBarChartModel(listWeatherPredit);
+    });
   }
 
   Future<List<WeatherPredict>> getData() async {
@@ -44,7 +44,7 @@ class ChartPagesState extends State<ChartPages> {
       List<WeatherPredict> tempList = [];
 
       var response = await Dio().get(
-          "http://13.228.175.39:89/justmarry/api/check_selangor?startDate=" +
+          "http://13.228.175.39:89/justmarry/api/check_johor?startDate=" +
               startDateCtrl.text +
               "&endDate=" +
               endDateCtrl.text);
@@ -152,7 +152,7 @@ class ChartPagesState extends State<ChartPages> {
                 TextButton(
                   style: ButtonStyle(
                     foregroundColor:
-                        MaterialStateProperty.all<Color>(Colors.blue),
+                    MaterialStateProperty.all<Color>(Colors.blue),
                   ),
                   onPressed: () {
                     DateTime start = DateTime.parse(startDateCtrl.text);
@@ -180,18 +180,18 @@ class ChartPagesState extends State<ChartPages> {
                 //   child: Text(data),
                 // ),
                 Container(
-                  height: 1000,
-                  padding: EdgeInsets.all(20),
-                  child: Padding(
-                    padding: EdgeInsets.all(8.0),
-                    child: Column(children: [
-                      Expanded(
-                        child: BarChartGraph(
-                          data: listModel,
+                    height: 1000,
+                    padding: EdgeInsets.all(20),
+                    child: Padding(
+                      padding: EdgeInsets.all(8.0),
+                      child: Column(children: [
+                        Expanded(
+                          child: BarChartGraph(
+                            data: listModel,
+                          ),
                         ),
-                      ),
-                    ],),
-                  )
+                      ],),
+                    )
                 ),
                 // Container(
                 //   child: Text(data),

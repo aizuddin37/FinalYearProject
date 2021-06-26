@@ -86,7 +86,7 @@ class _ListPageState extends State<ListPage> {
                                 minWidth: double.infinity,
                                 height: 60,
                                 onPressed:(){
-                                  Get.toNamed('weather');
+                                  Get.toNamed('chartJ');
                                 },
                                 color: Colors.amber[500],
                                 shape: RoundedRectangleBorder(
@@ -106,7 +106,7 @@ class _ListPageState extends State<ListPage> {
                               minWidth: double.infinity,
                               height: 60,
                               onPressed:(){
-                                Get.toNamed('weather');
+                                Get.toNamed('chartK');
                               },
                               color: Colors.amber[500],
                               shape: RoundedRectangleBorder(
@@ -126,7 +126,7 @@ class _ListPageState extends State<ListPage> {
                               minWidth: double.infinity,
                               height: 60,
                               onPressed:(){
-                                Get.toNamed('weather');
+                                Get.toNamed('chartKT');
                               },
                               color: Colors.amber[500],
                               shape: RoundedRectangleBorder(
@@ -146,7 +146,7 @@ class _ListPageState extends State<ListPage> {
                               minWidth: double.infinity,
                               height: 60,
                               onPressed:(){
-                                Get.toNamed('weather');
+                                Get.toNamed('chartP');
                               },
                               color: Colors.amber[500],
                               shape: RoundedRectangleBorder(

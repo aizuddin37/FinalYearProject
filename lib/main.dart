@@ -5,7 +5,10 @@ import 'package:justmarryapp/router.dart';
 import 'package:justmarryapp/shared/navigation_drawer.dart';
 import 'package:justmarryapp/shared/weather_binding.dart';
 import 'package:justmarryapp/view/Predict.dart';
+import 'package:justmarryapp/view/PredictJohor.dart';
+import 'package:justmarryapp/view/PredictKT.dart';
 import 'package:justmarryapp/view/PredictKelantan.dart';
+import 'package:justmarryapp/view/PredictPinang.dart';
 import 'package:justmarryapp/view/chart.dart';
 import 'package:justmarryapp/view/citylistpage.dart';
 import 'package:justmarryapp/view/homepage.dart';
@@ -67,6 +70,9 @@ class MyApp extends StatelessWidget {
         // GetPage(name: 'all', page:() => WebPageAll(),),
         GetPage(name: 'chart', page:() => ChartPages(),),
         GetPage(name: 'chartK', page:() => Chart2Pages(),),
+        GetPage(name: 'chartJ', page:() => Chart3Pages(),),
+        GetPage(name: 'chartP', page:() => Chart4Pages(),),
+        GetPage(name: 'chartKT', page:() => Chart5Pages(),),
         GetPage(name: 'list', page:() => ListPage(),),
         // GetPage(name: 'mea', page:() => VisualPage(),binding: WeatherBinding(),),
       ],
