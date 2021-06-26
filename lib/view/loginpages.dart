@@ -55,7 +55,7 @@ class _LoginPageState extends State<LoginPage> {
                     Column(
                       children: <Widget>[
                         Text(
-                          "Login",
+                          "Oh no!",
                           style: TextStyle(
                             fontSize: 30,
                             fontWeight: FontWeight.bold,
@@ -65,7 +65,7 @@ class _LoginPageState extends State<LoginPage> {
                           height: 20,
                         ),
                         Text(
-                          "Login to your account",
+                          "You need to login your account to enter this part.",
                           style:
                               TextStyle(fontSize: 15, color: Colors.amber[700]),
                         ),
@@ -125,14 +125,20 @@ class _LoginPageState extends State<LoginPage> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
                         Text("Don't have an account?"),
-                        Text(
+                        InkWell(
+                          onTap: (){
+                            Get.toNamed('signup');
+                          },
+                          child:Text(
                           "Sign Up",
                           style: TextStyle(
                             fontWeight: FontWeight.w600,
                             color: Colors.amber[500],
                             fontSize: 18,
+
                           ),
-                        )
+                        ),
+                      ),
                       ],
                     ),
                     Container(
@@ -168,7 +174,7 @@ class _LoginPageState extends State<LoginPage> {
     requestData += "}";
     print("requestData : " + requestData);
 
-    String v ="http://192.168.68.105:83/justmarry/api/login_account?email="+emailController.text+"&password="+passController.text;
+    String v ="http://13.228.175.39:89/justmarry/api/login_account?email="+emailController.text+"&password="+passController.text;
     final response = http.get(v);
     print(v);
 

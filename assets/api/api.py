@@ -181,59 +181,184 @@ def main():
             except Exception as e:
               print("Error : " + str(e), 400)
               return "Error : " + str(e), 400
-       
+
+    class CHECK_JOHOR(Resource):
+          def get(self):
+            argList = request.args
+            try:
+              con = DBHelper.getDBConnection(self)
+              tempquery="""
+                        SELECT  *  FROM DIDI.PredictedCities P
+                        WHERE P.Name = 'Johor Bahru, Johor' AND STR_TO_DATE(Date_time ,'%d/%m/%Y')>%s AND STR_TO_DATE(Date_time ,'%d/%m/%Y')<%s
+
+
+                        """
+
+
+              cursor = con.cursor( buffered=True , dictionary=True)
+              cursor.execute( tempquery,(request.args.get('startDate'),request.args.get('endDate'),))
+              result = cursor.fetchall()
+              print("Selangor : " + " : " + str(result))
+              cursor.close()
+              return make_response(jsonify(result), 200)
+            except Exception as e:
+              print("Error : " + str(e), 400)
+              return "Error : " + str(e), 400
+
+
+    class CHECK_PINANG(Resource):
+          def get(self):
+            argList = request.args
+            try:
+              con = DBHelper.getDBConnection(self)
+              tempquery="""
+                        SELECT  *  FROM DIDI.PredictedCities P
+                        WHERE P.Name = 'Pulau Pinang, Mala' AND STR_TO_DATE(Date_time ,'%d/%m/%Y')>%s AND STR_TO_DATE(Date_time ,'%d/%m/%Y')<%s
+
+
+                        """
+
+
+              cursor = con.cursor( buffered=True , dictionary=True)
+              cursor.execute( tempquery,(request.args.get('startDate'),request.args.get('endDate'),))
+              result = cursor.fetchall()
+              print("Selangor : " + " : " + str(result))
+              cursor.close()
+              return make_response(jsonify(result), 200)
+            except Exception as e:
+              print("Error : " + str(e), 400)
+              return "Error : " + str(e), 400
+
+    class CHECK_KOTA_BHARU(Resource):
+          def get(self):
+            argList = request.args
+            try:
+              con = DBHelper.getDBConnection(self)
+              tempquery="""
+                        SELECT  *  FROM DIDI.PredictedCities P
+                        WHERE P.Name = 'Kota Bharu, Kelant' AND STR_TO_DATE(Date_time ,'%d/%m/%Y')>%s AND STR_TO_DATE(Date_time ,'%d/%m/%Y')<%s
+
+
+                        """
+
+
+              cursor = con.cursor( buffered=True , dictionary=True)
+              cursor.execute( tempquery,(request.args.get('startDate'),request.args.get('endDate'),))
+              result = cursor.fetchall()
+              print("Selangor : " + " : " + str(result))
+              cursor.close()
+              return make_response(jsonify(result), 200)
+            except Exception as e:
+              print("Error : " + str(e), 400)
+              return "Error : " + str(e), 400
+
+    class CHECK_TERENGGANU(Resource):
+          def get(self):
+            argList = request.args
+            try:
+              con = DBHelper.getDBConnection(self)
+              tempquery="""
+                        SELECT  *  FROM DIDI.PredictedCities P
+                        WHERE P.Name = 'Kuala Terengganu, ' AND STR_TO_DATE(Date_time ,'%d/%m/%Y')>%s AND STR_TO_DATE(Date_time ,'%d/%m/%Y')<%s
+
+
+                        """
+
+
+              cursor = con.cursor( buffered=True , dictionary=True)
+              cursor.execute( tempquery,(request.args.get('startDate'),request.args.get('endDate'),))
+              result = cursor.fetchall()
+              print("Selangor : " + " : " + str(result))
+              cursor.close()
+              return make_response(jsonify(result), 200)
+            except Exception as e:
+              print("Error : " + str(e), 400)
+              return "Error : " + str(e), 400
+
+
+    class SEARCH_HISTORY(Resource):
+          def get(self):
+            argList = request.args
+            try:
+              con = DBHelper.getDBConnection(self)
+              tempquery="""
+                        SELECT  *  FROM DIDI.Weather_cleaned W
+                        WHERE W.Name = 'Kuala Terengganu, Terengganu, Malaysia' AND STR_TO_DATE(Date_time ,'%d/%m/%Y') = %s
+
+
+                        """
+
+
+              cursor = con.cursor( buffered=True , dictionary=True)
+              cursor.execute( tempquery,(request.args.get('searchDate'),))
+              result = cursor.fetchall()
+              print("Selangor : " + " : " + str(result))
+              cursor.close()
+              return make_response(jsonify(result), 200)
+            except Exception as e:
+              print("Error : " + str(e), 400)
+              return "Error : " + str(e), 400
+
+
+
+
     class CHECK_EXIST_ACC(Resource):
-      def get(self):
-        argList = request.args 
-        try:
-          con = DBHelper.getDBConnection(self)
+          def get(self):
+            argList = request.args
+            try:
+              con = DBHelper.getDBConnection(self)
 
-          checkExistAccQuery = """
-                    SELECT  EMAIL FROM DIDI.justmarry_user A
-                    WHERE ( A.EMAIL = %s );"""                   
+              checkExistAccQuery = """
+                        SELECT  EMAIL FROM DIDI.justmarry_user A
+                        WHERE ( A.EMAIL = %s );"""
 
-          cursor = con.cursor( buffered=True , dictionary=True)
-          cursor.execute(checkExistAccQuery, (
-            request.args.get('email'),))
-          row = cursor.fetchone()
-          # return make_response("Resp : " + str(cursor.statement), 200) # debug
-          # return make_response("Resp : " + str(row), 200) # debug
-          if row:
-            error = ""
-            # return make_response("Resp : " + idNo, 200)
-            email = str(row['EMAIL'])
+              cursor = con.cursor( buffered=True , dictionary=True)
+              cursor.execute(checkExistAccQuery, (
+                request.args.get('email'),))
+              row = cursor.fetchone()
+              # return make_response("Resp : " + str(cursor.statement), 200) # debug
+              # return make_response("Resp : " + str(row), 200) # debug
+              if row:
+                error = ""
+                # return make_response("Resp : " + idNo, 200)
+                email = str(row['EMAIL'])
 
-          
-            if (email == str(request.args.get('email'))):
-              error = "email "
-              return make_response("An account with the provided " + error + "already exist", 200)
-            # return make_response("Error - An account exist with the following details : " + str(row), 200)
-          else:
-            # empty result
-            return make_response("Success - No duplicate", 200)
 
-          print("An account exist with the following details : " + str(row))
-          cursor.close()
-        except Exception as e:
-          print("Error : " + str(e), 400)
-          return make_response("Error : " + str(e), 400)
+                if (email == str(request.args.get('email'))):
+                  error = "email "
+                  return make_response("An account with the provided " + error + "already exist", 200)
+                # return make_response("Error - An account exist with the following details : " + str(row), 200)
+              else:
+                # empty result
+                return make_response("Success - No duplicate", 200)
+
+              print("An account exist with the following details : " + str(row))
+              cursor.close()
+            except Exception as e:
+              print("Error : " + str(e), 400)
+              return make_response("Error : " + str(e), 400)
 
     api.add_resource(LOGIN_ACC, "/justmarry/api/login_account")
     api.add_resource(CREATE_PROFILE, "/justmarry/api/create_account")
     api.add_resource(UPDATE_PROFILE, "/justmarry/api/update_account")
     api.add_resource(CHECK_EXIST_ACC, "/justmarry/api/check_existing_account")
     api.add_resource(CHECK_SELANGOR, "/justmarry/api/check_selangor")
+    api.add_resource(CHECK_JOHOR, "/justmarry/api/check_johor")
+    api.add_resource(CHECK_PINANG, "/justmarry/api/check_pinang")
+    api.add_resource(CHECK_KOTA_BHARU, "/justmarry/api/check_kb")
+    api.add_resource(CHECK_TERENGGANU, "/justmarry/api/check_kt")
+    api.add_resource(SEARCH_HISTORY, "/justmarry/api/check_history")
 
-    
+
 
     # run the app on specific port
-    app.run(host='0.0.0.0', port=89)
+    app.run(host='0.0.0.0', port=83)
 
 if __name__ == '__main__':
     # justmarry_api=os.path.basename(sys.argv[0])
     # here=os.path.dirname(os.path.abspath(__file__))
 
-    # pidfile=here + '/justmarry_api_pid' 
+    # pidfile=here + '/justmarry_api_pid'
     # daemon=Daemonize(app=bestpay_api,pid=pidfile, action=main)
     # daemon.start()
   main();

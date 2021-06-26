@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -21,14 +23,14 @@ class NavigationDrawer extends StatelessWidget{
             buildMenuItem(
               text:'Weather prediction',
               icon: CupertinoIcons.sun_max_fill,
-              onClicked:() => Get.toNamed('chart'),
+              onClicked:() => Get.toNamed('list'),
 
             ),
             const SizedBox(height:18),
             buildMenuItem(
               text:'logout',
               icon: CupertinoIcons.xmark_octagon_fill,
-
+              onClicked:() => Get.toNamed(exit(0),),
             ),
             const SizedBox(height:26),
             Divider(color:Colors.white70),

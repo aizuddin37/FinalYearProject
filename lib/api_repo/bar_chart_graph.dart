@@ -36,6 +36,6 @@ class _BarChartGraphState extends State<BarChartGraph> {
     // if (widget.data != null){
     //   flip = (widget.data.length > 10 )? false : true;
     // }
-    return widget.data != null ? Container(child: charts.BarChart(series, animate: true, vertical: true,)) :  Container();
+    return widget.data != null ? Container(child: charts.BarChart(series, animate: true, vertical: false,)) :  Container();
   }
 }

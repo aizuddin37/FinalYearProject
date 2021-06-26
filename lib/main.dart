@@ -5,7 +5,9 @@ import 'package:justmarryapp/router.dart';
 import 'package:justmarryapp/shared/navigation_drawer.dart';
 import 'package:justmarryapp/shared/weather_binding.dart';
 import 'package:justmarryapp/view/Predict.dart';
+import 'package:justmarryapp/view/PredictKelantan.dart';
 import 'package:justmarryapp/view/chart.dart';
+import 'package:justmarryapp/view/citylistpage.dart';
 import 'package:justmarryapp/view/homepage.dart';
 import 'package:justmarryapp/view/loginpage.dart';
 import 'package:justmarryapp/view/loginpages.dart';
@@ -13,6 +15,7 @@ import 'package:justmarryapp/view/signuppage.dart';
 import 'package:justmarryapp/view/success.dart';
 import 'package:justmarryapp/view/visual.dart';
 import 'package:justmarryapp/view/weatherpage.dart';
+import 'package:justmarryapp/view/weatherpage2.dart';
 import 'package:justmarryapp/view/webpageAll.dart';
 import 'package:justmarryapp/view/webpageKB.dart';
 
@@ -38,11 +41,16 @@ class MyApp extends StatelessWidget {
       title: 'JustMarry',
       theme: ThemeData(fontFamily: "TitilliumWeb"),
       debugShowCheckedModeBanner: false,
-      initialRoute: 'weather',
+      initialRoute: 'slide',
       getPages: [
         GetPage(
           name: 'weather',
           page: () => WeatherPage(),
+          binding: WeatherBinding(),
+        ),
+        GetPage(
+          name: 'weather2',
+          page: () => WeatherPage2(),
           binding: WeatherBinding(),
         ),
         GetPage(name: 'slide', page:() => HomePage(),),
@@ -56,8 +64,10 @@ class MyApp extends StatelessWidget {
         GetPage(name: 'webkt', page:() => WebPageKT(),),
         GetPage(name: 'webkb', page:() => WebPageKB(),),
         GetPage(name: 'drawer', page:() => NavigationDrawer(),),
-        GetPage(name: 'all', page:() => WebPageAll(),),
+        // GetPage(name: 'all', page:() => WebPageAll(),),
         GetPage(name: 'chart', page:() => ChartPages(),),
+        GetPage(name: 'chartK', page:() => Chart2Pages(),),
+        GetPage(name: 'list', page:() => ListPage(),),
         // GetPage(name: 'mea', page:() => VisualPage(),binding: WeatherBinding(),),
       ],
 

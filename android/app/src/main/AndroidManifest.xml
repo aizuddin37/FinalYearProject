@@ -2,7 +2,7 @@
     package="com.example.justmarryapp">
    <application
        android:usesCleartextTraffic="true"
-        android:label="justmarryapp"
+        android:label="MyWeather"
         android:icon="@mipmap/ic_launcher">
        <meta-data android:name="io.flutter.network-policy"
            android:resource="@xml/network_security_config"/>

@@ -164,6 +164,11 @@ class _SignUpPageState extends State<SignUpPage>{
       'password': password,
     };
 
+    Map<String, String> authorHeader = {
+      'Content-Type': 'application/json; charset=UTF-8',
+
+    };
+
     String requestData = "{";
     requestData += "\"firstName\": \"" + fController.text + "\" ";
     requestData += "\"lastName\": \"" + lController.text + "\" ";
@@ -173,12 +178,12 @@ class _SignUpPageState extends State<SignUpPage>{
     print("requestData : " + requestData);
 
     final response = http.post(
-        "http://192.168.68.105:83/justmarry/api/create_account?",
-        body: requestData);
+        "http://13.228.175.39:89/justmarry/api/create_account",
+        body: requestData,headers: authorHeader);
 
     response.then((_response) => {
       print(_response),
-      print(_response.body.toString()),
+      print(_response.body.toString()+"first:"+fController.text+"last:"+lController.text+"emai:"+emailController.text+"pass:"+passController.text ),
       if (_response.statusCode != 200)
 
         {
@@ -230,8 +235,8 @@ class _SignUpPageState extends State<SignUpPage>{
         ),
 
         TextFormField(
-          obscureText: obscureText,
           controller: fController,
+          obscureText: obscureText,
           decoration: InputDecoration(
             contentPadding: EdgeInsets.symmetric(
                 vertical: 0,

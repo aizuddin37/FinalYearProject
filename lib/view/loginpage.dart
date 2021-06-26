@@ -36,7 +36,7 @@ class _HomePageState extends State<HomePage> {
                       Column(
                         children: <Widget>[
                           Text(
-                            "Welcome to Just Marry",
+                            "Welcome to My Weather",
                             textAlign:TextAlign.center,
                             style:TextStyle(
                               fontWeight: FontWeight.bold,
@@ -47,7 +47,7 @@ class _HomePageState extends State<HomePage> {
                           SizedBox(
                             height:20,
                           ),
-                          Text("Where Your Dream Wedding turns to life!",
+                          Text("Where your knowledge of weather is in the palm of your hands!",
                             textAlign:TextAlign.center,
                             style:TextStyle(
                               color: Colors.amber[700],
@@ -60,7 +60,7 @@ class _HomePageState extends State<HomePage> {
                         decoration: BoxDecoration(
                             image:DecorationImage(
                                 image:AssetImage(
-                                    "assets/wedding.png"
+                                    "assets/logoapp.png"
                                 )
                             )
                         ),
@@ -72,42 +72,39 @@ class _HomePageState extends State<HomePage> {
                             minWidth: double.infinity,
                             height: 60,
                             onPressed:(){
-                              Get.toNamed('login');
+                              Get.toNamed('weather');
                             },
-                            shape: RoundedRectangleBorder(
-                              side: BorderSide(
-                                color: Colors.black,
+                              color: Colors.amber[500],
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(50),
+                                ),
+                                child: Text(
+                                  "Let's get started!",
+                                style:TextStyle(
+                                  color: Colors.white,
+                                )
+                                ),
 
                               ),
-                              borderRadius: BorderRadius.circular(50)
-                            ),
-                            child: Text(
-                              "Login",
-                                  style:TextStyle(
-                                    fontWeight: FontWeight.w600,
-                                    fontSize: 18
-                                  ),
-                            ),
-                          ),
                           //signup
-                          SizedBox(height: 20),
-                          MaterialButton(minWidth: double.infinity,
-                          height: 60,
-                              onPressed: (){
-                                Get.toNamed('signup');
-                              },
-                            color: Colors.amber[500],
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(50),
-                            ),
-                            child: Text(
-                              "Sign Up",
-                            style:TextStyle(
-                              color: Colors.white,
-                            )
-                            ),
+                          // SizedBox(height: 20),
+                          // MaterialButton(minWidth: double.infinity,
+                          // height: 60,
+                          //     onPressed: (){
+                          //       Get.toNamed('signup');
+                          //     },
+                          //   color: Colors.amber[500],
+                          //   shape: RoundedRectangleBorder(
+                          //     borderRadius: BorderRadius.circular(50),
+                          //   ),
+                          //   child: Text(
+                          //     "Sign Up",
+                          //   style:TextStyle(
+                          //     color: Colors.white,
+                          //   )
+                          //   ),
 
-                          ),
+                          // ),
                         ]
                       )
                     ]

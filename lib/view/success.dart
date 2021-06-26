@@ -44,7 +44,7 @@ class _SuccessPageState extends State<SuccessPage>{
                   minWidth: double.infinity,
                   height: 60,
                   onPressed: (){
-                    Get.toNamed('home');
+                    Get.toNamed('weather2');
                   },
                   color: Colors.amber[500],
                   elevation: 0,
