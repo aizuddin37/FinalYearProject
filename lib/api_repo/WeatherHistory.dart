@@ -26,20 +26,38 @@ class WeatherHistory {
 
   });
 
-  WeatherHistory.fromJson(Map<String, dynamic> data)
-      : Name = data['Name'],
-        Datetime = data['Date time'],
-        MaxTemp = data['Maximum Temperature'],
-        MinTemp = data['Minimum Temperature'],
-        Temp = data['Temperature'],
-        Heat = data['Heat Index'],
-        Pcp = data['Precipitation'],
-        WindS = data['Wind Speed'],
-        WindD = data['Wind Direction'],
-        WindG = data['Wind Gust'],
-        Visibility = data['Visibility'],
-        Cloud = data['Cloud Cover'],
-        Humidity = data['Relative Humidity'],
-        Conditions = data['Conditions'];
+  WeatherHistory.fromJson(Map<String, dynamic> json)
+      : Name = json['Name'],
+        Datetime = json['Date time'],
+        MaxTemp = json['Maximum Temperature'],
+        MinTemp = json['Minimum Temperature'],
+        Temp = json['Temperature'],
+        Heat = json['Heat Index'],
+        Pcp = json['Precipitation'],
+        WindS = json['Wind Speed'],
+        WindD = json['Wind Direction'],
+        WindG = json['Wind Gust'],
+        Visibility = json['Visibility'],
+        Cloud = json['Cloud Cover'],
+        Humidity = json['Relative Humidity'],
+        Conditions = json['Conditions'];
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    data['Date_time'] = this.Datetime;
+    data['Maximum Temperature'] = this.MaxTemp;
+    data['Minimum Temperature'] = this.MinTemp;
+    data['Temperature'] = this.Temp;
+    data['Heat Index'] = this.Heat;
+    data['Precipitation'] = this.Pcp;
+    data['Wind Speed'] = this.WindS;
+    data['Wind Direction'] = this.WindD;
+    data['Wind Gust'] = this.WindG;
+    data['Visibility'] = this.Visibility;
+    data['Cloud Cover'] = this.Cloud;
+    data['Relative Humidity'] = this.Humidity;
+    data['Conditions'] = this.Conditions;
+    return data;
+  }
 
 }

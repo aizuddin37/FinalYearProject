@@ -17,13 +17,20 @@ class NavigationDrawer extends StatelessWidget{
             buildMenuItem(
               text:'Home',
               icon: Icons.home,
-              onClicked:() =>Get.toNamed('weather'),
+              onClicked:() =>Get.toNamed('weather2'),
             ),
             const SizedBox(height:18),
             buildMenuItem(
               text:'Weather prediction',
               icon: CupertinoIcons.sun_max_fill,
               onClicked:() => Get.toNamed('list'),
+
+            ),
+            const SizedBox(height:18),
+            buildMenuItem(
+              text:'Weather History',
+              icon: CupertinoIcons.cloud_sun_fill,
+              onClicked:() => Get.toNamed('overall'),
 
             ),
             const SizedBox(height:18),

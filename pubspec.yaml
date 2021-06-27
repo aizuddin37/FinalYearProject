@@ -27,7 +27,7 @@ dependencies:
   carousel_slider: 3.0.0
 
   get: ^3.26.0
-  dio: ^3.0.10
+
   intl: ^0.16.0
   syncfusion_flutter_charts: ^18.4.46
   custom_navigator: ^0.3.0
@@ -40,6 +40,7 @@ dependencies:
   flutter_circular_chart: ^0.1.0
   fl_chart: any
   multilevel_drawer: 1.0.3
+  dio: ^3.0.10
 
 
 
