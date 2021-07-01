@@ -33,7 +33,7 @@ class _WebPageSState extends State<WebPageS> {
                 actions: [
                   new FlatButton(
                     onPressed: () {
-                      Navigator.pushNamed(context, '/');
+                      Navigator.pushNamed(context, 'weather2');
                       // if (_scaffoldKey.currentState.isDrawerOpen) {
                       //   Data.sharedPref.setBool('autoLogin', false);
                       //   Navigator.of(context)

@@ -14,7 +14,7 @@ import 'package:justmarryapp/view/PredictPinang.dart';
 import 'package:justmarryapp/view/chart.dart';
 import 'package:justmarryapp/view/citylistpage.dart';
 import 'package:justmarryapp/view/historyDisplaypage.dart';
-import 'package:justmarryapp/view/homepage.dart';
+
 import 'package:justmarryapp/view/loginpage.dart';
 import 'package:justmarryapp/view/loginpages.dart';
 import 'package:justmarryapp/view/signuppage.dart';
@@ -67,7 +67,6 @@ class MyApp extends StatelessWidget {
         GetPage(name: 'signup', page:() => SignUpPage(),),
         GetPage(name: 'success', page:() => SuccessPage(),),
         GetPage(name: 'success2', page:() => SuccessPage2(),),
-        GetPage(name: 'home', page:() => HomeView(),),
         GetPage(name: 'websel', page:() => WebPageS(),),
         GetPage(name: 'webpin', page:() => WebPageP(),),
         GetPage(name: 'webjb', page:() => WebPageJB(),),

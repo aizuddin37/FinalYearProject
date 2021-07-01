@@ -2,12 +2,13 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:justmarryapp/shared/navigation_drawer.dart';
-import 'package:justmarryapp/view/homepage.dart';
+
 import 'package:justmarryapp/view/loginpages.dart';
 import 'package:justmarryapp/view/signuppage.dart';
 import 'package:justmarryapp/view/success.dart';
 import 'package:justmarryapp/view/weatherpage.dart';
 import 'package:justmarryapp/shared/weather_binding.dart';
+import 'package:justmarryapp/view/weatherpage2.dart';
 import 'package:justmarryapp/view/webpageKB.dart';
 import 'package:justmarryapp/view/webpageKT.dart';
 import 'package:justmarryapp/view/webpagejb.dart';
@@ -32,10 +33,9 @@ class AppRouter {
         return MaterialPageRoute(builder: (_) => SignUpPage());
       case 'success':
         return MaterialPageRoute(builder: (_) => SuccessPage());
-      case 'home':
-        return MaterialPageRoute(builder: (_) => HomeView());
-      // case 'websel':
-      //   return MaterialPageRoute(builder: (_) => WebPageS());
+
+      case 'weather2':
+        return MaterialPageRoute(builder: (_) => WeatherPage2());
       // case 'webpin':
       //   return MaterialPageRoute(builder: (_) => WebPageP());
       // case 'webjb':
